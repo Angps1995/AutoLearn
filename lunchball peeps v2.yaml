@@ -287,6 +287,8 @@ definitions:
         type: "integer"
       name:
         type: "string"
+      votes:
+        type: "integer"
       topic:
         $ref: "#/definitions/Topic"
       courses:
