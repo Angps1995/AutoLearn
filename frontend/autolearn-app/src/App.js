@@ -102,7 +102,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <header>
-          <Navbar bg="light" expand="lg" className="header-nav">
+          <Navbar expand="lg" className="header-nav">
             <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
