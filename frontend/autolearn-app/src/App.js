@@ -9,14 +9,14 @@ import Path from './pages/Path';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
 
         {
           // <Home />
 
-        // <Courses />
+          // <Courses />
 
-        // <Path />
+          // <Path />
         }
 
       </header>
