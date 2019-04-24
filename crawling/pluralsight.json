@@ -1,0 +1,902 @@
+[
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-redux-react-router-es6",
+        "name": "Building Applications with React and Redux",
+        "tags": [],
+        "topic": "React",
+        "votes": "1260"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-flux-building-applications",
+        "name": "Building Applications with React and Flux",
+        "tags": [],
+        "topic": "React",
+        "votes": "1253"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/build-ios-apps-react-native",
+        "name": "Build iOS Apps with React Native",
+        "tags": [],
+        "topic": "React",
+        "votes": "259"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-apps-with-relay-graphql-flux",
+        "name": "Building Data-driven React Applications with Relay, GraphQL, and Flux",
+        "tags": [],
+        "topic": "React",
+        "votes": "153"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/build-react-native-exponent-redux-apps",
+        "name": "Build Cross Platform React Native Apps with Exponent and Redux",
+        "tags": [],
+        "topic": "React",
+        "votes": "109"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/react-js-getting-started",
+        "name": "React: Getting Started",
+        "tags": [],
+        "topic": "React",
+        "votes": "1898"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/reactjs-on-rails-building-full-stack-web-app",
+        "name": "React.js on Rails: Building a Full Stack Web App",
+        "tags": [],
+        "topic": "React",
+        "votes": "131"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/active-directory-programming",
+        "name": "Active Directory Programming for Developers",
+        "tags": [],
+        "topic": "React",
+        "votes": "311"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-styling-components",
+        "name": "Styling React Components",
+        "tags": [],
+        "topic": "React",
+        "votes": "187"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-flux-angular",
+        "name": "React and Flux for Angular Developers",
+        "tags": [],
+        "topic": "React",
+        "votes": "188"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/reactjs-advanced",
+        "name": "Advanced React.js",
+        "tags": [],
+        "topic": "React",
+        "votes": "182"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-boilerplate-building-scalable-apps",
+        "name": "Building Scalable React Apps",
+        "tags": [],
+        "topic": "React",
+        "votes": "180"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/react-creating-reusable-components",
+        "name": "Creating Reusable React Components",
+        "tags": [],
+        "topic": "React",
+        "votes": "93"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/build-isomorphic-app-react-flux-webpack-firebase",
+        "name": "Building a Real-time App with React, Flux, Webpack, and Firebase",
+        "tags": [],
+        "topic": "React",
+        "votes": "188"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/windows-server-2012-70-410-active-directory",
+        "name": "Windows Server 2012 R2 (70-410) Administer Active Directory",
+        "tags": [],
+        "topic": "React",
+        "votes": "374"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/windows-server-2008-active-directory-pt1",
+        "name": "Windows Server 2008 Active Directory (70-640) Part 1",
+        "tags": [],
+        "topic": "React",
+        "votes": "369"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/windows-server-2003-active-directory-fundamentals",
+        "name": "Windows Server 2003 Active Directory Fundamentals",
+        "tags": [],
+        "topic": "React",
+        "votes": "21"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/administering-active-directory-objects-powershell",
+        "name": "Administering Active Directory Objects with PowerShell",
+        "tags": [],
+        "topic": "React",
+        "votes": "67"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/aspdotnet-core-react-building-website",
+        "name": "Building a Website with React and ASP.NET Core",
+        "tags": [],
+        "topic": "React",
+        "votes": "62"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/react-native-big-picture",
+        "name": "React Native: The Big Picture",
+        "tags": [],
+        "topic": "React",
+        "votes": "48"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/windows-server-2016-manage-maintain-ad-domain-services",
+        "name": "Manage and Maintain Active Directory Domain Services in Windows Server 2016",
+        "tags": [],
+        "topic": "React",
+        "votes": "30"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/react-practical-start",
+        "name": "A Practical Start with React",
+        "tags": [],
+        "topic": "React",
+        "votes": "104"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/react-native-getting-started",
+        "name": "React Native: Getting Started",
+        "tags": [],
+        "topic": "React",
+        "votes": "50"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/client-side-react-router-4",
+        "name": "Client Side React Router 4",
+        "tags": [],
+        "topic": "React",
+        "votes": "39"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/play-by-play-react-babel-webpack-falcor-brian-holt",
+        "name": "Play by Play: React and Falcor with Brian Holt",
+        "tags": [],
+        "topic": "React",
+        "votes": "83"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/play-by-play-xamarin-mobile-development",
+        "name": "Play by Play: Xamarin Mobile Development",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "60"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/ionic2-angular2-typescript-mobile-apps",
+        "name": "Building Mobile Apps with Ionic, Angular, and TypeScript",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "222"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/animate-cc-mobile-app-development",
+        "name": "Animate CC Mobile App Development",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/react-js-getting-started",
+        "name": "React: Getting Started",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "1898"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/beginning-mobile-development-xamarin",
+        "name": "Beginning Mobile Development with Xamarin",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "160"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/xamarin-forms-enterprise-mobile-application",
+        "name": "Building an Enterprise Mobile Application with Xamarin.Forms",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "124"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/dreamweaver-cc-phonegap-mobile-app-design",
+        "name": "Dreamweaver CC Mobile App Design with PhoneGap",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/building-cross-platform-mobile-apps-csharp-xamarin-azure-update",
+        "name": "Building Cross-platform Mobile Apps in C# with Xamarin and Azure",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/mvc4",
+        "name": "ASP.NET MVC 4 Fundamentals",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "3632"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/building-mobile-apps-ionic-framework-angularjs",
+        "name": "Building Mobile Apps With the Ionic Framework and AngularJS",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "1026"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/android-retrofit-getting-started",
+        "name": "Android: Getting Started with Retrofit",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "24"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/build-ios-apps-react-native",
+        "name": "Build iOS Apps with React Native",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "259"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/windows-azure-mobile-services",
+        "name": "Microsoft Azure Mobile Services",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "160"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/building-mobile-web-sites-web-forms-bootstrap-html5",
+        "name": "Building Mobile Web Sites Using Web Forms, Bootstrap, and HTML5",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "167"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/building-hybrid-mobile-apps-icenium",
+        "name": "Building Cross-Platform Mobile Apps with Telerik AppBuilder",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "152"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/designing-mobile-games-game-design-document-1827",
+        "name": "Designing Mobile Games with a Game Design Document",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "27"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/firebase-android-cloud-firestore",
+        "name": "Firebase on Android: Cloud Firestore",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "20"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/google-play-services-getting-started",
+        "name": "Getting Started with Google Play Services",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/xamarin-big-picture",
+        "name": "Xamarin: The Big Picture",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "47"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/ssrs-mobile-reports-build-deploy",
+        "name": "Build and Deploy SSRS Mobile Reports",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/building-mobile-apps-visual-studio-apache-cordova",
+        "name": "Building Mobile Apps with Visual Studio Tools for Apache Cordova",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "27"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/nativescript-cross-platform-native-mobile-apps",
+        "name": "Building Cross Platform Native Mobile Applications with NativeScript",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "43"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/html5-creating-offline-first-mobile-apps",
+        "name": "Creating Offline-first Mobile Apps with HTML5",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "20"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/play-by-play-neven-mrgan",
+        "name": "Play by Play: Mobile UI Design with Neven Mrgan",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "53"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/rxandroid-kotlin-reactive-programming",
+        "name": "Reactive Programming with RxAndroid and Kotlin",
+        "tags": [],
+        "topic": "Mobile Development",
+        "votes": "27"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015",
+        "name": "C# Fundamentals with Visual Studio 2015",
+        "tags": [],
+        "topic": "C++",
+        "votes": "3038"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/learn-programming-cplusplus",
+        "name": "Learn How to Program with C++",
+        "tags": [],
+        "topic": "C++",
+        "votes": "794"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/csharp-best-practices-improving-basics",
+        "name": "C# Best Practices: Improving on the Basics",
+        "tags": [],
+        "topic": "C++",
+        "votes": "1317"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/csharp-best-practices-collections-generics",
+        "name": "C# Best Practices: Collections and Generics",
+        "tags": [],
+        "topic": "C++",
+        "votes": "608"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/csharp-fundamentals",
+        "name": "Accelerated C# Fundamentals",
+        "tags": [],
+        "topic": "C++",
+        "votes": "3423"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/csharp-from-scratch",
+        "name": "C# From Scratch",
+        "tags": [],
+        "topic": "C++",
+        "votes": "3583"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/cplusplus-11-from-scratch",
+        "name": "C++11 from Scratch",
+        "tags": [],
+        "topic": "C++",
+        "votes": "84"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/c-sharp-dynamic-fundamentals",
+        "name": "Dynamic C# Fundamentals",
+        "tags": [],
+        "topic": "C++",
+        "votes": "103"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/c-programming-language-in-action",
+        "name": "The C Programming Language in Action",
+        "tags": [],
+        "topic": "C++",
+        "votes": "297"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/c-lang-fundamentals",
+        "name": "C Programming Language Fundamentals",
+        "tags": [],
+        "topic": "C++",
+        "votes": "989"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-with-jon-skeet",
+        "name": "Exploring C# 6 with Jon Skeet",
+        "tags": [],
+        "topic": "C++",
+        "votes": "474"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/beautiful-cplusplus-stl-algorithms",
+        "name": "Beautiful C++: STL Algorithms",
+        "tags": [],
+        "topic": "C++",
+        "votes": "169"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-equality-comparisons",
+        "name": "C# Equality and Comparisons",
+        "tags": [],
+        "topic": "C++",
+        "votes": "608"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/objective-c",
+        "name": "Introduction to Objective-C",
+        "tags": [],
+        "topic": "C++",
+        "votes": "573"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/cplusplus11-language-features",
+        "name": "C++11 Language Features",
+        "tags": [],
+        "topic": "C++",
+        "votes": "238"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/adv-cpp",
+        "name": "C++ Advanced Topics",
+        "tags": [],
+        "topic": "C++",
+        "votes": "493"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/modern-cplusplus-libraries",
+        "name": "Modern C++ Libraries",
+        "tags": [],
+        "topic": "C++",
+        "votes": "309"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/teaching-kids-programming",
+        "name": "Teaching Kids Programming with C#",
+        "tags": [],
+        "topic": "C++",
+        "votes": "423"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/accelerated-introduction-cpp",
+        "name": "Accelerated Introduction to C++",
+        "tags": [],
+        "topic": "C++",
+        "votes": "644"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-tips-traps-part2",
+        "name": "C# Tips and Traps 2",
+        "tags": [],
+        "topic": "C++",
+        "votes": "296"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-visual-basic-dotnet-developers",
+        "name": "C# for Visual Basic .NET Developers",
+        "tags": [],
+        "topic": "C++",
+        "votes": "199"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-tips-traps",
+        "name": "C# Tips and Traps",
+        "tags": [],
+        "topic": "C++",
+        "votes": "691"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/csharp-7-first-look",
+        "name": "C# 7: First Look",
+        "tags": [],
+        "topic": "C++",
+        "votes": "160"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/designing-fluent-apis-c-sharp",
+        "name": "Designing Fluent APIs in C#",
+        "tags": [],
+        "topic": "C++",
+        "votes": "188"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/object-oriented-programming-fundamentals-csharp",
+        "name": "Object-Oriented Programming Fundamentals in C#",
+        "tags": [],
+        "topic": "C++",
+        "votes": "2666"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-core-platform",
+        "name": "Java Fundamentals: The Core Platform",
+        "tags": [],
+        "topic": "Java",
+        "votes": "293"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-language",
+        "name": "Java Fundamentals: The Java Language",
+        "tags": [],
+        "topic": "Java",
+        "votes": "1319"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-8-whats-new",
+        "name": "What's New in Java 8",
+        "tags": [],
+        "topic": "Java",
+        "votes": "613"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams",
+        "name": "From Collections to Streams in Java 8 Using Lambda Expressions",
+        "tags": [],
+        "topic": "Java",
+        "votes": "264"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-web-fundamentals",
+        "name": "Java Web Fundamentals",
+        "tags": [],
+        "topic": "Java",
+        "votes": "720"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-multithreading-concurrency",
+        "name": "Java Fundamentals - Concurrency with Multithreading",
+        "tags": [],
+        "topic": "Java",
+        "votes": "112"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-ee-big-picture",
+        "name": "Java EE: The Big Picture",
+        "tags": [],
+        "topic": "Java",
+        "votes": "382"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-collections",
+        "name": "Java Fundamentals: Collections",
+        "tags": [],
+        "topic": "Java",
+        "votes": "253"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-ee-7-fundamentals",
+        "name": "Java EE 7 Fundamentals",
+        "tags": [],
+        "topic": "Java",
+        "votes": "130"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-object-oriented-design",
+        "name": "Java Fundamentals: Object-oriented Design",
+        "tags": [],
+        "topic": "Java",
+        "votes": "109"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "link": "https://www.pluralsight.com/courses/java-8-data-processing-streams-collectors-optionals",
+        "name": "Streams, Collectors, and Optionals for Data Processing in Java 8",
+        "tags": [],
+        "topic": "Java",
+        "votes": "117"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-ee-programming-servlets",
+        "name": "Java EE: Programming Servlets",
+        "tags": [],
+        "topic": "Java",
+        "votes": "131"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-microservices-spring-cloud-developing-services",
+        "name": "Java Microservices with Spring Cloud: Developing Services",
+        "tags": [],
+        "topic": "Java",
+        "votes": "179"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/javaserver-faces-getting-started-java-ee",
+        "name": "Java EE: Getting Started with JavaServer Faces",
+        "tags": [],
+        "topic": "Java",
+        "votes": "39"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading",
+        "name": "Applying Concurrency and Multi-threading to Common Java Patterns",
+        "tags": [],
+        "topic": "Java",
+        "votes": "345"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
+        "name": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
+        "tags": [],
+        "topic": "Java",
+        "votes": "66"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-functional-programming",
+        "name": "Functional Programming With Java",
+        "tags": [],
+        "topic": "Java",
+        "votes": "501"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-ee-java-server-pages",
+        "name": "Java EE: Java Server Pages",
+        "tags": [],
+        "topic": "Java",
+        "votes": "64"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/java-se-java-fx-application-building-your-first",
+        "name": "Java SE: Building Your First JavaFX Application",
+        "tags": [],
+        "topic": "Java",
+        "votes": "67"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-understanding-solving-memory-problems",
+        "name": "Understanding and Solving Java Memory Problems",
+        "tags": [],
+        "topic": "Java",
+        "votes": "44"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "link": "https://www.pluralsight.com/courses/jdbc-java-platform-working-with-databases",
+        "name": "Java Platform: Working with Databases Using JDBC",
+        "tags": [],
+        "topic": "Java",
+        "votes": "271"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-persistence-api-21",
+        "name": "Java Persistence API (JPA) 2.1",
+        "tags": [],
+        "topic": "Java",
+        "votes": "441"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/scaling-java-applications-through-concurrency",
+        "name": "Scaling Java Applications Through Concurrency",
+        "tags": [],
+        "topic": "Java",
+        "votes": "42"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/java-9-modularity-first-look",
+        "name": "Java 9 Modularity: First Look",
+        "tags": [],
+        "topic": "Java",
+        "votes": "66"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "link": "https://www.pluralsight.com/courses/kotlin-getting-started",
+        "name": "Getting Started with Kotlin",
+        "tags": [],
+        "topic": "Java",
+        "votes": "52"
+    }
+]
