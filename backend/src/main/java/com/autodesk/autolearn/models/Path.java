@@ -10,7 +10,8 @@ import java.util.List;
 @Entity
 public class Path {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
 
     private String name;
 
