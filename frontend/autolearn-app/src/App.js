@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
 
+import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link} from 'react-router-dom'
 
@@ -118,6 +119,8 @@ export default class App extends Component {
           {<Home />}
         </body>
         <footer>
+          <Container>
+          </Container>
         </footer>
       </div>
     );

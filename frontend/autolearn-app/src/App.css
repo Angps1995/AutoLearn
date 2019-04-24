@@ -64,3 +64,14 @@ header {
 a {
   color: white!important;
 }
+
+/* ############## Footer ############ */
+
+footer {
+  background-color: var(--dark-bg-color) !important;
+}
+
+footer .container {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
