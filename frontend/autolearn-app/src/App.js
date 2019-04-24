@@ -102,11 +102,11 @@ export default class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
-          {/* <Home />
+          {/* <Home /> */}
 
-        <Courses />
+        <Courses courses = {this.state.courses} />
 
-        <Path /> */}
+        {/* <Path /> */}
 
         </header>
       </div>
