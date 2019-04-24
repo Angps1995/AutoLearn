@@ -1,6 +1,7 @@
 package com.autodesk.autolearn.models;
 
 import lombok.Data;
+
 import javax.persistence.Id;
 
 import javax.persistence.*;
@@ -10,7 +11,8 @@ import java.util.List;
 @Entity
 public class Course {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     private String name;
     private int votes;
     private String link;
