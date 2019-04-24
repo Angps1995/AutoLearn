@@ -3,7 +3,7 @@
 const fs = require('fs');
 const axios = require('axios');
 
-const rawdata = fs.readFileSync('hackr.json');  
+const rawdata = fs.readFileSync('combined-data.json');  
 const courses = JSON.parse(rawdata);  
 
 for (let course of courses) {

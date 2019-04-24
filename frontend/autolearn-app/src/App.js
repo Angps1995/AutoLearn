@@ -4,6 +4,7 @@ import './App.css';
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
+import Content from './pages/Content';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
@@ -107,28 +108,30 @@ export default class App extends Component {
         <Router>
           <header>
             <Navbar expand="lg" className="header-nav">
-              <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                  <Nav.Link className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
-                  <Nav.Link className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
-                  <Nav.Link className="header-subtitle"><Link to="/path">Path</Link></Nav.Link>
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
-          </header>
-          <body>
+                <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/path">Path</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/content">Content</Link></Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </header>
+        <body>
             <div>
-              <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/course"
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/course"
                   render= {() => (
                     <Courses courses={this.state.courses} />
                   )} />
-                <Route path="/path" component={Path} />
-                <Route component={NotFound} />
-              </Switch>
+                    <Route path="/path" component={Path} />
+                    <Route path="/content" component={Content} />
+                    <Route component={NotFound} />
+                </Switch>
             </div>
           </body>
         </Router>
