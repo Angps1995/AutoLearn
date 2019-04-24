@@ -1,5 +1,6 @@
-package Classes;
+package models;
 
+@Data
 public class Courses {
     private String id;
     private String name;
