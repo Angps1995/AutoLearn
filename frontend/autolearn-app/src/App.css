@@ -44,6 +44,7 @@
 }
 
 .header-title {
+  color: var(--theme-color) !important;
   font-weight: 700;
   font-size: 30px;
   padding-left: 20px;
