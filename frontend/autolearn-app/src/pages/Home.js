@@ -28,7 +28,7 @@ export default class Home extends Component {
                 <Row>
                   <Col>
                     <Card>
-                      <Card.Img variant="top" src="holder.js/100px180"/>
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
                       <Card.Body>
                         <Card.Title>Python</Card.Title>
                         <Card.Text>
@@ -41,7 +41,48 @@ export default class Home extends Component {
                   </Col>
                   <Col>
                     <Card>
-                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
+                      <Card.Body>
+                        <Card.Title>HTML 5</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
+                      <Card.Body>
+                        <Card.Title>React</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
+                      <Card.Body>
+                        <Card.Title>Python</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
                       <Card.Body>
                         <Card.Title>HTML 5</Card.Title>
                         <Card.Text>

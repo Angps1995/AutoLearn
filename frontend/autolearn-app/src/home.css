@@ -56,3 +56,7 @@ Card {
 .container {
   padding-top: 100px;
 }
+
+.row {
+  padding-top: 20px;
+}
