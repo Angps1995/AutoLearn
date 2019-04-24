@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import '../home.css';
 
-
 import { Container, Row, Col } from 'react-bootstrap';
 import { InputGroup, FormControl, Button, Card } from 'react-bootstrap';
-import logo from '../logo.svg';
 
 export default class Home extends Component {
     render() {
@@ -56,7 +54,7 @@ export default class Home extends Component {
                   </Col>
                   <Col>
                     <Card>
-                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Img variant="top" src={require("../images/logo.svg")} />
                       <Card.Body>
                         <Card.Title>React</Card.Title>
                         <Card.Text>
