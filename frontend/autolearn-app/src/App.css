@@ -1,3 +1,9 @@
+:root {
+  --theme-color: #05aa6c;
+  --dark-bg-color: #171b1b;
+  --grey-bg-color: #232728;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--dark-bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-nav {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header-title {
+  color: var(--theme-color) !important;
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-subtitle {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+a {
+  color: var(--dark-bg-color) !important;
 }

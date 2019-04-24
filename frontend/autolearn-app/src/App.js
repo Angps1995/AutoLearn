@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
+
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link} from 'react-router-dom'
 
 export default class App extends Component {
   constructor() {
@@ -99,18 +101,25 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-
-          {/* <Home /> */}
-
-        <Courses courses = {this.state.courses} />
-
-        {/* <Path /> */}
-
+        <header>
+          <Navbar bg="light" expand="lg" className="header-nav">
+            <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link href="#home" className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
+                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Path</Link></Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </header>
+        <body>
+          {<Home />}
+        </body>
+        <footer>
+        </footer>
       </div>
     );
   }
 }
-
