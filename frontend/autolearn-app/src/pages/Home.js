@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import '../home.css';
 
+
 import { Container, Row, Col } from 'react-bootstrap';
-import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import { InputGroup, FormControl, Button, Card } from 'react-bootstrap';
 import logo from '../logo.svg';
 
 export default class Home extends Component {
@@ -27,9 +28,45 @@ export default class Home extends Component {
             <div>
               <Container>
                 <Row>
-                  <Col>1 of 3</Col>
-                  <Col>2 of 3</Col>
-                  <Col>3 of 3</Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src="holder.js/100px180"/>
+                      <Card.Body>
+                        <Card.Title>Python</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Body>
+                        <Card.Title>HTML 5</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Body>
+                        <Card.Title>React</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and make up the bulk of
+                          the card's content.
+                        </Card.Text>
+                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
                 </Row>
               </Container>
             </div>
