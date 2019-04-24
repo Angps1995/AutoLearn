@@ -1,7 +1,11 @@
-package models;
+package com.autodesk.autolearn.models;
 
+import lombok.Data;
+
+import javax.persistence.Entity;
 
 @Data
+@Entity
 public class Course {
     private String id;
     private String name;
