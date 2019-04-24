@@ -2,7 +2,12 @@
 .Home-hero-div {
   min-height: 70vh;
   width: 100%;
-  background-color: var(--dark-bg-color);
+  background:url("http://pluspng.com/img-png/learning-png-hd--1201.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: var(--dark-bg-color); */
   padding: 0 !important;
   margin: 0 !important;
   display: flex;
