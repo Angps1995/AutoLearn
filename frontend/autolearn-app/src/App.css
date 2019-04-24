@@ -37,3 +37,23 @@
     transform: rotate(360deg);
   }
 }
+
+.header-nav {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-subtitle {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+a {
+  color: var(--dark-bg-color) !important;
+}

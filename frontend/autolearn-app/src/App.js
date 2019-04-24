@@ -102,14 +102,14 @@ export default class App extends Component {
     return (
       <div className="App">
         <header>
-          <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">AutoLearn</Navbar.Brand>
+          <Navbar bg="light" expand="lg" className="header-nav">
+            <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link href="#link"><Link to="/course">Course</Link></Nav.Link>
-                <Nav.Link href="#link"><Link to="/course">Path</Link></Nav.Link>
+                <Nav.Link href="#home" className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
+                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Path</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -117,6 +117,8 @@ export default class App extends Component {
         <body>
           {<Home />}
         </body>
+        <footer>
+        </footer>
       </div>
     );
   }
