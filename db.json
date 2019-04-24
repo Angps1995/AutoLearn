@@ -2,7 +2,179 @@
   "topics": [
     {
       "id": 1,
-      "name": "Autodesk"
+      "name": "/topic/1"
+    },
+    {
+      "id": 2,
+      "name": "Python"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Android Development"
+    },
+    {
+      "id": 5,
+      "name": "React"
+    },
+    {
+      "id": 6,
+      "name": "C++"
+    },
+    {
+      "id": 7,
+      "name": "Java"
+    },
+    {
+      "id": 8,
+      "name": "Data Structures and Algorithms"
+    },
+    {
+      "id": 9,
+      "name": "Angular"
+    },
+    {
+      "id": 11,
+      "name": "C"
+    },
+    {
+      "id": 10,
+      "name": "HTML 5"
+    },
+    {
+      "id": 12,
+      "name": "CSS"
+    },
+    {
+      "id": 13,
+      "name": "Node.js"
+    },
+    {
+      "id": 14,
+      "name": "Git"
+    },
+    {
+      "id": 15,
+      "name": "C#"
+    },
+    {
+      "id": 16,
+      "name": "Bootstrap"
+    },
+    {
+      "id": 17,
+      "name": "PHP"
+    },
+    {
+      "id": 18,
+      "name": "MySQL"
+    },
+    {
+      "id": 19,
+      "name": "Information Security & Ethical Hacking"
+    },
+    {
+      "id": 20,
+      "name": "Arduino"
+    },
+    {
+      "id": 21,
+      "name": "Blockchain Programming"
+    },
+    {
+      "id": 22,
+      "name": "Django"
+    },
+    {
+      "id": 23,
+      "name": "Unity"
+    },
+    {
+      "id": 24,
+      "name": "SQL"
+    },
+    {
+      "id": 26,
+      "name": "MongoDB"
+    },
+    {
+      "id": 25,
+      "name": "Intro to Programming"
+    },
+    {
+      "id": 27,
+      "name": "React Native"
+    },
+    {
+      "id": 28,
+      "name": "Design Patterns"
+    },
+    {
+      "id": 29,
+      "name": "Vue.js"
+    },
+    {
+      "id": 30,
+      "name": "ASP.NET"
+    },
+    {
+      "id": 31,
+      "name": "jQuery"
+    },
+    {
+      "id": 32,
+      "name": "Raspberry Pi"
+    },
+    {
+      "id": 33,
+      "name": "Go"
+    },
+    {
+      "id": 34,
+      "name": "Bitcoin"
+    },
+    {
+      "id": 35,
+      "name": "Firebase"
+    },
+    {
+      "id": 36,
+      "name": "Java Spring Framework"
+    },
+    {
+      "id": 37,
+      "name": "Kotlin"
+    },
+    {
+      "id": 38,
+      "name": "iOS Swift"
+    },
+    {
+      "id": 39,
+      "name": "Assembly Language"
+    },
+    {
+      "id": 40,
+      "name": "Laravel"
+    },
+    {
+      "id": 41,
+      "name": "Operating Systems"
+    },
+    {
+      "id": 42,
+      "name": "ECMAScript"
+    },
+    {
+      "id": 43,
+      "name": "Mathematics For Computer Science"
+    },
+    {
+      "id": 44,
+      "name": "Mobile Development"
     }
   ],
   "courses": [
@@ -17,7 +189,7 @@
         "autodesk",
         "wiki"
       ],
-      "topic": "/topics/1"
+      "topic": "/topic/1"
     },
     {
       "description": null,
@@ -31,7 +203,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "95"
     },
     {
@@ -44,7 +216,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "4"
     },
     {
@@ -59,7 +231,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "320"
     },
     {
@@ -72,7 +244,7 @@
         "Free",
         "Python2"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "249"
     },
     {
@@ -87,7 +259,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "206"
     },
     {
@@ -100,7 +272,7 @@
         "Free",
         "Book"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "103"
     },
     {
@@ -115,7 +287,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "96"
     },
     {
@@ -127,7 +299,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "83"
     },
     {
@@ -141,7 +313,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "47"
     },
     {
@@ -154,7 +326,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "47"
     },
     {
@@ -169,7 +341,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "25"
     },
     {
@@ -181,7 +353,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "23"
     },
     {
@@ -196,7 +368,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "22"
     },
     {
@@ -209,7 +381,7 @@
         "Free",
         "Book"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "20"
     },
     {
@@ -224,7 +396,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "18"
     },
     {
@@ -238,7 +410,7 @@
         "Exercises/Practice-programs",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "16"
     },
     {
@@ -251,7 +423,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "13"
     },
     {
@@ -266,7 +438,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "11"
     },
     {
@@ -278,7 +450,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "9"
     },
     {
@@ -291,7 +463,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "8"
     },
     {
@@ -303,7 +475,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "8"
     },
     {
@@ -316,7 +488,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "7"
     },
     {
@@ -330,7 +502,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "7"
     },
     {
@@ -342,7 +514,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "7"
     },
     {
@@ -354,7 +526,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "7"
     },
     {
@@ -368,7 +540,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "6"
     },
     {
@@ -380,7 +552,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "6"
     },
     {
@@ -394,7 +566,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "5"
     },
     {
@@ -408,7 +580,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "5"
     },
     {
@@ -421,7 +593,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "5"
     },
     {
@@ -434,7 +606,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "5"
     },
     {
@@ -448,7 +620,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "4"
     },
     {
@@ -460,7 +632,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "4"
     },
     {
@@ -474,7 +646,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -488,7 +660,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -502,7 +674,7 @@
         "Beginner",
         "DataScience"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -515,7 +687,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -529,7 +701,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -542,7 +714,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -554,7 +726,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -568,7 +740,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -580,7 +752,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -592,7 +764,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "3"
     },
     {
@@ -605,7 +777,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -619,7 +791,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -633,7 +805,7 @@
         "Exercises/Practice-programs",
         "Book"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -646,7 +818,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -660,7 +832,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -675,7 +847,7 @@
         "Beginner",
         "Anaconda"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -688,7 +860,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -702,7 +874,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -717,7 +889,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -730,7 +902,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -742,7 +914,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -754,7 +926,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -766,7 +938,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "2"
     },
     {
@@ -780,7 +952,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -793,7 +965,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -807,7 +979,7 @@
         "Beginner",
         "Pandas"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -822,7 +994,7 @@
         "OpenCV",
         "ImageProcessing"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -837,7 +1009,7 @@
         "Beginner",
         "Django"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -850,7 +1022,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Python",
+      "topic": "/topic/2",
       "votes": "1"
     },
     {
@@ -864,7 +1036,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "51"
     },
     {
@@ -878,7 +1050,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -891,7 +1063,7 @@
         "Free",
         "Book"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "217"
     },
     {
@@ -903,7 +1075,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "96"
     },
     {
@@ -915,7 +1087,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "67"
     },
     {
@@ -930,7 +1102,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "47"
     },
     {
@@ -942,7 +1114,7 @@
       "tags": [
         "Book"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "39"
     },
     {
@@ -955,7 +1127,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "38"
     },
     {
@@ -968,7 +1140,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "33"
     },
     {
@@ -980,7 +1152,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "27"
     },
     {
@@ -993,7 +1165,7 @@
         "Free",
         "Video"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "12"
     },
     {
@@ -1008,7 +1180,7 @@
         "Beginner",
         "p5.js"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "7"
     },
     {
@@ -1022,7 +1194,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "6"
     },
     {
@@ -1035,7 +1207,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "6"
     },
     {
@@ -1048,7 +1220,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "6"
     },
     {
@@ -1063,7 +1235,7 @@
         "Beginner",
         "ES6"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "4"
     },
     {
@@ -1077,7 +1249,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "4"
     },
     {
@@ -1091,7 +1263,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "4"
     },
     {
@@ -1103,7 +1275,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "4"
     },
     {
@@ -1118,7 +1290,7 @@
         "Beginner",
         "JavaScript"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1132,7 +1304,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1146,7 +1318,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1160,7 +1332,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1172,7 +1344,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1185,7 +1357,7 @@
         "Free",
         "Book"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1198,7 +1370,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "3"
     },
     {
@@ -1212,7 +1384,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1226,7 +1398,7 @@
         "Exercises/Practice-programs",
         "ES6"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1240,7 +1412,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1254,7 +1426,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1267,7 +1439,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1279,7 +1451,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1292,7 +1464,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1305,7 +1477,7 @@
         "Free",
         "Video"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1318,7 +1490,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1330,7 +1502,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1342,7 +1514,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "2"
     },
     {
@@ -1356,7 +1528,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1368,7 +1540,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1381,7 +1553,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1394,7 +1566,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1408,7 +1580,7 @@
         "Beginner",
         "Testing"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1422,7 +1594,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1435,7 +1607,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1448,7 +1620,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1461,7 +1633,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1475,7 +1647,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1489,7 +1661,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1501,7 +1673,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1514,7 +1686,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1526,7 +1698,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "1"
     },
     {
@@ -1541,7 +1713,7 @@
         "Beginner",
         "Gulp"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1554,7 +1726,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1569,7 +1741,7 @@
         "Advanced",
         "FunctionalProgramming"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1582,7 +1754,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1595,7 +1767,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1608,7 +1780,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1622,7 +1794,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1636,7 +1808,7 @@
         "Beginner",
         "Ajax"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1650,7 +1822,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1664,7 +1836,7 @@
         "Beginner",
         "ES6"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1677,7 +1849,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "JavaScript",
+      "topic": "/topic/3",
       "votes": "+1"
     },
     {
@@ -1690,7 +1862,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "371"
     },
     {
@@ -1705,7 +1877,7 @@
         "Beginner",
         "Android7—Nougat"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "115"
     },
     {
@@ -1719,7 +1891,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "65"
     },
     {
@@ -1732,7 +1904,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "56"
     },
     {
@@ -1744,7 +1916,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "41"
     },
     {
@@ -1756,7 +1928,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "28"
     },
     {
@@ -1769,7 +1941,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "24"
     },
     {
@@ -1783,7 +1955,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "18"
     },
     {
@@ -1798,7 +1970,7 @@
         "Beginner",
         "AndroidO"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "12"
     },
     {
@@ -1812,7 +1984,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "11"
     },
     {
@@ -1827,7 +1999,7 @@
         "Beginner",
         "Android7—Nougat"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "9"
     },
     {
@@ -1840,7 +2012,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "8"
     },
     {
@@ -1855,7 +2027,7 @@
         "Beginner",
         "RxJava"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "5"
     },
     {
@@ -1868,7 +2040,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "5"
     },
     {
@@ -1881,7 +2053,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "5"
     },
     {
@@ -1897,7 +2069,7 @@
         "Beginner",
         "AndroidO"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "4"
     },
     {
@@ -1910,7 +2082,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "4"
     },
     {
@@ -1923,7 +2095,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "4"
     },
     {
@@ -1936,7 +2108,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -1949,7 +2121,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -1962,7 +2134,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -1974,7 +2146,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -1984,7 +2156,7 @@
       "link": "https://hackr.io/tutorial/android-programming-the-big-nerd-ranch-guide-book",
       "name": "Android Programming: The Big Nerd Ranch Guide (Book)",
       "tags": [],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -1997,7 +2169,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "3"
     },
     {
@@ -2011,7 +2183,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2025,7 +2197,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2038,7 +2210,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2051,7 +2223,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2064,7 +2236,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2077,7 +2249,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2091,7 +2263,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "2"
     },
     {
@@ -2105,7 +2277,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "1"
     },
     {
@@ -2118,7 +2290,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "1"
     },
     {
@@ -2132,7 +2304,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "1"
     },
     {
@@ -2145,7 +2317,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2159,7 +2331,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2173,7 +2345,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2187,7 +2359,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2201,7 +2373,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2214,7 +2386,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2227,7 +2399,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2242,7 +2414,7 @@
         "Advanced",
         "Kotlin"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2254,7 +2426,7 @@
       "tags": [
         "Video"
       ],
-      "topic": "Android Development",
+      "topic": "/topic/4",
       "votes": "+1"
     },
     {
@@ -2270,7 +2442,7 @@
         "React16",
         "Redux"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "23"
     },
     {
@@ -2284,7 +2456,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "3"
     },
     {
@@ -2298,7 +2470,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "94"
     },
     {
@@ -2310,7 +2482,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "45"
     },
     {
@@ -2324,7 +2496,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "35"
     },
     {
@@ -2338,7 +2510,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "25"
     },
     {
@@ -2351,7 +2523,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "21"
     },
     {
@@ -2364,7 +2536,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "13"
     },
     {
@@ -2378,7 +2550,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "11"
     },
     {
@@ -2392,7 +2564,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "9"
     },
     {
@@ -2406,7 +2578,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "9"
     },
     {
@@ -2420,7 +2592,7 @@
         "Advanced",
         "GraphQL"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "7"
     },
     {
@@ -2433,7 +2605,7 @@
         "Paid",
         "Exercises/Practice-programs"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "6"
     },
     {
@@ -2446,7 +2618,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "4"
     },
     {
@@ -2460,7 +2632,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "4"
     },
     {
@@ -2474,7 +2646,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "4"
     },
     {
@@ -2486,7 +2658,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "4"
     },
     {
@@ -2498,7 +2670,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "4"
     },
     {
@@ -2512,7 +2684,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "3"
     },
     {
@@ -2526,7 +2698,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "3"
     },
     {
@@ -2539,7 +2711,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "3"
     },
     {
@@ -2555,7 +2727,7 @@
         "MongoDB",
         "Node.js"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2569,7 +2741,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2582,7 +2754,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2596,7 +2768,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2610,7 +2782,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2623,7 +2795,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2637,7 +2809,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "2"
     },
     {
@@ -2651,7 +2823,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2664,7 +2836,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2676,7 +2848,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2689,7 +2861,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2704,7 +2876,7 @@
         "Video",
         "MERN"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2718,7 +2890,7 @@
         "Advanced",
         "DesignPatterns"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2732,7 +2904,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2745,7 +2917,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2759,7 +2931,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2772,7 +2944,7 @@
         "Free",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2785,7 +2957,7 @@
         "Free",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2797,7 +2969,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2809,7 +2981,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1"
     },
     {
@@ -2823,7 +2995,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2837,7 +3009,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2851,7 +3023,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2866,7 +3038,7 @@
         "Advanced",
         "GraphQL"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2878,7 +3050,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2891,7 +3063,7 @@
         "Free",
         "Video"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2905,7 +3077,7 @@
         "Video",
         "Redux"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2920,7 +3092,7 @@
         "Beginner",
         "React16"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2935,7 +3107,7 @@
         "Beginner",
         "React16"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2949,7 +3121,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2963,7 +3135,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2976,7 +3148,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -2991,7 +3163,7 @@
         "Beginner",
         "Node.js"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3004,7 +3176,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3017,7 +3189,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3031,7 +3203,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3045,7 +3217,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3059,7 +3231,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3073,7 +3245,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3087,7 +3259,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3101,7 +3273,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "+1"
     },
     {
@@ -3115,7 +3287,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "25"
     },
     {
@@ -3129,7 +3301,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "1"
     },
     {
@@ -3141,7 +3313,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "255"
     },
     {
@@ -3155,7 +3327,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "94"
     },
     {
@@ -3168,7 +3340,7 @@
         "Free",
         "Video"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "64"
     },
     {
@@ -3182,7 +3354,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "43"
     },
     {
@@ -3195,7 +3367,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "30"
     },
     {
@@ -3208,7 +3380,7 @@
         "Free",
         "Video"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "12"
     },
     {
@@ -3221,7 +3393,7 @@
         "Free",
         "Video"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "11"
     },
     {
@@ -3234,7 +3406,7 @@
         "Free",
         "Video"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "10"
     },
     {
@@ -3248,7 +3420,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "7"
     },
     {
@@ -3262,7 +3434,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "5"
     },
     {
@@ -3276,7 +3448,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "8"
     },
     {
@@ -3291,7 +3463,7 @@
         "Advanced",
         "DataStructuresandAlgorithms"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "+1"
     },
     {
@@ -3304,7 +3476,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "143"
     },
     {
@@ -3318,7 +3490,7 @@
         "Video",
         "Java11"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "73"
     },
     {
@@ -3331,7 +3503,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "70"
     },
     {
@@ -3344,7 +3516,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "38"
     },
     {
@@ -3356,7 +3528,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "38"
     },
     {
@@ -3369,7 +3541,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "28"
     },
     {
@@ -3384,7 +3556,7 @@
         "Beginner",
         "WebScraping"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "23"
     },
     {
@@ -3398,7 +3570,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "17"
     },
     {
@@ -3410,7 +3582,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "16"
     },
     {
@@ -3423,7 +3595,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "15"
     },
     {
@@ -3437,7 +3609,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "16"
     },
     {
@@ -3451,7 +3623,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "+1"
     },
     {
@@ -3463,7 +3635,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "129"
     },
     {
@@ -3477,7 +3649,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "45"
     },
     {
@@ -3489,7 +3661,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "30"
     },
     {
@@ -3502,7 +3674,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "20"
     },
     {
@@ -3514,7 +3686,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "13"
     },
     {
@@ -3527,7 +3699,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "11"
     },
     {
@@ -3541,7 +3713,7 @@
         "Video",
         "Java"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "9"
     },
     {
@@ -3554,7 +3726,7 @@
         "Paid",
         "C++"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "8"
     },
     {
@@ -3569,7 +3741,7 @@
         "Beginner",
         "JavaScript"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "7"
     },
     {
@@ -3583,7 +3755,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Data Structures and Algorithms",
+      "topic": "/topic/8",
       "votes": "7"
     },
     {
@@ -3598,7 +3770,7 @@
         "Beginner",
         "Angular7"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "93"
     },
     {
@@ -3612,7 +3784,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "3"
     },
     {
@@ -3626,7 +3798,7 @@
         "Video",
         "AngularJS"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "109"
     },
     {
@@ -3641,7 +3813,7 @@
         "Beginner",
         "Angular4"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "73"
     },
     {
@@ -3655,7 +3827,7 @@
         "Video",
         "AngularJS"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "33"
     },
     {
@@ -3668,7 +3840,7 @@
         "Free",
         "AngularJS"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "14"
     },
     {
@@ -3680,7 +3852,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "11"
     },
     {
@@ -3693,7 +3865,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "10"
     },
     {
@@ -3708,7 +3880,7 @@
         "Beginner",
         "Angular4"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "8"
     },
     {
@@ -3723,7 +3895,7 @@
         "Beginner",
         "Angular6"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "7"
     },
     {
@@ -3736,7 +3908,7 @@
         "Free",
         "AngularJS"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "7"
     },
     {
@@ -3748,7 +3920,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Angular",
+      "topic": "/topic/9",
       "votes": "7"
     },
     {
@@ -3762,7 +3934,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "35"
     },
     {
@@ -3776,7 +3948,7 @@
         "Beginner",
         "CSS"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "+1"
     },
     {
@@ -3789,7 +3961,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "61"
     },
     {
@@ -3802,7 +3974,7 @@
         "Free",
         "Video"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "40"
     },
     {
@@ -3815,7 +3987,7 @@
         "Free",
         "Video"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "18"
     },
     {
@@ -3828,7 +4000,7 @@
         "Free",
         "Exercises/Practice-programs"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "16"
     },
     {
@@ -3840,7 +4012,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "7"
     },
     {
@@ -3854,7 +4026,7 @@
         "Exercises/Practice-programs",
         "Video"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "6"
     },
     {
@@ -3867,7 +4039,7 @@
         "Free",
         "Video"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "6"
     },
     {
@@ -3882,7 +4054,7 @@
         "Beginner",
         "CSS"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "5"
     },
     {
@@ -3896,7 +4068,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "5"
     },
     {
@@ -3909,7 +4081,7 @@
         "Free",
         "Video"
       ],
-      "topic": "HTML 5",
+      "topic": "/topic/10",
       "votes": "5"
     },
     {
@@ -3923,7 +4095,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "38"
     },
     {
@@ -3936,7 +4108,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "98"
     },
     {
@@ -3950,7 +4122,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "86"
     },
     {
@@ -3964,7 +4136,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "55"
     },
     {
@@ -3976,7 +4148,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "21"
     },
     {
@@ -3990,7 +4162,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "14"
     },
     {
@@ -4003,7 +4175,7 @@
         "Free",
         "Video"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "12"
     },
     {
@@ -4017,7 +4189,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "11"
     },
     {
@@ -4031,7 +4203,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "6"
     },
     {
@@ -4044,7 +4216,7 @@
         "Free",
         "Book"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "6"
     },
     {
@@ -4058,7 +4230,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C",
+      "topic": "/topic/11",
       "votes": "4"
     },
     {
@@ -4072,7 +4244,7 @@
         "Video",
         "Flexbox"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "18"
     },
     {
@@ -4086,7 +4258,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "1"
     },
     {
@@ -4099,7 +4271,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "52"
     },
     {
@@ -4112,7 +4284,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "17"
     },
     {
@@ -4124,7 +4296,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "9"
     },
     {
@@ -4138,7 +4310,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "7"
     },
     {
@@ -4153,7 +4325,7 @@
         "Beginner",
         "Flexbox"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "7"
     },
     {
@@ -4166,7 +4338,7 @@
         "Free",
         "Video"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "6"
     },
     {
@@ -4178,7 +4350,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "5"
     },
     {
@@ -4190,7 +4362,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "5"
     },
     {
@@ -4203,7 +4375,7 @@
         "Free",
         "Video"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "4"
     },
     {
@@ -4215,7 +4387,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "CSS",
+      "topic": "/topic/12",
       "votes": "3"
     },
     {
@@ -4230,7 +4402,7 @@
         "Beginner",
         "GraphQL"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "7"
     },
     {
@@ -4244,7 +4416,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "1"
     },
     {
@@ -4259,7 +4431,7 @@
         "Beginner",
         "Node.js9"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "56"
     },
     {
@@ -4272,7 +4444,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "56"
     },
     {
@@ -4285,7 +4457,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "36"
     },
     {
@@ -4299,7 +4471,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "22"
     },
     {
@@ -4311,7 +4483,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "18"
     },
     {
@@ -4325,7 +4497,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "13"
     },
     {
@@ -4338,7 +4510,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "9"
     },
     {
@@ -4352,7 +4524,7 @@
         "Video",
         "React"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "7"
     },
     {
@@ -4365,7 +4537,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "7"
     },
     {
@@ -4379,7 +4551,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Node.js",
+      "topic": "/topic/13",
       "votes": "6"
     },
     {
@@ -4392,7 +4564,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "14"
     },
     {
@@ -4404,7 +4576,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "+1"
     },
     {
@@ -4416,7 +4588,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "43"
     },
     {
@@ -4428,7 +4600,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "14"
     },
     {
@@ -4440,7 +4612,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "14"
     },
     {
@@ -4452,7 +4624,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "11"
     },
     {
@@ -4465,7 +4637,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "7"
     },
     {
@@ -4478,7 +4650,7 @@
         "Free",
         "Exercises/Practice-programs"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "4"
     },
     {
@@ -4491,7 +4663,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "4"
     },
     {
@@ -4504,7 +4676,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "4"
     },
     {
@@ -4517,7 +4689,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "4"
     },
     {
@@ -4531,7 +4703,7 @@
         "Exercises/Practice-programs",
         "Advanced"
       ],
-      "topic": "Git",
+      "topic": "/topic/14",
       "votes": "3"
     },
     {
@@ -4545,7 +4717,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "37"
     },
     {
@@ -4557,7 +4729,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "21"
     },
     {
@@ -4571,7 +4743,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "13"
     },
     {
@@ -4585,25 +4757,13 @@
         "Video",
         "Advanced"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "9"
     },
     {
       "description": null,
       "difficulty": "Beginner",
       "id": 342,
-      "link": "https://hackr.io/tutorial/c-sharp-fundamentals-for-absolute-beginners",
-      "name": "C# Fundamentals for Absolute Beginners",
-      "tags": [
-        "Free"
-      ],
-      "topic": "C#",
-      "votes": "6"
-    },
-    {
-      "description": null,
-      "difficulty": "Beginner",
-      "id": 343,
       "link": "https://hackr.io/tutorial/c-sharp-fundamentals-for-absolute-beginners-1",
       "name": "C# Fundamentals for Absolute Beginners",
       "tags": [
@@ -4611,8 +4771,20 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "8"
+    },
+    {
+      "description": null,
+      "difficulty": "Beginner",
+      "id": 343,
+      "link": "https://hackr.io/tutorial/c-sharp-fundamentals-for-absolute-beginners",
+      "name": "C# Fundamentals for Absolute Beginners",
+      "tags": [
+        "Free"
+      ],
+      "topic": "/topic/15",
+      "votes": "6"
     },
     {
       "description": null,
@@ -4625,7 +4797,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "5"
     },
     {
@@ -4637,7 +4809,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "4"
     },
     {
@@ -4649,7 +4821,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "4"
     },
     {
@@ -4662,7 +4834,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "C#",
+      "topic": "/topic/15",
       "votes": "3"
     },
     {
@@ -4677,7 +4849,7 @@
         "Beginner",
         "Bootstrap4"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "11"
     },
     {
@@ -4689,7 +4861,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "35"
     },
     {
@@ -4701,7 +4873,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "13"
     },
     {
@@ -4715,7 +4887,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "6"
     },
     {
@@ -4728,7 +4900,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "5"
     },
     {
@@ -4742,7 +4914,7 @@
         "Beginner",
         "Bootstrap4"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "5"
     },
     {
@@ -4755,7 +4927,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "3"
     },
     {
@@ -4769,7 +4941,7 @@
         "Beginner",
         "Gulp"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "2"
     },
     {
@@ -4783,7 +4955,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "2"
     },
     {
@@ -4798,7 +4970,7 @@
         "Beginner",
         "Bootstrap4"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "2"
     },
     {
@@ -4812,7 +4984,7 @@
         "Beginner",
         "Bootstrap4"
       ],
-      "topic": "Bootstrap",
+      "topic": "/topic/16",
       "votes": "2"
     },
     {
@@ -4826,7 +4998,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "50"
     },
     {
@@ -4838,7 +5010,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "100"
     },
     {
@@ -4850,7 +5022,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "25"
     },
     {
@@ -4862,7 +5034,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "18"
     },
     {
@@ -4877,7 +5049,7 @@
         "Beginner",
         "PHP7"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "15"
     },
     {
@@ -4890,7 +5062,7 @@
         "Free",
         "Video"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "7"
     },
     {
@@ -4904,7 +5076,7 @@
         "Beginner",
         "PHP7"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "5"
     },
     {
@@ -4918,7 +5090,7 @@
         "Beginner",
         "PHP5"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "4"
     },
     {
@@ -4930,7 +5102,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "4"
     },
     {
@@ -4943,7 +5115,7 @@
         "Free",
         "Video"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "4"
     },
     {
@@ -4956,7 +5128,7 @@
         "Free",
         "Video"
       ],
-      "topic": "PHP",
+      "topic": "/topic/17",
       "votes": "3"
     },
     {
@@ -4970,7 +5142,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "4"
     },
     {
@@ -4983,7 +5155,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "32"
     },
     {
@@ -4995,7 +5167,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "7"
     },
     {
@@ -5009,7 +5181,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "5"
     },
     {
@@ -5021,7 +5193,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "2"
     },
     {
@@ -5034,7 +5206,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "2"
     },
     {
@@ -5047,7 +5219,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "1"
     },
     {
@@ -5060,7 +5232,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "1"
     },
     {
@@ -5072,7 +5244,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "1"
     },
     {
@@ -5084,7 +5256,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "1"
     },
     {
@@ -5099,7 +5271,7 @@
         "Beginner",
         "SQL"
       ],
-      "topic": "MySQL",
+      "topic": "/topic/18",
       "votes": "+1"
     },
     {
@@ -5113,7 +5285,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "20"
     },
     {
@@ -5125,7 +5297,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5137,7 +5309,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "37"
     },
     {
@@ -5149,7 +5321,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "18"
     },
     {
@@ -5162,7 +5334,7 @@
         "Free",
         "Book"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "14"
     },
     {
@@ -5176,7 +5348,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "13"
     },
     {
@@ -5190,7 +5362,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "5"
     },
     {
@@ -5203,7 +5375,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "4"
     },
     {
@@ -5216,7 +5388,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "4"
     },
     {
@@ -5230,7 +5402,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "3"
     },
     {
@@ -5244,7 +5416,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "3"
     },
     {
@@ -5258,7 +5430,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "3"
     },
     {
@@ -5270,7 +5442,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "3"
     },
     {
@@ -5284,7 +5456,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "2"
     },
     {
@@ -5299,7 +5471,7 @@
         "Beginner",
         "Python"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "2"
     },
     {
@@ -5312,7 +5484,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "2"
     },
     {
@@ -5326,7 +5498,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "2"
     },
     {
@@ -5338,7 +5510,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "2"
     },
     {
@@ -5351,7 +5523,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5364,7 +5536,7 @@
         "Free",
         "Book"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5378,7 +5550,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5392,7 +5564,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5404,7 +5576,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5416,7 +5588,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5428,7 +5600,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5440,7 +5612,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "1"
     },
     {
@@ -5454,7 +5626,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5469,7 +5641,7 @@
         "Beginner",
         "DataScience"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5482,7 +5654,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5494,7 +5666,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5506,7 +5678,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5520,7 +5692,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5535,7 +5707,7 @@
         "Advanced",
         "IoT"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5550,7 +5722,7 @@
         "Beginner",
         "Python3"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5563,7 +5735,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5577,7 +5749,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5591,7 +5763,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5605,7 +5777,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5618,7 +5790,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5631,7 +5803,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5644,7 +5816,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5657,7 +5829,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5669,7 +5841,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5681,7 +5853,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5693,7 +5865,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5705,7 +5877,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5717,7 +5889,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5729,7 +5901,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5741,7 +5913,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5753,7 +5925,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5765,7 +5937,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5778,7 +5950,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5790,7 +5962,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5802,7 +5974,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5814,7 +5986,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5827,7 +5999,7 @@
         "Paid",
         "KaliLinux"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5839,7 +6011,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5851,7 +6023,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5864,7 +6036,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Information Security & Ethical Hacking",
+      "topic": "/topic/19",
       "votes": "+1"
     },
     {
@@ -5878,7 +6050,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "27"
     },
     {
@@ -5892,7 +6064,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "26"
     },
     {
@@ -5906,7 +6078,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "11"
     },
     {
@@ -5919,7 +6091,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "4"
     },
     {
@@ -5933,7 +6105,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "3"
     },
     {
@@ -5946,7 +6118,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "3"
     },
     {
@@ -5959,7 +6131,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "3"
     },
     {
@@ -5973,7 +6145,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "2"
     },
     {
@@ -5987,7 +6159,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "2"
     },
     {
@@ -6000,7 +6172,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "2"
     },
     {
@@ -6014,7 +6186,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "2"
     },
     {
@@ -6028,7 +6200,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Arduino",
+      "topic": "/topic/20",
       "votes": "+1"
     },
     {
@@ -6042,7 +6214,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "12"
     },
     {
@@ -6056,7 +6228,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "6"
     },
     {
@@ -6069,7 +6241,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "3"
     },
     {
@@ -6082,7 +6254,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "2"
     },
     {
@@ -6096,7 +6268,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "1"
     },
     {
@@ -6109,7 +6281,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "1"
     },
     {
@@ -6123,7 +6295,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "1"
     },
     {
@@ -6137,7 +6309,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "1"
     },
     {
@@ -6151,7 +6323,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6165,7 +6337,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6179,7 +6351,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6194,7 +6366,7 @@
         "Advanced",
         "Oracle"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6207,7 +6379,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6221,7 +6393,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6234,7 +6406,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6248,7 +6420,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6261,7 +6433,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6275,7 +6447,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6289,7 +6461,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6303,7 +6475,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6317,7 +6489,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6331,7 +6503,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6345,7 +6517,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6359,7 +6531,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6373,7 +6545,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6387,7 +6559,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6401,7 +6573,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Blockchain Programming",
+      "topic": "/topic/21",
       "votes": "+1"
     },
     {
@@ -6416,7 +6588,7 @@
         "Beginner",
         "Django1.11"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "37"
     },
     {
@@ -6429,7 +6601,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "50"
     },
     {
@@ -6441,7 +6613,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "46"
     },
     {
@@ -6453,7 +6625,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "18"
     },
     {
@@ -6467,7 +6639,7 @@
         "Beginner",
         "Django1.10"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "17"
     },
     {
@@ -6480,7 +6652,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "14"
     },
     {
@@ -6493,7 +6665,7 @@
         "Free",
         "Django1.8"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "11"
     },
     {
@@ -6506,7 +6678,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "9"
     },
     {
@@ -6521,7 +6693,7 @@
         "Beginner",
         "Django2.1"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "3"
     },
     {
@@ -6534,7 +6706,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "3"
     },
     {
@@ -6547,7 +6719,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "3"
     },
     {
@@ -6560,7 +6732,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "3"
     },
     {
@@ -6573,7 +6745,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "2"
     },
     {
@@ -6588,7 +6760,7 @@
         "Beginner",
         "Vue.js"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "1"
     },
     {
@@ -6603,7 +6775,7 @@
         "Beginner",
         "Django2.0"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "1"
     },
     {
@@ -6617,7 +6789,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "1"
     },
     {
@@ -6629,7 +6801,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "1"
     },
     {
@@ -6643,7 +6815,7 @@
         "Advanced",
         "Ajax"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "+1"
     },
     {
@@ -6657,7 +6829,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "+1"
     },
     {
@@ -6672,7 +6844,7 @@
         "Beginner",
         "Django2.0"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "+1"
     },
     {
@@ -6687,7 +6859,7 @@
         "Beginner",
         "Django2.0"
       ],
-      "topic": "Django",
+      "topic": "/topic/22",
       "votes": "+1"
     },
     {
@@ -6703,7 +6875,7 @@
         "Unity5",
         "Unity2D"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "22"
     },
     {
@@ -6718,7 +6890,7 @@
         "Beginner",
         "MathematicsForComputerScience"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "+1"
     },
     {
@@ -6731,7 +6903,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "32"
     },
     {
@@ -6744,7 +6916,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "15"
     },
     {
@@ -6756,7 +6928,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "9"
     },
     {
@@ -6771,7 +6943,7 @@
         "Beginner",
         "Unity3D"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "7"
     },
     {
@@ -6785,7 +6957,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "6"
     },
     {
@@ -6798,7 +6970,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "4"
     },
     {
@@ -6810,7 +6982,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "3"
     },
     {
@@ -6823,7 +6995,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "3"
     },
     {
@@ -6837,7 +7009,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "2"
     },
     {
@@ -6851,7 +7023,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Unity",
+      "topic": "/topic/23",
       "votes": "2"
     },
     {
@@ -6865,7 +7037,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "1"
     },
     {
@@ -6877,7 +7049,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "21"
     },
     {
@@ -6891,7 +7063,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "13"
     },
     {
@@ -6903,7 +7075,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "11"
     },
     {
@@ -6916,7 +7088,7 @@
         "Paid",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "5"
     },
     {
@@ -6930,7 +7102,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "5"
     },
     {
@@ -6943,7 +7115,7 @@
         "Free",
         "Video"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "5"
     },
     {
@@ -6957,7 +7129,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "3"
     },
     {
@@ -6970,7 +7142,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "3"
     },
     {
@@ -6985,7 +7157,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "3"
     },
     {
@@ -6998,7 +7170,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "SQL",
+      "topic": "/topic/24",
       "votes": "2"
     },
     {
@@ -7011,7 +7183,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "71"
     },
     {
@@ -7025,7 +7197,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "55"
     },
     {
@@ -7038,7 +7210,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "30"
     },
     {
@@ -7051,7 +7223,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "17"
     },
     {
@@ -7064,7 +7236,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "10"
     },
     {
@@ -7077,7 +7249,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "9"
     },
     {
@@ -7092,7 +7264,7 @@
         "Beginner",
         "Java"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "7"
     },
     {
@@ -7106,7 +7278,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "7"
     },
     {
@@ -7118,7 +7290,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "7"
     },
     {
@@ -7133,7 +7305,7 @@
         "Beginner",
         "FullStackWebDevelopment"
       ],
-      "topic": "Intro to Programming",
+      "topic": "/topic/25",
       "votes": "3"
     },
     {
@@ -7147,7 +7319,7 @@
         "Beginner",
         "Python"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "+1"
     },
     {
@@ -7159,7 +7331,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "16"
     },
     {
@@ -7171,7 +7343,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "9"
     },
     {
@@ -7184,7 +7356,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "7"
     },
     {
@@ -7197,7 +7369,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "7"
     },
     {
@@ -7210,7 +7382,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "6"
     },
     {
@@ -7223,7 +7395,7 @@
         "Free",
         "Video"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "4"
     },
     {
@@ -7237,7 +7409,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "2"
     },
     {
@@ -7251,7 +7423,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "2"
     },
     {
@@ -7263,7 +7435,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "2"
     },
     {
@@ -7277,7 +7449,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "MongoDB",
+      "topic": "/topic/26",
       "votes": "1"
     },
     {
@@ -7291,7 +7463,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "15"
     },
     {
@@ -7303,7 +7475,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "55"
     },
     {
@@ -7317,7 +7489,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "16"
     },
     {
@@ -7329,7 +7501,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "9"
     },
     {
@@ -7343,7 +7515,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "6"
     },
     {
@@ -7357,7 +7529,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "4"
     },
     {
@@ -7370,7 +7542,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "3"
     },
     {
@@ -7383,7 +7555,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "3"
     },
     {
@@ -7397,7 +7569,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "2"
     },
     {
@@ -7411,7 +7583,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "2"
     },
     {
@@ -7425,7 +7597,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "React Native",
+      "topic": "/topic/27",
       "votes": "1"
     },
     {
@@ -7439,7 +7611,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "11"
     },
     {
@@ -7454,7 +7626,7 @@
         "Advanced",
         "JavaScript"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "7"
     },
     {
@@ -7466,7 +7638,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "4"
     },
     {
@@ -7479,7 +7651,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "2"
     },
     {
@@ -7492,7 +7664,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "2"
     },
     {
@@ -7506,7 +7678,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "1"
     },
     {
@@ -7520,7 +7692,7 @@
         "Video",
         "C#"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "1"
     },
     {
@@ -7534,7 +7706,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "+1"
     },
     {
@@ -7547,7 +7719,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "+1"
     },
     {
@@ -7560,7 +7732,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Design Patterns",
+      "topic": "/topic/28",
       "votes": "+1"
     },
     {
@@ -7576,7 +7748,7 @@
         "VueJS2",
         "Vuex"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "53"
     },
     {
@@ -7589,7 +7761,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "67"
     },
     {
@@ -7601,7 +7773,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "30"
     },
     {
@@ -7615,7 +7787,7 @@
         "Video",
         "VueJS2"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "14"
     },
     {
@@ -7630,7 +7802,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "6"
     },
     {
@@ -7642,7 +7814,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "6"
     },
     {
@@ -7655,7 +7827,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "5"
     },
     {
@@ -7668,7 +7840,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "4"
     },
     {
@@ -7682,7 +7854,7 @@
         "Video",
         "VueJS2"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "4"
     },
     {
@@ -7694,7 +7866,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "3"
     },
     {
@@ -7707,7 +7879,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Vue.js",
+      "topic": "/topic/29",
       "votes": "3"
     },
     {
@@ -7719,7 +7891,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "31"
     },
     {
@@ -7734,7 +7906,7 @@
         "Beginner",
         "ASP.NETMVC5"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "16"
     },
     {
@@ -7747,7 +7919,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "8"
     },
     {
@@ -7760,7 +7932,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "6"
     },
     {
@@ -7776,7 +7948,7 @@
         "ASP.NETMVC5",
         "EntityFramework"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "5"
     },
     {
@@ -7789,7 +7961,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "4"
     },
     {
@@ -7802,7 +7974,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "3"
     },
     {
@@ -7814,7 +7986,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "3"
     },
     {
@@ -7826,7 +7998,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "3"
     },
     {
@@ -7839,7 +8011,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "ASP.NET",
+      "topic": "/topic/30",
       "votes": "1"
     },
     {
@@ -7851,7 +8023,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "17"
     },
     {
@@ -7863,7 +8035,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "10"
     },
     {
@@ -7877,7 +8049,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "7"
     },
     {
@@ -7890,7 +8062,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "6"
     },
     {
@@ -7903,7 +8075,7 @@
         "Free",
         "Video"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "5"
     },
     {
@@ -7915,7 +8087,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "4"
     },
     {
@@ -7928,7 +8100,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "2"
     },
     {
@@ -7942,7 +8114,7 @@
         "Exercises/Practice-programs",
         "Beginner"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "2"
     },
     {
@@ -7956,7 +8128,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "2"
     },
     {
@@ -7969,7 +8141,7 @@
         "Free",
         "Video"
       ],
-      "topic": "jQuery",
+      "topic": "/topic/31",
       "votes": "2"
     },
     {
@@ -7982,7 +8154,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "11"
     },
     {
@@ -7995,7 +8167,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "5"
     },
     {
@@ -8008,7 +8180,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "5"
     },
     {
@@ -8022,7 +8194,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "2"
     },
     {
@@ -8036,7 +8208,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "1"
     },
     {
@@ -8049,7 +8221,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "1"
     },
     {
@@ -8064,7 +8236,7 @@
         "Beginner",
         "InformationSecurity&EthicalHacking"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "+1"
     },
     {
@@ -8078,7 +8250,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Raspberry Pi",
+      "topic": "/topic/32",
       "votes": "+1"
     },
     {
@@ -8092,7 +8264,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "27"
     },
     {
@@ -8104,7 +8276,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "86"
     },
     {
@@ -8116,7 +8288,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "36"
     },
     {
@@ -8128,7 +8300,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "27"
     },
     {
@@ -8140,7 +8312,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "15"
     },
     {
@@ -8155,7 +8327,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "9"
     },
     {
@@ -8169,7 +8341,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "8"
     },
     {
@@ -8181,7 +8353,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "8"
     },
     {
@@ -8195,7 +8367,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "6"
     },
     {
@@ -8209,7 +8381,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "4"
     },
     {
@@ -8223,7 +8395,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Go",
+      "topic": "/topic/33",
       "votes": "3"
     },
     {
@@ -8236,7 +8408,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "+1"
     },
     {
@@ -8250,7 +8422,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "12"
     },
     {
@@ -8264,7 +8436,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "5"
     },
     {
@@ -8278,7 +8450,7 @@
         "Book",
         "Advanced"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "3"
     },
     {
@@ -8292,7 +8464,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "2"
     },
     {
@@ -8306,7 +8478,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "1"
     },
     {
@@ -8320,7 +8492,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "1"
     },
     {
@@ -8334,7 +8506,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "1"
     },
     {
@@ -8348,7 +8520,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "+1"
     },
     {
@@ -8362,7 +8534,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "+1"
     },
     {
@@ -8376,7 +8548,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Bitcoin",
+      "topic": "/topic/34",
       "votes": "+1"
     },
     {
@@ -8388,7 +8560,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "32"
     },
     {
@@ -8402,7 +8574,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "6"
     },
     {
@@ -8415,7 +8587,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "4"
     },
     {
@@ -8428,7 +8600,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "2"
     },
     {
@@ -8441,7 +8613,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "1"
     },
     {
@@ -8455,7 +8627,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "+1"
     },
     {
@@ -8469,7 +8641,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "+1"
     },
     {
@@ -8483,7 +8655,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Firebase",
+      "topic": "/topic/35",
       "votes": "+1"
     },
     {
@@ -8497,7 +8669,7 @@
         "Book",
         "Spring5"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "5"
     },
     {
@@ -8514,7 +8686,7 @@
         "SpringREST",
         "SpringSecurity"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "15"
     },
     {
@@ -8527,7 +8699,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "13"
     },
     {
@@ -8545,7 +8717,7 @@
         "SpringMVC",
         "SpringSecurity"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "9"
     },
     {
@@ -8557,7 +8729,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "6"
     },
     {
@@ -8571,7 +8743,7 @@
         "Beginner",
         "Spring4"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "2"
     },
     {
@@ -8585,7 +8757,7 @@
         "Video",
         "SpringBoot"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "2"
     },
     {
@@ -8599,7 +8771,7 @@
         "Video",
         "SpringBoot"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "2"
     },
     {
@@ -8612,7 +8784,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "1"
     },
     {
@@ -8626,7 +8798,7 @@
         "Beginner",
         "SpringBoot"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "1"
     },
     {
@@ -8639,7 +8811,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "1"
     },
     {
@@ -8653,7 +8825,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "1"
     },
     {
@@ -8666,7 +8838,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "1"
     },
     {
@@ -8681,7 +8853,7 @@
         "SpringBoot2",
         "AWS"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8694,7 +8866,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8708,7 +8880,7 @@
         "Video",
         "Thymeleaf"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8721,7 +8893,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8734,7 +8906,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8747,7 +8919,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8760,7 +8932,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8774,7 +8946,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8788,7 +8960,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8801,7 +8973,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8816,7 +8988,7 @@
         "Beginner",
         "SpringBoot"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8831,7 +9003,7 @@
         "Beginner",
         "SpringBoot"
       ],
-      "topic": "Java Spring Framework",
+      "topic": "/topic/36",
       "votes": "+1"
     },
     {
@@ -8845,7 +9017,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "9"
     },
     {
@@ -8859,7 +9031,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -8872,7 +9044,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "24"
     },
     {
@@ -8885,7 +9057,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "19"
     },
     {
@@ -8899,7 +9071,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "6"
     },
     {
@@ -8912,7 +9084,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "6"
     },
     {
@@ -8926,7 +9098,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "5"
     },
     {
@@ -8939,7 +9111,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "4"
     },
     {
@@ -8952,7 +9124,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "3"
     },
     {
@@ -8966,7 +9138,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "3"
     },
     {
@@ -8980,7 +9152,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "2"
     },
     {
@@ -8994,7 +9166,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "1"
     },
     {
@@ -9007,7 +9179,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "1"
     },
     {
@@ -9021,7 +9193,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "1"
     },
     {
@@ -9036,7 +9208,7 @@
         "Beginner",
         "SpringBoot2"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9051,7 +9223,7 @@
         "Advanced",
         "FunctionalProgramming"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9065,7 +9237,7 @@
         "Beginner",
         "AndroidDevelopment"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9078,7 +9250,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9092,7 +9264,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9106,7 +9278,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9120,7 +9292,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9135,7 +9307,7 @@
         "Beginner",
         "AndroidO"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9149,7 +9321,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Kotlin",
+      "topic": "/topic/37",
       "votes": "+1"
     },
     {
@@ -9166,7 +9338,7 @@
         "CoreML2",
         "CreateML"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "8"
     },
     {
@@ -9181,7 +9353,7 @@
         "Beginner",
         "IntrotoProgramming"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9196,7 +9368,7 @@
         "Beginner",
         "iOS11"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "59"
     },
     {
@@ -9209,7 +9381,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "35"
     },
     {
@@ -9225,7 +9397,7 @@
         "iOS11",
         "Swift4"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "24"
     },
     {
@@ -9237,7 +9409,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "11"
     },
     {
@@ -9249,7 +9421,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "11"
     },
     {
@@ -9261,7 +9433,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "8"
     },
     {
@@ -9276,7 +9448,7 @@
         "Beginner",
         "iOS10"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "4"
     },
     {
@@ -9290,7 +9462,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "3"
     },
     {
@@ -9303,7 +9475,7 @@
         "Paid",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "3"
     },
     {
@@ -9316,7 +9488,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "3"
     },
     {
@@ -9328,7 +9500,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "2"
     },
     {
@@ -9340,7 +9512,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "2"
     },
     {
@@ -9353,7 +9525,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "2"
     },
     {
@@ -9366,7 +9538,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "2"
     },
     {
@@ -9379,7 +9551,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9393,7 +9565,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9407,7 +9579,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9421,7 +9593,7 @@
         "Video",
         "ARKit"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9434,7 +9606,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9447,7 +9619,7 @@
         "Paid",
         "Swift3"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9459,7 +9631,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9471,7 +9643,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9484,7 +9656,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9497,7 +9669,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9510,7 +9682,7 @@
         "Free",
         "Video"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "1"
     },
     {
@@ -9524,7 +9696,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9538,7 +9710,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9552,7 +9724,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9565,7 +9737,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9578,7 +9750,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9591,7 +9763,7 @@
         "Paid",
         "Advanced"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9605,7 +9777,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9619,7 +9791,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9633,7 +9805,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9647,7 +9819,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9661,7 +9833,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9676,7 +9848,7 @@
         "Beginner",
         "iOS11"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9688,7 +9860,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9701,7 +9873,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9714,7 +9886,7 @@
         "Paid",
         "Book"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9726,7 +9898,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "iOS Swift",
+      "topic": "/topic/38",
       "votes": "+1"
     },
     {
@@ -9740,7 +9912,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "3"
     },
     {
@@ -9752,7 +9924,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "29"
     },
     {
@@ -9764,7 +9936,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "13"
     },
     {
@@ -9778,7 +9950,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "10"
     },
     {
@@ -9792,7 +9964,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "7"
     },
     {
@@ -9805,7 +9977,7 @@
         "Free",
         "Book"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "7"
     },
     {
@@ -9817,7 +9989,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "5"
     },
     {
@@ -9829,7 +10001,7 @@
       "tags": [
         "Paid"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "2"
     },
     {
@@ -9843,7 +10015,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Assembly Language",
+      "topic": "/topic/39",
       "votes": "1"
     },
     {
@@ -9857,7 +10029,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "18"
     },
     {
@@ -9870,7 +10042,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "51"
     },
     {
@@ -9883,7 +10055,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "20"
     },
     {
@@ -9895,7 +10067,7 @@
       "tags": [
         "Free"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "19"
     },
     {
@@ -9910,7 +10082,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "16"
     },
     {
@@ -9923,7 +10095,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "9"
     },
     {
@@ -9938,7 +10110,7 @@
         "Beginner",
         "Laravel5.4"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "4"
     },
     {
@@ -9951,7 +10123,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "3"
     },
     {
@@ -9965,7 +10137,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "3"
     },
     {
@@ -9978,7 +10150,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "3"
     },
     {
@@ -9991,7 +10163,7 @@
         "Free",
         "Video"
       ],
-      "topic": "Laravel",
+      "topic": "/topic/40",
       "votes": "3"
     },
     {
@@ -10005,7 +10177,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "5"
     },
     {
@@ -10019,7 +10191,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "4"
     },
     {
@@ -10032,7 +10204,7 @@
         "Free",
         "Advanced"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "2"
     },
     {
@@ -10045,7 +10217,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "1"
     },
     {
@@ -10059,7 +10231,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "+1"
     },
     {
@@ -10072,7 +10244,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Operating Systems",
+      "topic": "/topic/41",
       "votes": "+1"
     },
     {
@@ -10087,7 +10259,7 @@
         "Beginner",
         "ES6"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "2"
     },
     {
@@ -10102,7 +10274,7 @@
         "Beginner",
         "ES6"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "+1"
     },
     {
@@ -10115,7 +10287,7 @@
         "Free",
         "Book"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "7"
     },
     {
@@ -10129,7 +10301,7 @@
         "Video",
         "ES6"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "5"
     },
     {
@@ -10142,7 +10314,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "4"
     },
     {
@@ -10157,7 +10329,7 @@
         "Advanced",
         "ES7"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "2"
     },
     {
@@ -10172,7 +10344,7 @@
         "Beginner",
         "ES6"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "1"
     },
     {
@@ -10186,7 +10358,7 @@
         "Advanced",
         "ES6"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "1"
     },
     {
@@ -10200,7 +10372,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "1"
     },
     {
@@ -10213,7 +10385,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "1"
     },
     {
@@ -10226,7 +10398,7 @@
         "Free",
         "Video"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "1"
     },
     {
@@ -10240,7 +10412,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "ECMAScript",
+      "topic": "/topic/42",
       "votes": "+1"
     },
     {
@@ -10255,7 +10427,7 @@
         "Beginner",
         "NumberTheory"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10269,7 +10441,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "2"
     },
     {
@@ -10283,7 +10455,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "1"
     },
     {
@@ -10297,7 +10469,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "1"
     },
     {
@@ -10311,7 +10483,7 @@
         "Book",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "1"
     },
     {
@@ -10326,7 +10498,7 @@
         "Video",
         "Calculus"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10339,7 +10511,7 @@
         "Free",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10353,7 +10525,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10367,7 +10539,7 @@
         "Video",
         "Beginner"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10381,7 +10553,7 @@
         "Video",
         "Advanced"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10396,7 +10568,7 @@
         "Beginner",
         "Statistics"
       ],
-      "topic": "Mathematics For Computer Science",
+      "topic": "/topic/43",
       "votes": "+1"
     },
     {
@@ -10405,7 +10577,7 @@
       "link": "https://www.pluralsight.com/courses/react-redux-react-router-es6",
       "name": "Building Applications with React and Redux",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1260",
       "id": 774
     },
@@ -10415,7 +10587,7 @@
       "link": "https://www.pluralsight.com/courses/react-flux-building-applications",
       "name": "Building Applications with React and Flux",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1253",
       "id": 775
     },
@@ -10425,7 +10597,7 @@
       "link": "https://www.pluralsight.com/courses/build-ios-apps-react-native",
       "name": "Build iOS Apps with React Native",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "259",
       "id": 776
     },
@@ -10435,7 +10607,7 @@
       "link": "https://www.pluralsight.com/courses/react-apps-with-relay-graphql-flux",
       "name": "Building Data-driven React Applications with Relay, GraphQL, and Flux",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "153",
       "id": 777
     },
@@ -10445,7 +10617,7 @@
       "link": "https://www.pluralsight.com/courses/build-react-native-exponent-redux-apps",
       "name": "Build Cross Platform React Native Apps with Exponent and Redux",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "109",
       "id": 778
     },
@@ -10455,7 +10627,7 @@
       "link": "https://www.pluralsight.com/courses/react-js-getting-started",
       "name": "React: Getting Started",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "1898",
       "id": 779
     },
@@ -10465,7 +10637,7 @@
       "link": "https://www.pluralsight.com/courses/reactjs-on-rails-building-full-stack-web-app",
       "name": "React.js on Rails: Building a Full Stack Web App",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "131",
       "id": 780
     },
@@ -10475,7 +10647,7 @@
       "link": "https://www.pluralsight.com/courses/active-directory-programming",
       "name": "Active Directory Programming for Developers",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "311",
       "id": 781
     },
@@ -10485,7 +10657,7 @@
       "link": "https://www.pluralsight.com/courses/react-styling-components",
       "name": "Styling React Components",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "187",
       "id": 782
     },
@@ -10495,7 +10667,7 @@
       "link": "https://www.pluralsight.com/courses/react-flux-angular",
       "name": "React and Flux for Angular Developers",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "188",
       "id": 783
     },
@@ -10505,7 +10677,7 @@
       "link": "https://www.pluralsight.com/courses/reactjs-advanced",
       "name": "Advanced React.js",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "182",
       "id": 784
     },
@@ -10515,7 +10687,7 @@
       "link": "https://www.pluralsight.com/courses/react-boilerplate-building-scalable-apps",
       "name": "Building Scalable React Apps",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "180",
       "id": 785
     },
@@ -10525,7 +10697,7 @@
       "link": "https://www.pluralsight.com/courses/react-creating-reusable-components",
       "name": "Creating Reusable React Components",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "93",
       "id": 786
     },
@@ -10535,7 +10707,7 @@
       "link": "https://www.pluralsight.com/courses/build-isomorphic-app-react-flux-webpack-firebase",
       "name": "Building a Real-time App with React, Flux, Webpack, and Firebase",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "188",
       "id": 787
     },
@@ -10545,7 +10717,7 @@
       "link": "https://www.pluralsight.com/courses/windows-server-2012-70-410-active-directory",
       "name": "Windows Server 2012 R2 (70-410) Administer Active Directory",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "374",
       "id": 788
     },
@@ -10555,7 +10727,7 @@
       "link": "https://www.pluralsight.com/courses/windows-server-2008-active-directory-pt1",
       "name": "Windows Server 2008 Active Directory (70-640) Part 1",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "369",
       "id": 789
     },
@@ -10565,7 +10737,7 @@
       "link": "https://www.pluralsight.com/courses/windows-server-2003-active-directory-fundamentals",
       "name": "Windows Server 2003 Active Directory Fundamentals",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "21",
       "id": 790
     },
@@ -10575,7 +10747,7 @@
       "link": "https://www.pluralsight.com/courses/administering-active-directory-objects-powershell",
       "name": "Administering Active Directory Objects with PowerShell",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "67",
       "id": 791
     },
@@ -10585,7 +10757,7 @@
       "link": "https://www.pluralsight.com/courses/aspdotnet-core-react-building-website",
       "name": "Building a Website with React and ASP.NET Core",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "62",
       "id": 792
     },
@@ -10595,7 +10767,7 @@
       "link": "https://www.pluralsight.com/courses/react-native-big-picture",
       "name": "React Native: The Big Picture",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "48",
       "id": 793
     },
@@ -10605,7 +10777,7 @@
       "link": "https://www.pluralsight.com/courses/windows-server-2016-manage-maintain-ad-domain-services",
       "name": "Manage and Maintain Active Directory Domain Services in Windows Server 2016",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "30",
       "id": 794
     },
@@ -10615,7 +10787,7 @@
       "link": "https://www.pluralsight.com/courses/react-practical-start",
       "name": "A Practical Start with React",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "104",
       "id": 795
     },
@@ -10625,7 +10797,7 @@
       "link": "https://www.pluralsight.com/courses/react-native-getting-started",
       "name": "React Native: Getting Started",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "50",
       "id": 796
     },
@@ -10635,7 +10807,7 @@
       "link": "https://www.pluralsight.com/courses/client-side-react-router-4",
       "name": "Client Side React Router 4",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "39",
       "id": 797
     },
@@ -10645,7 +10817,7 @@
       "link": "https://www.pluralsight.com/courses/play-by-play-react-babel-webpack-falcor-brian-holt",
       "name": "Play by Play: React and Falcor with Brian Holt",
       "tags": [],
-      "topic": "React",
+      "topic": "/topic/5",
       "votes": "83",
       "id": 798
     },
@@ -10655,7 +10827,7 @@
       "link": "https://www.pluralsight.com/courses/play-by-play-xamarin-mobile-development",
       "name": "Play by Play: Xamarin Mobile Development",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "60",
       "id": 799
     },
@@ -10665,7 +10837,7 @@
       "link": "https://www.pluralsight.com/courses/ionic2-angular2-typescript-mobile-apps",
       "name": "Building Mobile Apps with Ionic, Angular, and TypeScript",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "222",
       "id": 800
     },
@@ -10675,7 +10847,7 @@
       "link": "https://www.pluralsight.com/courses/animate-cc-mobile-app-development",
       "name": "Animate CC Mobile App Development",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": 0,
       "id": 801
     },
@@ -10685,7 +10857,7 @@
       "link": "https://www.pluralsight.com/courses/react-js-getting-started",
       "name": "React: Getting Started",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "1898",
       "id": 802
     },
@@ -10695,7 +10867,7 @@
       "link": "https://www.pluralsight.com/courses/beginning-mobile-development-xamarin",
       "name": "Beginning Mobile Development with Xamarin",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "160",
       "id": 803
     },
@@ -10705,7 +10877,7 @@
       "link": "https://www.pluralsight.com/courses/xamarin-forms-enterprise-mobile-application",
       "name": "Building an Enterprise Mobile Application with Xamarin.Forms",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "124",
       "id": 804
     },
@@ -10715,7 +10887,7 @@
       "link": "https://www.pluralsight.com/courses/dreamweaver-cc-phonegap-mobile-app-design",
       "name": "Dreamweaver CC Mobile App Design with PhoneGap",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": 0,
       "id": 805
     },
@@ -10725,7 +10897,7 @@
       "link": "https://www.pluralsight.com/courses/building-cross-platform-mobile-apps-csharp-xamarin-azure-update",
       "name": "Building Cross-platform Mobile Apps in C# with Xamarin and Azure",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": 0,
       "id": 806
     },
@@ -10735,7 +10907,7 @@
       "link": "https://www.pluralsight.com/courses/mvc4",
       "name": "ASP.NET MVC 4 Fundamentals",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "3632",
       "id": 807
     },
@@ -10745,7 +10917,7 @@
       "link": "https://www.pluralsight.com/courses/building-mobile-apps-ionic-framework-angularjs",
       "name": "Building Mobile Apps With the Ionic Framework and AngularJS",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "1026",
       "id": 808
     },
@@ -10755,7 +10927,7 @@
       "link": "https://www.pluralsight.com/courses/android-retrofit-getting-started",
       "name": "Android: Getting Started with Retrofit",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "24",
       "id": 809
     },
@@ -10765,7 +10937,7 @@
       "link": "https://www.pluralsight.com/courses/build-ios-apps-react-native",
       "name": "Build iOS Apps with React Native",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "259",
       "id": 810
     },
@@ -10775,7 +10947,7 @@
       "link": "https://www.pluralsight.com/courses/windows-azure-mobile-services",
       "name": "Microsoft Azure Mobile Services",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "160",
       "id": 811
     },
@@ -10785,7 +10957,7 @@
       "link": "https://www.pluralsight.com/courses/building-mobile-web-sites-web-forms-bootstrap-html5",
       "name": "Building Mobile Web Sites Using Web Forms, Bootstrap, and HTML5",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "167",
       "id": 812
     },
@@ -10795,7 +10967,7 @@
       "link": "https://www.pluralsight.com/courses/building-hybrid-mobile-apps-icenium",
       "name": "Building Cross-Platform Mobile Apps with Telerik AppBuilder",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "152",
       "id": 813
     },
@@ -10805,7 +10977,7 @@
       "link": "https://www.pluralsight.com/courses/designing-mobile-games-game-design-document-1827",
       "name": "Designing Mobile Games with a Game Design Document",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "27",
       "id": 814
     },
@@ -10815,7 +10987,7 @@
       "link": "https://www.pluralsight.com/courses/firebase-android-cloud-firestore",
       "name": "Firebase on Android: Cloud Firestore",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "20",
       "id": 815
     },
@@ -10825,7 +10997,7 @@
       "link": "https://www.pluralsight.com/courses/google-play-services-getting-started",
       "name": "Getting Started with Google Play Services",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": 0,
       "id": 816
     },
@@ -10835,7 +11007,7 @@
       "link": "https://www.pluralsight.com/courses/xamarin-big-picture",
       "name": "Xamarin: The Big Picture",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "47",
       "id": 817
     },
@@ -10845,7 +11017,7 @@
       "link": "https://www.pluralsight.com/courses/ssrs-mobile-reports-build-deploy",
       "name": "Build and Deploy SSRS Mobile Reports",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": 0,
       "id": 818
     },
@@ -10855,7 +11027,7 @@
       "link": "https://www.pluralsight.com/courses/building-mobile-apps-visual-studio-apache-cordova",
       "name": "Building Mobile Apps with Visual Studio Tools for Apache Cordova",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "27",
       "id": 819
     },
@@ -10865,7 +11037,7 @@
       "link": "https://www.pluralsight.com/courses/nativescript-cross-platform-native-mobile-apps",
       "name": "Building Cross Platform Native Mobile Applications with NativeScript",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "43",
       "id": 820
     },
@@ -10875,7 +11047,7 @@
       "link": "https://www.pluralsight.com/courses/html5-creating-offline-first-mobile-apps",
       "name": "Creating Offline-first Mobile Apps with HTML5",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "20",
       "id": 821
     },
@@ -10885,7 +11057,7 @@
       "link": "https://www.pluralsight.com/courses/play-by-play-neven-mrgan",
       "name": "Play by Play: Mobile UI Design with Neven Mrgan",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "53",
       "id": 822
     },
@@ -10895,7 +11067,7 @@
       "link": "https://www.pluralsight.com/courses/rxandroid-kotlin-reactive-programming",
       "name": "Reactive Programming with RxAndroid and Kotlin",
       "tags": [],
-      "topic": "Mobile Development",
+      "topic": "/topic/44",
       "votes": "27",
       "id": 823
     },
@@ -10905,7 +11077,7 @@
       "link": "https://www.pluralsight.com/courses/c-sharp-fundamentals-with-visual-studio-2015",
       "name": "C# Fundamentals with Visual Studio 2015",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "3038",
       "id": 824
     },
@@ -10915,7 +11087,7 @@
       "link": "https://www.pluralsight.com/courses/learn-programming-cplusplus",
       "name": "Learn How to Program with C++",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "794",
       "id": 825
     },
@@ -10925,7 +11097,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-best-practices-improving-basics",
       "name": "C# Best Practices: Improving on the Basics",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "1317",
       "id": 826
     },
@@ -10935,7 +11107,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-best-practices-collections-generics",
       "name": "C# Best Practices: Collections and Generics",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "608",
       "id": 827
     },
@@ -10945,7 +11117,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-fundamentals",
       "name": "Accelerated C# Fundamentals",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "3423",
       "id": 828
     },
@@ -10955,7 +11127,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-from-scratch",
       "name": "C# From Scratch",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "3583",
       "id": 829
     },
@@ -10965,7 +11137,7 @@
       "link": "https://www.pluralsight.com/courses/cplusplus-11-from-scratch",
       "name": "C++11 from Scratch",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "84",
       "id": 830
     },
@@ -10975,7 +11147,7 @@
       "link": "https://www.pluralsight.com/courses/c-sharp-dynamic-fundamentals",
       "name": "Dynamic C# Fundamentals",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "103",
       "id": 831
     },
@@ -10985,7 +11157,7 @@
       "link": "https://www.pluralsight.com/courses/c-programming-language-in-action",
       "name": "The C Programming Language in Action",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "297",
       "id": 832
     },
@@ -10995,7 +11167,7 @@
       "link": "https://www.pluralsight.com/courses/c-lang-fundamentals",
       "name": "C Programming Language Fundamentals",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "989",
       "id": 833
     },
@@ -11005,7 +11177,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-with-jon-skeet",
       "name": "Exploring C# 6 with Jon Skeet",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "474",
       "id": 834
     },
@@ -11015,7 +11187,7 @@
       "link": "https://www.pluralsight.com/courses/beautiful-cplusplus-stl-algorithms",
       "name": "Beautiful C++: STL Algorithms",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "169",
       "id": 835
     },
@@ -11025,7 +11197,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-equality-comparisons",
       "name": "C# Equality and Comparisons",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "608",
       "id": 836
     },
@@ -11035,7 +11207,7 @@
       "link": "https://www.pluralsight.com/courses/objective-c",
       "name": "Introduction to Objective-C",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "573",
       "id": 837
     },
@@ -11045,7 +11217,7 @@
       "link": "https://www.pluralsight.com/courses/cplusplus11-language-features",
       "name": "C++11 Language Features",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "238",
       "id": 838
     },
@@ -11055,7 +11227,7 @@
       "link": "https://www.pluralsight.com/courses/adv-cpp",
       "name": "C++ Advanced Topics",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "493",
       "id": 839
     },
@@ -11065,7 +11237,7 @@
       "link": "https://www.pluralsight.com/courses/modern-cplusplus-libraries",
       "name": "Modern C++ Libraries",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "309",
       "id": 840
     },
@@ -11075,7 +11247,7 @@
       "link": "https://www.pluralsight.com/courses/teaching-kids-programming",
       "name": "Teaching Kids Programming with C#",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "423",
       "id": 841
     },
@@ -11085,7 +11257,7 @@
       "link": "https://www.pluralsight.com/courses/accelerated-introduction-cpp",
       "name": "Accelerated Introduction to C++",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "644",
       "id": 842
     },
@@ -11095,7 +11267,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-tips-traps-part2",
       "name": "C# Tips and Traps 2",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "296",
       "id": 843
     },
@@ -11105,7 +11277,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-visual-basic-dotnet-developers",
       "name": "C# for Visual Basic .NET Developers",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "199",
       "id": 844
     },
@@ -11115,7 +11287,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-tips-traps",
       "name": "C# Tips and Traps",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "691",
       "id": 845
     },
@@ -11125,7 +11297,7 @@
       "link": "https://www.pluralsight.com/courses/csharp-7-first-look",
       "name": "C# 7: First Look",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "160",
       "id": 846
     },
@@ -11135,7 +11307,7 @@
       "link": "https://www.pluralsight.com/courses/designing-fluent-apis-c-sharp",
       "name": "Designing Fluent APIs in C#",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "188",
       "id": 847
     },
@@ -11145,7 +11317,7 @@
       "link": "https://www.pluralsight.com/courses/object-oriented-programming-fundamentals-csharp",
       "name": "Object-Oriented Programming Fundamentals in C#",
       "tags": [],
-      "topic": "C++",
+      "topic": "/topic/6",
       "votes": "2666",
       "id": 848
     },
@@ -11155,7 +11327,7 @@
       "link": "https://www.pluralsight.com/courses/java-fundamentals-core-platform",
       "name": "Java Fundamentals: The Core Platform",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "293",
       "id": 849
     },
@@ -11165,7 +11337,7 @@
       "link": "https://www.pluralsight.com/courses/java-fundamentals-language",
       "name": "Java Fundamentals: The Java Language",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "1319",
       "id": 850
     },
@@ -11175,7 +11347,7 @@
       "link": "https://www.pluralsight.com/courses/java-8-whats-new",
       "name": "What's New in Java 8",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "613",
       "id": 851
     },
@@ -11185,7 +11357,7 @@
       "link": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams",
       "name": "From Collections to Streams in Java 8 Using Lambda Expressions",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "264",
       "id": 852
     },
@@ -11195,7 +11367,7 @@
       "link": "https://www.pluralsight.com/courses/java-web-fundamentals",
       "name": "Java Web Fundamentals",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "720",
       "id": 853
     },
@@ -11205,7 +11377,7 @@
       "link": "https://www.pluralsight.com/courses/java-fundamentals-multithreading-concurrency",
       "name": "Java Fundamentals - Concurrency with Multithreading",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "112",
       "id": 854
     },
@@ -11215,7 +11387,7 @@
       "link": "https://www.pluralsight.com/courses/java-ee-big-picture",
       "name": "Java EE: The Big Picture",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "382",
       "id": 855
     },
@@ -11225,7 +11397,7 @@
       "link": "https://www.pluralsight.com/courses/java-fundamentals-collections",
       "name": "Java Fundamentals: Collections",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "253",
       "id": 856
     },
@@ -11235,7 +11407,7 @@
       "link": "https://www.pluralsight.com/courses/java-ee-7-fundamentals",
       "name": "Java EE 7 Fundamentals",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "130",
       "id": 857
     },
@@ -11245,7 +11417,7 @@
       "link": "https://www.pluralsight.com/courses/java-fundamentals-object-oriented-design",
       "name": "Java Fundamentals: Object-oriented Design",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "109",
       "id": 858
     },
@@ -11255,7 +11427,7 @@
       "link": "https://www.pluralsight.com/courses/java-8-data-processing-streams-collectors-optionals",
       "name": "Streams, Collectors, and Optionals for Data Processing in Java 8",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "117",
       "id": 859
     },
@@ -11265,7 +11437,7 @@
       "link": "https://www.pluralsight.com/courses/java-ee-programming-servlets",
       "name": "Java EE: Programming Servlets",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "131",
       "id": 860
     },
@@ -11275,7 +11447,7 @@
       "link": "https://www.pluralsight.com/courses/java-microservices-spring-cloud-developing-services",
       "name": "Java Microservices with Spring Cloud: Developing Services",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "179",
       "id": 861
     },
@@ -11285,7 +11457,7 @@
       "link": "https://www.pluralsight.com/courses/javaserver-faces-getting-started-java-ee",
       "name": "Java EE: Getting Started with JavaServer Faces",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "39",
       "id": 862
     },
@@ -11295,7 +11467,7 @@
       "link": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading",
       "name": "Applying Concurrency and Multi-threading to Common Java Patterns",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "345",
       "id": 863
     },
@@ -11305,7 +11477,7 @@
       "link": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
       "name": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "66",
       "id": 864
     },
@@ -11315,7 +11487,7 @@
       "link": "https://www.pluralsight.com/courses/java-functional-programming",
       "name": "Functional Programming With Java",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "501",
       "id": 865
     },
@@ -11325,7 +11497,7 @@
       "link": "https://www.pluralsight.com/courses/java-ee-java-server-pages",
       "name": "Java EE: Java Server Pages",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "64",
       "id": 866
     },
@@ -11335,7 +11507,7 @@
       "link": "https://www.pluralsight.com/courses/java-se-java-fx-application-building-your-first",
       "name": "Java SE: Building Your First JavaFX Application",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "67",
       "id": 867
     },
@@ -11345,7 +11517,7 @@
       "link": "https://www.pluralsight.com/courses/java-understanding-solving-memory-problems",
       "name": "Understanding and Solving Java Memory Problems",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "44",
       "id": 868
     },
@@ -11355,7 +11527,7 @@
       "link": "https://www.pluralsight.com/courses/jdbc-java-platform-working-with-databases",
       "name": "Java Platform: Working with Databases Using JDBC",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "271",
       "id": 869
     },
@@ -11365,7 +11537,7 @@
       "link": "https://www.pluralsight.com/courses/java-persistence-api-21",
       "name": "Java Persistence API (JPA) 2.1",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "441",
       "id": 870
     },
@@ -11375,7 +11547,7 @@
       "link": "https://www.pluralsight.com/courses/scaling-java-applications-through-concurrency",
       "name": "Scaling Java Applications Through Concurrency",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "42",
       "id": 871
     },
@@ -11385,7 +11557,7 @@
       "link": "https://www.pluralsight.com/courses/java-9-modularity-first-look",
       "name": "Java 9 Modularity: First Look",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "66",
       "id": 872
     },
@@ -11395,7 +11567,7 @@
       "link": "https://www.pluralsight.com/courses/kotlin-getting-started",
       "name": "Getting Started with Kotlin",
       "tags": [],
-      "topic": "Java",
+      "topic": "/topic/7",
       "votes": "52",
       "id": 873
     }
@@ -11409,7 +11581,7 @@
       "courses": [
         "/courses/1"
       ],
-      "topic": "/topics/1"
+      "topic": "Autodesk Admin"
     }
   ]
 }
