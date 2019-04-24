@@ -1,4 +1,5 @@
 package models;
+import lombok.Data;
 
 @Data
 public class Course {
@@ -9,5 +10,5 @@ public class Course {
     private String description;
     private String difficulty;
     private String[] tags;
-    private Topic topics;
+    private Topic topic;
 }

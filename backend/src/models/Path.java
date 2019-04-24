@@ -5,6 +5,6 @@ import lombok.Data;
 public class Path {
     private String id;
     private String name;
-    private Courses courses;
-    private Topic topics;
+    private Course course;
+    private Topic topic;
 }
