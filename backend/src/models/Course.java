@@ -1,7 +1,7 @@
 package models;
 
 @Data
-public class Courses {
+public class Course {
     private String id;
     private String name;
     private int votes;
