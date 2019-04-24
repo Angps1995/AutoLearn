@@ -11,17 +11,6 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
     <Router>
         <div>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/course">Course</Link>
-                </li>
-                <li>
-                    <Link to="/path">Path</Link>
-                </li>
-            </ul>
             <Switch>
                 <Route path="/" exact component={App} />
                 <Route path="/course" component={Course} />
@@ -31,7 +20,6 @@ const routing = (
         </div>
     </Router>
 )
-
 
 ReactDOM.render(routing, document.getElementById('root'));
 
