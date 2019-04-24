@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
 
+import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import NotFound from "./pages/NotFound";
 import { Route, Link, BrowserRouter as Router,Switch } from 'react-router-dom';
@@ -105,22 +105,15 @@ export default class App extends Component {
     return (
       <div className="App">
           <Router>
-        <header>
-          <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">AutoLearn</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <header>
+            <Navbar expand="lg" className="header-nav">
+                <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link ><Link to="/course">Course</Link></Nav.Link>
-                <Nav.Link><Link to="/path">Path</Link></Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
+                <Nav.Link className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/path">Path</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -136,6 +129,10 @@ export default class App extends Component {
             </div>
         </body>
           </Router>
+        <footer>
+          <Container>
+          </Container>
+        </footer>
       </div>
     );
   }

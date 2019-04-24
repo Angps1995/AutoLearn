@@ -37,3 +37,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* ############## HEADER ############ */
+header {
+  background-color: var(--dark-bg-color) !important;
+}
+
+.header-nav {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header-title {
+  color: var(--theme-color) !important;
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header-subtitle {
+  font-weight: 500;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+a {
+  color: white!important;
+}
+
+/* ############## Footer ############ */
+
+footer {
+  background-color: var(--dark-bg-color) !important;
+}
+
+footer .container {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}

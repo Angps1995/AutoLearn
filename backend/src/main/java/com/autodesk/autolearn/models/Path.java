@@ -1,7 +1,7 @@
 package com.autodesk.autolearn.models;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 import javax.persistence.*;
 import java.util.List;
@@ -10,7 +10,9 @@ import java.util.List;
 @Entity
 public class Path {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
     private String name;
 
     @ManyToMany(cascade = CascadeType.ALL)

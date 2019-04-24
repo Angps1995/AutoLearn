@@ -1,17 +1,17 @@
 package com.autodesk.autolearn.models;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
+
 import java.util.List;
 
 @Data
 @Entity
 public class Topic {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     private String name;
 
     @OneToMany(mappedBy = "topic")

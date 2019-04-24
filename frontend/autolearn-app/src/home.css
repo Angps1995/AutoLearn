@@ -1,7 +1,13 @@
+/* ############## SEARCH BAR ############ */
 .Home-hero-div {
   min-height: 70vh;
   width: 100%;
-  background-color: var(--dark-bg-color);
+  background:url("http://pluspng.com/img-png/learning-png-hd--1201.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: var(--dark-bg-color); */
   padding: 0 !important;
   margin: 0 !important;
   display: flex;
@@ -17,11 +23,46 @@
 }
 
 .Home-search-bar-btn {
+  color: white;
+  background-color: var(--dark-bg-color);;
+  border-color: var(--dark-bg-color);;
+}
+
+.Home-search-bar-btn:hover {
+  color: white;
   background-color: var(--theme-color);
   border-color: var(--theme-color);
 }
 
+/* ############## CARD ############ */
+
+Card {
+  width: 100%;
+}
+
+.Home-go-btn {
+  color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-go-btn:hover {
+  color: white !important;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+/* ############## UTILITIES ############ */
+
 .align-center {
   margin: 0 auto;
   float: none;
+}
+
+.container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.row {
+  padding-top: 20px;
 }
