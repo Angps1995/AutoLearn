@@ -1,5 +1,6 @@
 package models;
 
+
 @Data
 public class Course {
     private String id;
@@ -9,5 +10,5 @@ public class Course {
     private String description;
     private String difficulty;
     private String[] tags;
-    private Topic topics;
+    private Topic topic;
 }

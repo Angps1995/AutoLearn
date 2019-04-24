@@ -287,6 +287,10 @@ definitions:
         type: "integer"
       name:
         type: "string"
+      description:
+        type: "string"
+      votes:
+        type: "integer"
       topic:
         $ref: "#/definitions/Topic"
       courses:
