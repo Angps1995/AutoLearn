@@ -14,7 +14,9 @@ export default class Path extends Component {
     }
     componentDidMount() {
         axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
-            .then(response => this.setState({paths: response.data}))
+            .then(response => {
+                return this.setState({paths: response.data})
+            })
     }
     render() {
         const course_id = this.props.location.course_id;
@@ -22,9 +24,11 @@ export default class Path extends Component {
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
                 {this.state.paths
-                    .filter(path => path.courses.find(function(element) {
-                        return element === '/courses/' + course_id;
-                    })
+                    .filter(path => {
+                        path.courses_links.find(function(element) {
+                                return element === '/courses/' + course_id;
+                            })
+                        }
                     )
                     .map((path, index) => {
                     return (
@@ -34,6 +38,7 @@ export default class Path extends Component {
                                 <CardTitle>{path.id}</CardTitle>
                                 <CardText>{path.description}</CardText>
                                 <Button>{path.votes}</Button>
+                                <h1>{path.courses_links}</h1>
                             </CardBody>
                         </Card>
                     );
