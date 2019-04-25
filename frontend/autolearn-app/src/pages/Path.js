@@ -14,17 +14,30 @@ export default class Path extends Component {
     }
     componentDidMount() {
         axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
-            .then(response => this.setState({paths: response.data}))
+            .then(response => {
+                return this.setState({paths: response.data})
+            })
     }
     render() {
-        const course_id = this.props.location.course_id;
+        const courseDetails = this.props.location.course;
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
+                <Card>
+                    <CardBody>
+                        <CardTitle>{courseDetails.name}</CardTitle>
+                        <CardTitle>{courseDetails.id}</CardTitle>
+                        <CardText>{courseDetails.description}</CardText>
+                        <Button>{courseDetails.votes}</Button>
+                    </CardBody>
+                </Card>
+                <br></br>
                 {this.state.paths
-                    .filter(path => path.courses.find(function(element) {
-                        return element === '/courses/' + course_id;
-                    })
+                    .filter(path => {
+                            path.courses_links.split(',').find(function(element) {
+                            return element === '/courses/' + courseDetails;
+                    });
+                }
                     )
                     .map((path, index) => {
                     return (
