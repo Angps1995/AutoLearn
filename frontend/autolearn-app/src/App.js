@@ -135,9 +135,9 @@ export default class App extends Component {
     axios.post('http://89db2a0d.ngrok.io/paths', this.state.pathDetails) // change this url to whichever end point to use
       .then(response => {
       })
-    // axios.post('http://localhost:5000/courses', this.state.courseDetails) // change this url to whichever end point to use
-    //   .then(response => {
-    //   })
+    axios.post('http://localhost:5000/courses', this.state.courseDetails) // change this url to whichever end point to use
+      .then(response => {
+      })
     
     this.handleClose()
   }
