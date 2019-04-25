@@ -17,9 +17,13 @@ export default class CourseDetails extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
+        axios.get('http://f090ce53.ngrok.io/paths') // change this url to whichever end point to use
             .then(response => {
-                return this.setState({paths: response.data})
+                let pathsData = response.data['_embedded']['paths']
+                pathsData.forEach(function(element, i) {
+                  element['id'] = i+1
+                });
+                return this.setState({paths: pathsData})
             })
     }
 
@@ -27,12 +31,10 @@ export default class CourseDetails extends Component {
         numOfVotes += 1
         var myCopiedData = paths
         myCopiedData[index].votes = numOfVotes
-        console.log(numOfVotes)
         this.setState({
             courses: myCopiedData
         })
         // return numOfVotes
-        console.log(this.state.courses)
     }
 
     render() {
@@ -80,6 +82,7 @@ export default class CourseDetails extends Component {
                       </div>
                     )
                   default:
+                    console.log(courseDetails)
                     var paths = this.state.paths.filter(path => {
                           const name = path.courses_links.split(',');
                           return name.includes('/courses/' + courseDetails.id);
@@ -103,6 +106,7 @@ export default class CourseDetails extends Component {
                             <p className="Path-subtitle" >Suggested Paths</p>
                             {paths
                                 .map((path, index) => {
+                                  console.log(path)
                                 return (
                                     <Card>
                                         <CardBody>

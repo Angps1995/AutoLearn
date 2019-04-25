@@ -20,10 +20,11 @@ export default class Home extends Component {
         this.componentDidMount = this.componentDidMount.bind(this)
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/topics') // change this url to whichever end point to use
-            .then(response => this.setState({topics: response.data}))
+        axios.get('http://f090ce53.ngrok.io/topics') // change this url to whichever end point to use
+            .then(response => this.setState({topics: response.data['_embedded']['topics']}))
     }
     render() {
+      console.log(this.state.topics)
         return (
           <div>
             <div className="Home-hero-div">
@@ -69,6 +70,7 @@ export default class Home extends Component {
                 <Row className="Home-card-row text-align-center">
                   {this.state.topics
                     .map((topic, index) => {
+                      console.log(topic)
                     return (
                       <Col md={4}>
                         <Card>
@@ -77,7 +79,7 @@ export default class Home extends Component {
                             <Card.Title className="Home-card-name">
                               <Link to={{
                                   pathname: '/course',
-                                  topic_id:topic.id
+                                  topic_id: '/topics/' + (index+1)
                               }}>{topic.name}</Link>
                             </Card.Title>
                           </Card.Body>

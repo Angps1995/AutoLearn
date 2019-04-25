@@ -16,13 +16,16 @@ export default class Courses extends Component {
         this.upvote = this.upvote.bind(this)
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/courses') // change this url to whichever end point to use
+        axios.get('http://f090ce53.ngrok.io/courses') // change this url to whichever end point to use
             .then(response => {
-                const myData = [].concat(response.data)
-                    .sort((a, b) =>
+                const myData = [].concat(response.data['_embedded']['courses'])
+                myData.forEach(function(element, i) {
+                    element['id'] = i+1
+                });
+                myData.sort((a, b) =>
                         // console.log(a.votes>b.votes)
                         (a.votes < b.votes) ? 1 : ((b.votes < a.votes) ? -1 : 0)
-                    )
+                )
 
                 this.setState({
                     courses: myData
@@ -42,9 +45,9 @@ export default class Courses extends Component {
         // return numOfVotes
     }
     render() {
-        const topicId = this.props.location.topic_id;
+        const topicLink = this.props.location.topic_id;
         let x
-        if (topicId == undefined) {
+        if (topicLink == undefined) {
           x = 1
         }
         return (
@@ -69,7 +72,12 @@ export default class Courses extends Component {
                       <div>
                         {courses
                             .map((course, index) => {
-                            let tagsArr = course.tags.split(",");
+                            let tagsArr
+                            if(course.tags == null){
+                                tagsArr = []
+                            } else {
+                                tagsArr = course.tags.split(",");
+                            }
                             return (
                                 <Card>
                                     <Card.Body>
@@ -99,7 +107,7 @@ export default class Courses extends Component {
                       </div>
                     )
                   default:
-                    var courses = this.state.courses.filter(course => course.topic_id === topicId)
+                    var courses = this.state.courses.filter(course => course.topicLink === topicLink)
                     return (
                       <div>
                         {
@@ -115,6 +123,7 @@ export default class Courses extends Component {
                                                 <Link to={{
                                                     pathname: '/course-details',
                                                     course: course
+                                                    // course_id: course_id
                                                 }}>
                                                     <Card.Title>{course.name}</Card.Title>
                                                 </Link>
