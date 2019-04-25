@@ -17,16 +17,13 @@ export default class Courses extends Component {
         axios.get('http://localhost:5000/courses') // change this url to whichever end point to use
             .then(response => {
                 const myData = [].concat(response.data)
-                    // .sort((a, b) => 
-                    //     console.log(a.votes>b.votes)
-                    //     // a.votes > b.votes
-                    //     )
-                
-                    // console.log(myData)
-                    console.log(response.data)
+                    .sort((a, b) => 
+                        // console.log(a.votes>b.votes)
+                        (a.votes < b.votes) ? 1 : ((b.votes < a.votes) ? -1 : 0)
+                        )
                 
                 this.setState({
-                    courses: response.data
+                    courses: myData
                 })
 
             })
@@ -44,7 +41,7 @@ export default class Courses extends Component {
                         <Card>
                             <Card.Body>
                                 <span style={{ display: "inline-flex" }}>
-                                    <Button style={{ maxWidth: "40px", maxHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                    <Button style={{ maxWidth: "100px", maxHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                     <span>
                                         <Card.Title>{course.name}</Card.Title>
                                         <Card.Text>{course.description}</Card.Text>
