@@ -8,20 +8,16 @@ export default class Content extends Component {
       this.state = {
         username: ''
       }
-      this.handleClick = this.handleClick.bind(this)
+          this.componentDidMount = this.componentDidMount.bind(this)
     }
-    handleClick () {
-       axios.get('http://localhost:5000/paths')
-         .then(response => this.setState({username: response.data[0].name}))
-
-     }
+    componentDidMount() {
+        axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
+          .then(response => this.setState({username: JSON.stringify(response.data)}))
+    }
 
     render () {
       return (
         <div className='button__container'>
-          <button className='button' onClick={this.handleClick}>
-            Click Me
-          </button>
           <p>{this.state.username}</p>
         </div>
       )
