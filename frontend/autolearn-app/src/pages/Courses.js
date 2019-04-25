@@ -31,12 +31,15 @@ export default class Courses extends Component {
 
 
     render() {
+        const topicId = this.props.location.topic_id;
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
 
 
-                {this.state.courses.map((course, index) => {
+                {this.state.courses
+                    .filter(course => course.topic_id === topicId)
+                    .map((course, index) => {
                     let tagsArr = course.tags.split(",");
                     return (
 
@@ -47,7 +50,7 @@ export default class Courses extends Component {
                                     <span>
                                         <Link to={{
                                             pathname: '/path',
-                                            course_id: course.id
+                                            course: course
                                         }}>
                                             <Card.Title>{course.name}</Card.Title>
                                             Path</Link>

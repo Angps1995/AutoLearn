@@ -53,13 +53,13 @@ export default class Path extends Component {
                           <Button>{courseDetails.votes}</Button>
                       </CardBody>
                   </Card>
-                  <br></br>
+                  <p>Suggested Paths</p>
                   {this.state.paths
                       .filter(path => {
                               path.courses_links.split(',').find(function(element) {
                               return element === '/courses/' + courseDetails;
-                      });
-                  }
+                            });
+                      }
                       )
                       .map((path, index) => {
                       return (
@@ -76,7 +76,6 @@ export default class Path extends Component {
               </div>
           );
         }
-
     }
 }
 
