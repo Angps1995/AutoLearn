@@ -20,7 +20,8 @@ export default class Courses extends Component {
             .then(response => this.setState({courses: response.data}))
     }
     render() {
-        
+        const topic_id = this.props.location.topic_id;
+        console.log(topic_id)
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />

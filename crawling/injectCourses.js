@@ -44,7 +44,11 @@ const mapTopicToString = (data) => {
     data.forEach((element, counter, dataArr) => {
         if (element["topic"] !== currTopic) {
             if (!isEmpty(path_obj)){
-                path_obj ["courses_links"] = JSON.stringify(path_obj["courses_links"])
+                let str = "";
+                path_obj ["courses_links"].forEach((element) => {
+                    str += element + ","
+                })
+                path_obj ["courses_links"] = str.replace(/,\s*$/, "");
                 axios.post('http://localhost:6789/paths', path_obj)
                 .then(function (response) {
                 })
@@ -80,7 +84,12 @@ const mapTopicToString = (data) => {
     index = 2;
     for (let course of data) {
         course["id"] = index++;
-        course ["tags"] = JSON.stringify(course["tags"])
+        
+        let str = "";
+        course["tags"].forEach((element) => {
+            str += element + ","
+        })
+        course ["tags"] = str.replace(/,\s*$/, "");
         course ["topic_id"] = parseInt(course["topic"].substring(8))
         course ["votes"] = parseInt(course ["votes"])
         axios.post('http://localhost:6789/courses', course)
