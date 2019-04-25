@@ -19,7 +19,7 @@ export default class Path extends Component {
             })
     }
     render() {
-        const courseDetails = this.props.location.course_id;
+        const courseDetails = this.props.location.course;
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
