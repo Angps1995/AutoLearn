@@ -11,12 +11,33 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { InputGroup, FormControl, Button, Card, Modal, Form, Table } from 'react-bootstrap';
 import NotFound from "./pages/NotFound";
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+import axios from 'axios';
 
 
 export default class App extends Component {
   constructor() {
     super();
     this.state = {
+      courseDetails :{
+        "name": "This is an example name",
+        "description": "This is an example description",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-web-fundamentals-v1.jpg?w=120",
+        "link": "https://www.example.link.com",
+        "tags": "",
+        "topic": "/topics/44",
+        "votes": 0,
+        "path_id": 46,
+        "topic_id": 44
+      },
+      pathDetails : {
+        "name": "",
+        "votes": 0,
+        "description": "This is an example learning path",
+        "courses_links": "/courses/869",
+        "topic": "/topics/44",
+        "topic_id": 44
+      },
       show: false,
       topics: [{
         "id": 1,
@@ -104,10 +125,22 @@ export default class App extends Component {
           "topic": "/topics/3"
         }]
     };
+    this.submitFormData = this.submitFormData.bind(this);
     this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   };
 
+  submitFormData() {
+    axios.post('http://89db2a0d.ngrok.io/paths', this.state.pathDetails) // change this url to whichever end point to use
+      .then(response => {
+      })
+    // axios.post('http://localhost:5000/courses', this.state.courseDetails) // change this url to whichever end point to use
+    //   .then(response => {
+    //   })
+    
+    this.handleClose()
+  }
   handleClose() {
     this.setState({ show: false });
   }
@@ -115,6 +148,36 @@ export default class App extends Component {
   handleShow() {
     this.setState({ show: true });
   }
+
+  handleChange(event){
+
+    switch (event.target.id) {
+      case "name":
+        this.state.courseDetails["name"] = event.target.value
+        break;
+      case "description":
+        this.state.courseDetails["description"] = event.target.value
+        break;
+      case "tags":
+        this.state.courseDetails["tags"] = event.target.value
+        break;
+      case "link":
+        this.state.courseDetails["link"] = event.target.value
+        break;
+      case "difficulty":
+        this.state.courseDetails["difficulty"] = event.target.value
+        break;
+      case "lp_name":
+        this.state.pathDetails["name"] = event.target.value
+        break;
+      case "lp_description":
+        this.state.pathDetails["description"] = event.target.value
+        break;
+      default:
+        break;
+    }
+  }
+
   render() {
     return (
       <div className="App">
@@ -168,53 +231,45 @@ export default class App extends Component {
               <Form id= "createCourse">
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Name of Course</Form.Label>
-                  <Form.Control type="text" className="form-input" placeholder="Course name" />
+                  <Form.Control id="name" type="text" className="form-input" placeholder="Course name" onChange={this.handleChange}/>
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                   <Form.Label>Description</Form.Label>
-                  <Form.Control as="textarea" rows="3" />
+                  <Form.Control id="description" as="textarea" rows="3" onChange={this.handleChange}/>
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Link to Course</Form.Label>
-                  <Form.Control type="text" className="form-input" placeholder="https://www.example.com" />
+                  <Form.Control id="link" type="text" className="form-input" placeholder="https://www.example.com" onChange={this.handleChange} />
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlSelect1">
                   <Form.Label>Difficulty</Form.Label>
-                  <Form.Control as="select">
+                  <Form.Control id="difficulty" as="select" onChange={this.handleChange}>
                     <option>Beginner</option>
-                    <option>Advanced</option>
                     <option>Intermediate</option>
+                    <option>Advanced</option>
                   </Form.Control>
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
-                  <Form.Label>Tags</Form.Label>
-                  <Form.Control as="textarea" rows="3" />
+                  <Form.Label>Tags (Separate each tag with a ',')</Form.Label>
+                  <Form.Control id="tags" as="textarea" rows="3" onChange={this.handleChange}/>
                 </Form.Group>
               </Form>
 
-              <Form id= "createPath">
+              <Form id= "createPath" onSubmit ={this.submitFormData} >
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Name of Learning Path</Form.Label>
-                  <Form.Control type="text" className="form-input" placeholder="Path name" />
+                  <Form.Control id ="lp_name" type="text" className="form-input" placeholder="Path name" onChange={this.handleChange} />
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                   <Form.Label>Description</Form.Label>
-                  <Form.Control as="textarea" rows="3" />
-                </Form.Group>
-                <Form.Group controlId="exampleForm.ControlSelect1">
-                  <Form.Label>Topic</Form.Label>
-                  <Form.Control as="select">
-                    <option>Beginner</option>
-                    <option>Advanced</option>
-                    <option>Intermediate</option>
-                  </Form.Control>
+                  <Form.Control id="lp_description" as="textarea" rows="3" onChange={this.handleChange}/>
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                   <Form.Label>Courses</Form.Label>
                   <InputGroup className="mb-3">
                     <FormControl
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
+                      placeholder="Course's name"
+                      aria-label="Course's name"
                       aria-describedby="basic-addon2"
                       className="form-input"
                     />
@@ -223,28 +278,6 @@ export default class App extends Component {
                     </InputGroup.Append>
                   </InputGroup>
                 </Form.Group>
-                <Table responsive>
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Courses Selected</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Table cell</td>
-                    </tr>
-                  </tbody>
-                </Table>
               </Form>
 
             </Modal.Body>
@@ -252,7 +285,7 @@ export default class App extends Component {
               <Button variant="secondary" onClick={this.handleClose}>
                 Close
               </Button>
-              <Button variant="primary" className="Home-form-submit-btn" onClick={this.handleClose}>
+              <Button variant="primary" className="Home-form-submit-btn" onClick={this.submitFormData}>
                 Submit
               </Button>
             </Modal.Footer>
