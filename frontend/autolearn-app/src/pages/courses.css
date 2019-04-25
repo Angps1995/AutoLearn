@@ -60,3 +60,9 @@ span span {
   background-color: var(--theme-color) !important;
   border-color: var(--theme-color) !important;
 }
+
+.Path-subtitle {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 23px;
+}

@@ -92,7 +92,7 @@ export default class Path extends Component {
                                     </span>
                                 </CardBody>
                             </Card>
-                            <p>Suggested Paths</p>
+                            <p className="Path-subtitle" >Suggested Paths</p>
                             {this.state.paths
                                 .filter(path => {
                                         const name = path.courses_links.split(',');
