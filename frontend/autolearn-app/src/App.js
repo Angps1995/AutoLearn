@@ -44,27 +44,29 @@ export default class App extends Component {
         },
         {
           "id": 2,
-          "name": "Autodesk Ufosys",
-          "votes": 0,
-          "link": "http://share.autodesk.com",
-          "description": "Everything for Autodesk employees",
-          "difficulty": "Intermediate",
+          "name": "The Python Bible | Everything You Need to Program in Python",
+          "votes": 95,
+          "link": "https://hackr.io/tutorial/the-python-bible-everything-you-need-to-program-in-python",
+          "description": null,
+          "difficulty": "Beginner",
           "tags": [
-            "autodesk",
-            "wiki"
+            "Paid",
+            "Video",
+            "Beginner",
+            "Python3"
           ],
           "topic": "/topics/2"
         },
         {
           "id": 3,
-          "name": "Autodesk Outfosys",
+          "name": "Downloading Files Using Python",
           "votes": 0,
-          "link": "http://share.autodesk.com",
-          "description": "Everything for Autodesk employees",
+          "link": "https://hackr.io/tutorial/downloading-files-using-python",
+          "description": null,
           "difficulty": "Advance",
           "tags": [
-            "autodesk",
-            "wiki"
+            "Free",
+            "Beginner"
           ],
           "topic": "/topics/3"
         }],
@@ -108,30 +110,30 @@ export default class App extends Component {
         <Router>
           <header>
             <Navbar expand="lg" className="header-nav">
-                <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link className="header-subtitle"><Link to="/">H O M E</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/course">C O U R S E S</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/path">P A T H</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/content">C O N T E N T</Link></Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-        </header>
-        <body>
+              <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link className="header-subtitle"><Link to="/">H O M E</Link></Nav.Link>
+                  <Nav.Link className="header-subtitle"><Link to="/course">C O U R S E S</Link></Nav.Link>
+                  <Nav.Link className="header-subtitle"><Link to="/path">P A T H</Link></Nav.Link>
+                  <Nav.Link className="header-subtitle"><Link to="/content">C O N T E N T</Link></Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          </header>
+          <body>
             <div>
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/course"
-                  render= {() => (
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/course"
+                  render={() => (
                     <Courses courses={this.state.courses} />
                   )} />
-                    <Route path="/path" component={Path} />
-                    <Route path="/content" component={Content} />
-                    <Route component={NotFound} />
-                </Switch>
+                <Route path="/path" component={Path} />
+                <Route path="/content" component={Content} />
+                <Route component={NotFound} />
+              </Switch>
             </div>
           </body>
         </Router>
