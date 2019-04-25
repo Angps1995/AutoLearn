@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {Button, Card, CardBody, CardText, CardTitle} from "reactstrap";
 import {Link} from "react-router-dom";
 import axios from 'axios';
+import './courses.css';
 
 export default class Path extends Component {
     constructor () {
@@ -27,6 +28,7 @@ export default class Path extends Component {
         }
         return (
             <div>
+              <Container>
                 <Row className="Courses-title-row">
                   <Col>
                     <h3 className="text-align-center">P A T H S</h3>
@@ -48,10 +50,13 @@ export default class Path extends Component {
                             return (
                                 <Card>
                                     <CardBody>
-                                        <CardTitle>{path.name}</CardTitle>
-                                        <CardTitle>{path.id}</CardTitle>
-                                        <CardText>{path.description}</CardText>
-                                        <Button>{path.votes}</Button>
+                                        <span style={{ display: "inline-flex" }}>
+                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                            <span>
+                                              <CardTitle>{path.name}</CardTitle>
+                                              <CardText>{path.description}</CardText>
+                                            </span>
+                                        </span>
                                     </CardBody>
                                 </Card>
                             );
@@ -63,10 +68,13 @@ export default class Path extends Component {
                         <div>
                             <Card>
                                 <CardBody>
-                                    <CardTitle>{courseDetails.name}</CardTitle>
-                                    <CardTitle>{courseDetails.id}</CardTitle>
-                                    <CardText>{courseDetails.description}</CardText>
-                                    <Button>{courseDetails.votes}</Button>
+                                    <span style={{ display: "inline-flex" }}>
+                                        <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{courseDetails.votes}</Button>
+                                        <span>
+                                          <CardTitle>{courseDetails.name}</CardTitle>
+                                          <CardText>{courseDetails.description}</CardText>
+                                        </span>
+                                    </span>
                                 </CardBody>
                             </Card>
                             <p>Suggested Paths</p>
@@ -81,10 +89,13 @@ export default class Path extends Component {
                                 return (
                                     <Card>
                                         <CardBody>
-                                            <CardTitle>{path.name}</CardTitle>
-                                            <CardTitle>{path.id}</CardTitle>
-                                            <CardText>{path.description}</CardText>
-                                            <Button>{path.votes}</Button>
+                                            <span style={{ display: "inline-flex" }}>
+                                                <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                                <span>
+                                                  <CardTitle>{path.name}</CardTitle>
+                                                  <CardText>{path.description}</CardText>
+                                                </span>
+                                            </span>
                                         </CardBody>
                                     </Card>
                                 );
@@ -93,6 +104,7 @@ export default class Path extends Component {
                     );
                   }
                   })()}
+              </Container>
             </div>
         );
     }
