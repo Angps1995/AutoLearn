@@ -13,6 +13,7 @@ export default class Courses extends Component {
             courses: []
         }
         this.componentDidMount = this.componentDidMount.bind(this)
+        this.upvote = this.upvote.bind(this)
     }
     componentDidMount() {
         axios.get('http://localhost:5000/courses') // change this url to whichever end point to use
@@ -30,6 +31,17 @@ export default class Courses extends Component {
             })
     }
 
+    upvote(numOfVotes, index){
+        numOfVotes += 1
+        var myCopiedData = this.state.courses
+        myCopiedData[index].votes = numOfVotes
+        console.log(numOfVotes)
+        this.setState({
+            courses: myCopiedData
+        })
+        // return numOfVotes
+        console.log(this.state.courses)
+    }
     render() {
         const topicId = this.props.location.topic_id;
         let x
@@ -127,8 +139,6 @@ export default class Courses extends Component {
             </div>
         )
       }
-
-
 }
 
 Courses.propTypes = {
