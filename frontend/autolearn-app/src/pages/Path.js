@@ -20,42 +20,65 @@ export default class Path extends Component {
     }
     render() {
         const courseDetails = this.props.location.course;
-        return (
-            <div>
-                <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
-                <Card>
-                    <CardBody>
-                        <CardTitle>{courseDetails.name}</CardTitle>
-                        <CardTitle>{courseDetails.id}</CardTitle>
-                        <CardText>{courseDetails.description}</CardText>
-                        <CardText>{courseDetails.link}</CardText>
-                        <Button>{courseDetails.votes}</Button>
-                    </CardBody>
-                </Card>
-                <p>Suggested Paths</p>
-                {this.state.paths
-                    .filter(path => {
-                        const name = path.courses_links.split(',');
-                        return name.includes('/courses/' + courseDetails.id);
-                    }
-                    )
-                    .map((path, index) => {
-                    return (
-                        <Card>
-                            <CardBody>
-                                <CardTitle>{path.name}</CardTitle>
-                                <CardTitle>{path.id}</CardTitle>
-                                <CardText>{path.description}</CardText>
-                                <Button>{path.votes}</Button>
-                            </CardBody>
-                        </Card>
-                    );
-                })}
-            </div>
-        );
+        if(courseDetails == undefined) {
+          return (
+              <div>
+                  <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
+                  <br></br>
+                  {this.state.paths
+                      .map((path, index) => {
+                      return (
+                          <Card>
+                              <CardBody>
+                                  <CardTitle>{path.name}</CardTitle>
+                                  <CardTitle>{path.id}</CardTitle>
+                                  <CardText>{path.description}</CardText>
+                                  <Button>{path.votes}</Button>
+                              </CardBody>
+                          </Card>
+                      );
+                  })}
+              </div>
+          );
+        }
+        else {
+          return (
+              <div>
+                  <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
+                  <Card>
+                      <CardBody>
+                          <CardTitle>{courseDetails.name}</CardTitle>
+                          <CardTitle>{courseDetails.id}</CardTitle>
+                          <CardText>{courseDetails.description}</CardText>
+                          <Button>{courseDetails.votes}</Button>
+                      </CardBody>
+                  </Card>
+                  <p>Suggested Paths</p>
+                  {this.state.paths
+                      .filter(path => {
+                              const name = path.courses_links.split(',');
+                              return name.includes('/courses/' + courseDetails.id);
+                          }
+
+                      )
+                      .map((path, index) => {
+                      return (
+                          <Card>
+                              <CardBody>
+                                  <CardTitle>{path.name}</CardTitle>
+                                  <CardTitle>{path.id}</CardTitle>
+                                  <CardText>{path.description}</CardText>
+                                  <Button>{path.votes}</Button>
+                              </CardBody>
+                          </Card>
+                      );
+                  })}
+              </div>
+          );
+        }
     }
 }
 
 Path.propTypes = {
-    
+
 };
