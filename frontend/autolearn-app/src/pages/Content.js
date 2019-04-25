@@ -71,7 +71,12 @@ export default class Content extends Component {
                                 <Card.Text>
                                   <p>{course.description}</p>
                                 </Card.Text>
+                                <Link to={{
+                                    pathname: '/course-details',
+                                    course:course
+                                }}>
                                 <Button variant="primary">View Course</Button>
+                              </Link>
                               </Card.Body>
                             </Card>
                         </Col>
@@ -94,7 +99,12 @@ export default class Content extends Component {
                                     <Card.Text>
                                       <p>{course.description}</p>
                                     </Card.Text>
+                                    <Link to={{
+                                        pathname: '/course-details',
+                                        course:course.id
+                                    }}>
                                     <Button variant="primary">View Course</Button>
+                                  </Link>
                                   </Card.Body>
                                 </Card>
                             </Col>
@@ -117,7 +127,12 @@ export default class Content extends Component {
                                     <Card.Text>
                                       <p>{course.description}</p>
                                     </Card.Text>
+                                    <Link to={{
+                                        pathname: '/course-details',
+                                        course:course
+                                    }}>
                                     <Button variant="primary">View Course</Button>
+                                  </Link>
                                   </Card.Body>
                                 </Card>
                             </Col>
