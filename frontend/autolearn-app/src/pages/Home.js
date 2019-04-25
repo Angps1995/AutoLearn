@@ -40,7 +40,7 @@ export default class Home extends Component {
               <Container>
                 <Row className="Home-card-title-row">
                   <Col>
-                    <h3 className="text-align-center">C O U R S E S</h3>
+                    <h3 className="text-align-center">T O P I C S</h3>
                   </Col>
                 </Row>
                 <Row className="Home-card-subtitle-row">
