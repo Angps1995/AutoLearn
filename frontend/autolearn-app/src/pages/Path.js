@@ -56,10 +56,10 @@ export default class Path extends Component {
                   <p>Suggested Paths</p>
                   {this.state.paths
                       .filter(path => {
-                              path.courses_links.split(',').find(function(element) {
-                              return element === '/courses/' + courseDetails;
-                            });
-                      }
+                              const name = path.courses_links.split(',');
+                              return name.includes('/courses/' + courseDetails.id);
+                          }
+
                       )
                       .map((path, index) => {
                       return (
