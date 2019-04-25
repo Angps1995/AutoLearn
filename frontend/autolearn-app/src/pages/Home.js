@@ -5,8 +5,20 @@ import '../home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { InputGroup, FormControl, Button, Card } from 'react-bootstrap';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+import axios from "axios";
 
 export default class Home extends Component {
+    constructor () {
+        super()
+        this.state = {
+            topics: ''
+        }
+        this.componentDidMount = this.componentDidMount.bind(this)
+    }
+    componentDidMount() {
+        axios.get('http://localhost:5000/topics') // change this url to whichever end point to use
+            .then(response => this.setState({topics: response.data}))
+    }
     render() {
         return (
           <div>

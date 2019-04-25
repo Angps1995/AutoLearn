@@ -11,7 +11,7 @@ export default class Content extends Component {
           this.componentDidMount = this.componentDidMount.bind(this)
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
+        axios.get('http://localhost:5000/courses') // change this url to whichever end point to use
           .then(response => this.setState({username: JSON.stringify(response.data)}))
     }
 
