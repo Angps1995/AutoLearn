@@ -36,7 +36,7 @@ export default class Home extends Component {
                 <Row className="Home-subtitle-row">
                   <Col>
                     <p className="text-align-center">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.
+                      Autolearn is designed by Autodesk employees for other Autodesk employees, for achieving more learning, a better learning experience, with less frustration.
                     </p>
                   </Col>
                 </Row>
@@ -62,7 +62,7 @@ export default class Home extends Component {
                 <Row className="Home-card-subtitle-row">
                   <Col>
                     <p className="text-align-center">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.
+                      Everything you may need to know, ranging from Autodesk essentials to programming languages.
                     </p>
                   </Col>
                 </Row>
