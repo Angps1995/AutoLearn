@@ -35,7 +35,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -48,7 +48,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +61,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -76,7 +76,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -89,7 +89,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -102,7 +102,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">Go somewhere</Button>
+                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
