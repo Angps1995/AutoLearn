@@ -13,13 +13,28 @@ export default class Path extends Component {
             paths: []
         }
         this.componentDidMount = this.componentDidMount.bind(this)
+        this.upvote = this.upvote.bind(this)
     }
+
     componentDidMount() {
         axios.get('http://localhost:5000/paths') // change this url to whichever end point to use
             .then(response => {
                 return this.setState({paths: response.data})
             })
     }
+
+    upvote(numOfVotes, index){
+        numOfVotes += 1
+        var myCopiedData = this.state.paths
+        myCopiedData[index].votes = numOfVotes
+        console.log(numOfVotes)
+        this.setState({
+            courses: myCopiedData
+        })
+        // return numOfVotes
+        console.log(this.state.courses)
+    }
+
     render() {
         const courseDetails = this.props.location.course;
         let y
@@ -51,7 +66,7 @@ export default class Path extends Component {
                                 <Card>
                                     <CardBody>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                            <Button onClick={this.upvote.bind(this, path.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
                                             <span>
                                               <CardTitle>{path.name}</CardTitle>
                                               <CardText>{path.description}</CardText>
@@ -69,7 +84,7 @@ export default class Path extends Component {
                             <Card>
                                 <CardBody>
                                     <span style={{ display: "inline-flex" }}>
-                                        <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{courseDetails.votes}</Button>
+                                        <Button onClick={this.upvote.bind(this, courseDetails.votes)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{courseDetails.votes}</Button>
                                         <span>
                                           <CardTitle>{courseDetails.name}</CardTitle>
                                           <CardText>{courseDetails.description}</CardText>
@@ -90,7 +105,7 @@ export default class Path extends Component {
                                     <Card>
                                         <CardBody>
                                             <span style={{ display: "inline-flex" }}>
-                                                <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                                <Button onClick={this.upvote.bind(this, path.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
                                                 <span>
                                                   <CardTitle>{path.name}</CardTitle>
                                                   <CardText>{path.description}</CardText>
