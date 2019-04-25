@@ -34,8 +34,7 @@ export default class Courses extends Component {
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
-
-
+                
                 {this.state.courses.map((course) => {
                     let tagsArr = course.tags.split(",");
                     return (
