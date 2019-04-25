@@ -63,7 +63,7 @@ export default class Home extends Component {
                     </p>
                   </Col>
                 </Row>
-                <Row className="Home-card-row">
+                <Row className="Home-card-row text-align-center">
                   {this.state.topics
                     .map((topic, index) => {
                     return (
@@ -71,8 +71,8 @@ export default class Home extends Component {
                         <Card>
                           <Card.Img variant="top" src={require("../images/logo.svg")} />
                           <Card.Body>
-                            <Card.Title>{topic.name}</Card.Title>
-                            <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
+                            <Card.Title className="Home-card-name"><Link to="/topics/{topic.id}">{topic.name}</Link></Card.Title>
+
                           </Card.Body>
                         </Card>
                       </Col>

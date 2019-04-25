@@ -116,6 +116,11 @@ Card {
   border-color: var(--theme-color) !important;
 }
 
+.Home-card-row a {
+  color: var(--dark-bg-color) !important;
+}
+
+
 /* <Row className="Home-card-view-all-row">
   <div>
     <Button variant="outline-success" className="Home-card-view-all-btn" href="/course">V I E W A L L</Button>
