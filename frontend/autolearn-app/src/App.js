@@ -4,9 +4,13 @@ import './App.css';
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
+import Content from './pages/Content';
 
+import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link} from 'react-router-dom'
+import NotFound from "./pages/NotFound";
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+
 
 export default class App extends Component {
   constructor() {
@@ -64,60 +68,76 @@ export default class App extends Component {
           ],
           "topic": "/topics/3"
         }],
-        path: [
-          {
-            "id": 1,
-            "name": "Introduction to Autodesk Tools",
-            "votes": 0,
-            "description": "Every tool/site new Autodesk employees need to know",
-            "courses": [
-              "/courses/1"
-            ],
-            "topic": "/topics/1"
-          },
-          {
-            "id": 2,
-            "name": "Introduction to Autodesk Tools",
-            "votes": 0,
-            "description": "Every tool/site new Autodesk intern need to know",
-            "courses": [
-              "/courses/2"
-            ],
-            "topic": "/topics/2"
-          },
-          {
-            "id": 3,
-            "name": "Introduction to Autodesk Tools",
-            "votes": 0,
-            "description": "Every tool/site new Autodesk executive need to know",
-            "courses": [
-              "/courses/3"
-            ],
-            "topic": "/topics/3"
-          }]
+      path: [
+        {
+          "id": 1,
+          "name": "Introduction to Autodesk Tools",
+          "votes": 0,
+          "description": "Every tool/site new Autodesk employees need to know",
+          "courses": [
+            "/courses/1"
+          ],
+          "topic": "/topics/1"
+        },
+        {
+          "id": 2,
+          "name": "Introduction to Autodesk Tools",
+          "votes": 0,
+          "description": "Every tool/site new Autodesk intern need to know",
+          "courses": [
+            "/courses/2"
+          ],
+          "topic": "/topics/2"
+        },
+        {
+          "id": 3,
+          "name": "Introduction to Autodesk Tools",
+          "votes": 0,
+          "description": "Every tool/site new Autodesk executive need to know",
+          "courses": [
+            "/courses/3"
+          ],
+          "topic": "/topics/3"
+        }]
     };
   };
 
   render() {
     return (
       <div className="App">
-        <header>
-          <Navbar bg="light" expand="lg" className="header-nav">
-            <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+        <Router>
+          <header>
+            <Navbar expand="lg" className="header-nav">
+                <Navbar.Brand href="#home" className="header-title">AutoLearn</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#home" className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
-                <Nav.Link href="#link" className="header-subtitle"><Link to="/course">Path</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/path">Path</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/content">Content</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </header>
         <body>
-          {<Home />}
-        </body>
+            <div>
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/course"
+                  render= {() => (
+                    <Courses courses={this.state.courses} />
+                  )} />
+                    <Route path="/path" component={Path} />
+                    <Route path="/content" component={Content} />
+                    <Route component={NotFound} />
+                </Switch>
+            </div>
+          </body>
+        </Router>
         <footer>
+          <Container>
+          </Container>
         </footer>
       </div>
     );
