@@ -129,10 +129,10 @@ export default class App extends Component {
                   <Nav.Link className="header-subtitle"><Link to="/course">C O U R S E S</Link></Nav.Link>
                   <Nav.Link className="header-subtitle"><Link to="/path">P A T H</Link></Nav.Link>
                   <Nav.Link className="header-subtitle"><Link to="/content">C O N T E N T</Link></Nav.Link>
-                  <Button variant="outline-success" className="Home-card-view-all-btn" onClick={this.handleShow}>C R E A T E</Button>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+            <Button variant="outline-success" className="Home-card-view-all-btn" onClick={this.handleShow}>C R E A T E</Button>
           </header>
           <body>
             <div>
