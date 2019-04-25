@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
 import axios from 'axios';
+import './courses.css';
 
 import { InputGroup, FormControl, Button, Card, Badge, Container, Row, Col  } from 'react-bootstrap';
 
@@ -56,7 +57,20 @@ export default class Content extends Component {
       }
         return (
           <div>
-            <div className='beginner'>
+          <Container>
+            <Row className="Courses-title-row">
+              <Col>
+                <h3 className="text-align-center">C O N T E N T</h3>
+              </Col>
+            </Row>
+            <Row className="Courses-subtitle-row">
+              <Col>
+                <p className="text-align-center">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.
+                </p>
+              </Col>
+            </Row>
+            <div className='beginner '>
             <h1 style={{background:"black", color:"white"}}>
                 Beginner
             </h1>
@@ -75,7 +89,7 @@ export default class Content extends Component {
                                     pathname: '/course-details',
                                     course:course
                                 }}>
-                                <Button variant="primary">View Course</Button>
+                                <Button variant="primary" className="Content-view-btn">View Course</Button>
                               </Link>
                               </Card.Body>
                             </Card>
@@ -103,7 +117,7 @@ export default class Content extends Component {
                                         pathname: '/course-details',
                                         course:course.id
                                     }}>
-                                    <Button variant="primary">View Course</Button>
+                                    <Button variant="primary" className="Content-view-btn">View Course</Button>
                                   </Link>
                                   </Card.Body>
                                 </Card>
@@ -131,7 +145,7 @@ export default class Content extends Component {
                                         pathname: '/course-details',
                                         course:course
                                     }}>
-                                    <Button variant="primary">View Course</Button>
+                                    <Button variant="primary"  className="Content-view-btn">View Course</Button>
                                   </Link>
                                   </Card.Body>
                                 </Card>
@@ -140,6 +154,7 @@ export default class Content extends Component {
                     })}
                 </Row>
             </div>
+          </Container>
         </div>
 
         )

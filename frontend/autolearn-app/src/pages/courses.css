@@ -66,3 +66,23 @@ span span {
   font-weight: 700;
   font-size: 23px;
 }
+
+.Home-card-row {
+  padding-top: 30px;
+}
+
+.Content-view-btn {
+  color: white !important;
+  font-weight: 500;
+  border-width: 1.5px;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Content-view-btn:hover {
+  font-weight: 500;
+  border-width: 1.5px;
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+}
