@@ -18,17 +18,18 @@ export default class Content extends Component {
     componentDidMount() {
         const path_id = this.props.location.path_id;
         // const path_id = "45"
-        var path_link = "http://localhost:5000/paths/" + path_id
-        var course_link = "http://localhost:5000/courses"
+        var path_link = "http://f090ce53.ngrok.io/paths/" + path_id // ngrok
+        var course_link = "http://f090ce53.ngrok.io/courses" // ngrok
         axios.get(path_link) // change this url to whichever end point to use
           .then(response => this.setState({path: response.data}))
         axios.get(course_link) // change this url to whichever end point to use
-          .then(response => this.setState({course: response.data}))
-
+          .then(response => this.setState({course: response.data._embedded.courses})) //ngrok
     }
 
     // this.setState({username: JSON.stringify(response.data)})
     render () {
+        if (typeof this.state.course[0] !== 'undefined') // comment this if using ngrok
+            console.log(parseInt(String(this.state.course[0]._links.path.href).split("/")[4])) // this too
         console.log(this.state.course)
         var course_links = String(this.state.path.courses_links).split(",");
         var course_ids = []
@@ -37,9 +38,10 @@ export default class Content extends Component {
         }
         var course_data = [];
         for (var i=0; i<this.state.course.length;i++){
-            if (course_ids.includes(this.state.course[i].id))
+            if (course_ids.includes(parseInt(String(this.state.course[i]._links.path.href).split("/")[4]))) // ngrok
                 course_data.push(this.state.course[i])
         }
+        console.log(course_data)
         var beginner = []
         var intermediate = []
         var advanced = []
@@ -79,7 +81,7 @@ export default class Content extends Component {
                     return (
                         <Col md={4}>
                             <Card style={{ width: "100%" }}>
-                              <Card.Img variant="top" src={course.image_link}/>
+                              <Card.Img variant="top" src={course.imageLink}/> {/*ngrok*/}
                               <Card.Body>
                                 <Card.Title>{course.name}</Card.Title>
                                 <Card.Text style={{textAlign:"left"}}>
@@ -107,7 +109,7 @@ export default class Content extends Component {
                         return (
                             <Col md={4}>
                                 <Card style={{ width: "100%" }}>
-                                  <Card.Img variant="top" src={course.image_link}/>
+                                <Card.Img variant="top" src={course.imageLink}/> {/*ngrok*/}
                                   <Card.Body>
                                     <Card.Title>{course.name}</Card.Title>
                                     <Card.Text style={{textAlign:"left"}}>
@@ -135,7 +137,7 @@ export default class Content extends Component {
                         return (
                             <Col md={4}>
                                 <Card style={{ width: "100%" }}>
-                                  <Card.Img variant="top" src={course.image_link}/>
+                                <Card.Img variant="top" src={course.imageLink}/> {/*ngrok*/}
                                   <Card.Body>
                                     <Card.Title>{course.name}</Card.Title>
                                     <Card.Text style={{textAlign:"left"}}>
