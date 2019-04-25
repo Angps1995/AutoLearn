@@ -71,7 +71,7 @@ export default class Content extends Component {
               </Col>
             </Row>
             <div className='beginner '>
-            <h1 style={{background:"black", color:"white"}}>
+            <h1 style={{background:"black", color:"white", paddingLeft: "20px"}}>
                 Beginner
             </h1>
             <Row className="Home-card-row text-align-center">
@@ -99,7 +99,7 @@ export default class Content extends Component {
             </Row>
             </div>
             <div className='intermediate'>
-                <h1 style={{background:"black", color:"white"}}>
+                <h1 style={{background:"black", color:"white", paddingLeft: "20px"}}>
                     Intermediate
                 </h1>
                 <Row className="Home-card-row text-align-center">
@@ -127,7 +127,7 @@ export default class Content extends Component {
                 </Row>
             </div>
             <div className='advanced'>
-                <h1 style={{background:"black", color:"white"}}>
+                <h1 style={{background:"black", color:"white", paddingLeft: "20px"}}>
                     Advanced
                 </h1>
                 <Row className="Home-card-row text-align-center">
