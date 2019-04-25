@@ -1,1 +1,752 @@
-[]
+[
+   {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/web-development-executive-briefing-v2.png?w=120",
+        "link": "https://www.pluralsight.com/courses/web-development-executive-briefing",
+        "name": "Web Development: Executive Briefing",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "34"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/front-end-web-app-html5-javascript-css-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css",
+        "name": "Front-End Web Development Quick Start With HTML5, CSS, and JavaScript",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1594"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/front-end-web-development-get-started-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/front-end-web-development-get-started",
+        "name": "Front End Web Development: Get Started",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1205"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/beyond-aspdotnet-web-development-demystified-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/beyond-aspdotnet-web-development-demystified",
+        "name": "Beyond ASP.NET MVC: Modern Web Development Demystified",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "65"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/audience/software-development.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/full-stack-web-development-python-web2py",
+        "name": "Full Stack Web Development with Python (WEB2PY)",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "132"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/react-js-getting-started-v2.png?w=120",
+        "link": "https://www.pluralsight.com/courses/react-js-getting-started",
+        "name": "React: Getting Started",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1902"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/web-development-intro-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/web-development-intro",
+        "name": "Introduction to Web Development",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "638"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/django-angularjs-web-development-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/django-angularjs-web-development",
+        "name": "Web Development with Django and AngularJS",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "54"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-development-environment-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-development-environment",
+        "name": "Building a JavaScript Development Environment",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "585"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/sp2010-web-part-dev-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/sp2010-web-part-dev",
+        "name": "SharePoint Web Part Development",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "140"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/front-end-web-development-career-kickstart-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/front-end-web-development-career-kickstart",
+        "name": "Front End Web Development Career Kickstart",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "208"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/ps-live-2018-get-your-geek-on-software-development-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/ps-live-2018-get-your-geek-on-software-development",
+        "name": "Pluralsight LIVE 2018: Get Your Geek On (Software Development)",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/audience/software-development.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/zero-to-production-nodejs-aws",
+        "name": "Zero to Production Node.js on Amazon Web Services",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": 0
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/progressive-web-app-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/progressive-web-app-fundamentals",
+        "name": "Progressive Web App Fundamentals",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "64"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/expressjs-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/expressjs",
+        "name": "Web Development with ExpressJS",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "649"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/audience/software-development.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web",
+        "name": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, ...",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "435"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/nodejs-express-web-applications-update-v2.png?w=120",
+        "link": "https://www.pluralsight.com/courses/nodejs-express-web-applications-update",
+        "name": "Building Web Applications with Node.js and Express 4.0 (UPDATE)",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "154"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/implementing-restful-aspdotnet-web-api-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/implementing-restful-aspdotnet-web-api",
+        "name": "Implementing an API in ASP.NET Web API",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1562"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/audience/software-development.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/build-web-app-spring-mvc-hibernate-bootstrap-rest-service",
+        "name": "Building Web App Using Spring MVC, Hibernate, Bootstrap, and REST Services",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "75"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/microsoft-web-technology-comparison-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/microsoft-web-technology-comparison",
+        "name": "A Comparison of Microsoft Web Technologies",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "430"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/angular-web-api-front-back-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/angular-web-api-front-back",
+        "name": "AngularJS Front to Back with Web API",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1145"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/responsive-web-forms-best-practices-v1.png?w=120",
+        "link": "https://www.pluralsight.com/courses/responsive-web-forms-best-practices",
+        "name": "Best Practices for Responsive Web-forms",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "23"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/webapi-v2-security-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/webapi-v2-security",
+        "name": "Web API v2 Security",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "923"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/node-js-express-rest-web-services-update-v1.png?w=120",
+        "link": "https://www.pluralsight.com/courses/node-js-express-rest-web-services-update",
+        "name": "RESTful Web Services with Node.js and Express",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "37"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/full-stack-dot-net-developer-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/full-stack-dot-net-developer-fundamentals",
+        "name": "Become a Full-stack .NET Developer",
+        "tags": [],
+        "topic": "Web Development",
+        "votes": "1118"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-development-environment-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-development-environment",
+        "name": "Building a JavaScript Development Environment",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "585"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-programming-basics-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-programming-basics",
+        "name": "Basics of Programming with JavaScript",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "852"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/front-end-web-app-html5-javascript-css-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css",
+        "name": "Front-End Web Development Quick Start With HTML5, CSS, and JavaScript",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "1594"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "image_link": "https://pluralsight.imgix.net/course-images/advanced-javascript-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/advanced-javascript",
+        "name": "Advanced JavaScript",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "2173"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "image_link": "https://pluralsight.imgix.net/course-images/nodejs-advanced-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/nodejs-advanced",
+        "name": "Advanced Node.js",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "285"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-practical-design-patterns-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-practical-design-patterns",
+        "name": "Practical Design Patterns in JavaScript",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "564"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/quick-start-javascript-1-1870-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/quick-start-javascript-1-1870",
+        "name": "Quick Start to JavaScript: Volume 1",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "1416"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-es6-object-oriented-programming-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-es6-object-oriented-programming",
+        "name": "Object-oriented Programming in JavaScript - ES6",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "178"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/rapid-javascript-training-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/rapid-javascript-training",
+        "name": "Rapid JavaScript Training",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "545"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-from-fundamentals-to-functional-js-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-from-fundamentals-to-functional-js",
+        "name": "JavaScript: From Fundamentals to Functional JS",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "243"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-objects-prototypes-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-objects-prototypes",
+        "name": "JavaScript Objects and Prototypes",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "1599"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-from-scratch-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-from-scratch",
+        "name": "JavaScript From Scratch",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "3171"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/d3js-data-visualization-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/d3js-data-visualization-fundamentals",
+        "name": "D3.js Data Visualization Fundamentals",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "621"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/advanced-js-jquery-pure-dom-scripting-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/advanced-js-jquery-pure-dom-scripting-fundamentals",
+        "name": "JavaScript: Advanced Fundamentals to jQuery & Pure DOM Scripting",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "144"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/quick-start-javascript-2-1917-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/quick-start-javascript-2-1917",
+        "name": "Quick Start to JavaScript: Volume 2",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "754"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/reactjs-on-rails-building-full-stack-web-app-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/reactjs-on-rails-building-full-stack-web-app",
+        "name": "React.js on Rails: Building a Full Stack Web App",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "131"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/js4cs-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/js4cs",
+        "name": "JavaScript for C# Developers",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "1781"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/securing-node-js-web-app-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/securing-node-js-web-app",
+        "name": "Securing Your Node.js Web App",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "43"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-best-practices-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-best-practices",
+        "name": "JavaScript Best Practices",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "479"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-asynchronous-module-definition-amd-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-asynchronous-module-definition-amd",
+        "name": "JavaScript Asynchronous Module Definition (AMD) Explained",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "21"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/backbone-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/backbone-fundamentals",
+        "name": "Backbone.js Fundamentals",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "849"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/webgl-threejs-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/webgl-threejs-fundamentals",
+        "name": "WebGL and Three.js Fundamentals",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "184"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/emberjs-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/emberjs-fundamentals",
+        "name": "Ember.js Fundamentals",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "257"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/node-intro-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/node-intro",
+        "name": "Introduction to Node.js",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "1524"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javascript-fundamentals-es6-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javascript-fundamentals-es6",
+        "name": "JavaScript Fundamentals for ES6",
+        "tags": [],
+        "topic": "JavaScript",
+        "votes": "624"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-fundamentals-core-platform-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-core-platform",
+        "name": "Java Fundamentals: The Core Platform",
+        "tags": [],
+        "topic": "Java",
+        "votes": "293"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-fundamentals-language-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-language",
+        "name": "Java Fundamentals: The Java Language",
+        "tags": [],
+        "topic": "Java",
+        "votes": "1320"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-8-whats-new-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-8-whats-new",
+        "name": "What's New in Java 8",
+        "tags": [],
+        "topic": "Java",
+        "votes": "613"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-8-lambda-expressions-collections-streams-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams",
+        "name": "From Collections to Streams in Java 8 Using Lambda Expressions",
+        "tags": [],
+        "topic": "Java",
+        "votes": "264"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-web-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-web-fundamentals",
+        "name": "Java Web Fundamentals",
+        "tags": [],
+        "topic": "Java",
+        "votes": "720"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-fundamentals-multithreading-concurrency-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-multithreading-concurrency",
+        "name": "Java Fundamentals - Concurrency with Multithreading",
+        "tags": [],
+        "topic": "Java",
+        "votes": "112"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-ee-big-picture-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-ee-big-picture",
+        "name": "Java EE: The Big Picture",
+        "tags": [],
+        "topic": "Java",
+        "votes": "382"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-fundamentals-collections-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-collections",
+        "name": "Java Fundamentals: Collections",
+        "tags": [],
+        "topic": "Java",
+        "votes": "253"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-ee-7-fundamentals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-ee-7-fundamentals",
+        "name": "Java EE 7 Fundamentals",
+        "tags": [],
+        "topic": "Java",
+        "votes": "130"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-fundamentals-object-oriented-design-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-fundamentals-object-oriented-design",
+        "name": "Java Fundamentals: Object-oriented Design",
+        "tags": [],
+        "topic": "Java",
+        "votes": "109"
+    },
+    {
+        "description": "",
+        "difficulty": "Advanced",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-8-data-processing-streams-collectors-optionals-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-8-data-processing-streams-collectors-optionals",
+        "name": "Streams, Collectors, and Optionals for Data Processing in Java 8",
+        "tags": [],
+        "topic": "Java",
+        "votes": "117"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-ee-programming-servlets-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-ee-programming-servlets",
+        "name": "Java EE: Programming Servlets",
+        "tags": [],
+        "topic": "Java",
+        "votes": "131"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-microservices-spring-cloud-developing-services-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-microservices-spring-cloud-developing-services",
+        "name": "Java Microservices with Spring Cloud: Developing Services",
+        "tags": [],
+        "topic": "Java",
+        "votes": "179"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/javaserver-faces-getting-started-java-ee-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/javaserver-faces-getting-started-java-ee",
+        "name": "Java EE: Getting Started with JavaServer Faces",
+        "tags": [],
+        "topic": "Java",
+        "votes": "39"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-patterns-concurrency-multi-threading-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading",
+        "name": "Applying Concurrency and Multi-threading to Common Java Patterns",
+        "tags": [],
+        "topic": "Java",
+        "votes": "345"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/play-by-play-docker-java-developers-arun-gupta-michael-hoffman-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman",
+        "name": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
+        "tags": [],
+        "topic": "Java",
+        "votes": "66"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-functional-programming-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-functional-programming",
+        "name": "Functional Programming With Java",
+        "tags": [],
+        "topic": "Java",
+        "votes": "502"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-ee-java-server-pages-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-ee-java-server-pages",
+        "name": "Java EE: Java Server Pages",
+        "tags": [],
+        "topic": "Java",
+        "votes": "64"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-se-java-fx-application-building-your-first-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-se-java-fx-application-building-your-first",
+        "name": "Java SE: Building Your First JavaFX Application",
+        "tags": [],
+        "topic": "Java",
+        "votes": "67"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-understanding-solving-memory-problems-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-understanding-solving-memory-problems",
+        "name": "Understanding and Solving Java Memory Problems",
+        "tags": [],
+        "topic": "Java",
+        "votes": "44"
+    },
+    {
+        "description": "",
+        "difficulty": "Beginner",
+        "image_link": "https://pluralsight.imgix.net/course-images/jdbc-java-platform-working-with-databases-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/jdbc-java-platform-working-with-databases",
+        "name": "Java Platform: Working with Databases Using JDBC",
+        "tags": [],
+        "topic": "Java",
+        "votes": "272"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-persistence-api-21-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-persistence-api-21",
+        "name": "Java Persistence API (JPA) 2.1",
+        "tags": [],
+        "topic": "Java",
+        "votes": "441"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/scaling-java-applications-through-concurrency-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/scaling-java-applications-through-concurrency",
+        "name": "Scaling Java Applications Through Concurrency",
+        "tags": [],
+        "topic": "Java",
+        "votes": "42"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/java-9-modularity-first-look-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/java-9-modularity-first-look",
+        "name": "Java 9 Modularity: First Look",
+        "tags": [],
+        "topic": "Java",
+        "votes": "66"
+    },
+    {
+        "description": "",
+        "difficulty": "Intermediate",
+        "image_link": "https://pluralsight.imgix.net/course-images/kotlin-getting-started-v1.jpg?w=120",
+        "link": "https://www.pluralsight.com/courses/kotlin-getting-started",
+        "name": "Getting Started with Kotlin",
+        "tags": [],
+        "topic": "Java",
+        "votes": "52"
+    }
+]

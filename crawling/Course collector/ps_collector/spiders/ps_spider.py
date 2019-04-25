@@ -65,11 +65,11 @@ class ps_collector(scrapy.Spider):
                     "description": "",
                     "difficulty": "Beginner",
                     "tags": [],
-                    "topic": ""
+                    "topic": "",
+                    "image_link":""
                 }
 
                 course_dict["name"] = course.css("div.search-result__title a::text").get()
-                print(course_dict["name"])
                 vote_result = re.findall(r'\d+',''.join(course.css("div.search-result__rating::text").getall()))
                 if (len(vote_result) > 0):
                     course_dict["votes"] = vote_result[0]
@@ -77,7 +77,8 @@ class ps_collector(scrapy.Spider):
                 course_dict["difficulty"] = course.css("div.search-result__level::text").get()
 
                 course_dict["topic"] = re.findall(r'(?<=\?q=)(.*)(?=\&)',response.url)[0]
+                course_dict["image_link"] = course.css("div.search-result__icon img::attr(src)").get()
                 course_arr.append(course_dict)
               
                 
-            f.write(json.dumps(json.load(f).append(course_arr), indent= 4, sort_keys=True))
+            f.write(json.dumps(course_arr, indent= 4, sort_keys=True))
