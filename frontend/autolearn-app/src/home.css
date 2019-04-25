@@ -36,6 +36,10 @@
 }
 
 /* ############## CARD ############ */
+.Home-card-div {
+ background-color: var(--dark-bg-color);
+}
+
 Card {
   width: 100%;
 }

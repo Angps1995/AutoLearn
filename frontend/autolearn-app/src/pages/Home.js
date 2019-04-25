@@ -23,7 +23,7 @@ export default class Home extends Component {
                 </Row>
               </Container>
             </div>
-            <div>
+            <div className="Home-card-div">
               <Container>
                 <Row>
                   <Col>
