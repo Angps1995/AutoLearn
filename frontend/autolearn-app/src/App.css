@@ -43,13 +43,21 @@ header {
   background-color: var(--dark-bg-color) !important;
 }
 
+header:hover {
+  background-color: var(--theme-color) !important;
+}
+
+header:hover .header-title {
+  color: white !important;
+}
+
 .header-nav {
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .header-title {
-  color: var(--theme-color) !important;
+  color: white !important;
   font-weight: 700;
   font-size: 35px;
   padding-left: 40px;

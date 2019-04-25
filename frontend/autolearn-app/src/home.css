@@ -31,18 +31,21 @@
   width: 100%;
 }
 
+input.form-control {
+  border: white;
+}
 .Home-search-bar-btn {
   font-size: 25px;
   font-weight: 700;
-  color: var(--theme-color);
-  background-color: var(--dark-bg-color);
-  border-color: var(--dark-bg-color);
-}
-
-.Home-search-bar-btn:hover {
   color: white;
   background-color: var(--theme-color);
   border-color: var(--theme-color);
+}
+
+.Home-search-bar-btn:hover {
+  color: var(--theme-color);
+  background-color: white;
+  border-color: white;
 }
 
 /* ############## CARD ############ */
