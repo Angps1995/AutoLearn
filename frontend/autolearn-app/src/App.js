@@ -31,7 +31,7 @@ export default class App extends Component {
       courses: [
         {
           "id": 1,
-          "name": "Autodesk Infosys",
+          "name": "Autodesk_Infosys",
           "votes": 0,
           "link": "http://share.autodesk.com",
           "description": "Everything for Autodesk employees",
@@ -44,7 +44,7 @@ export default class App extends Component {
         },
         {
           "id": 2,
-          "name": "Autodesk Ufosys",
+          "name": "Autodesk_Ufosys",
           "votes": 0,
           "link": "http://share.autodesk.com",
           "description": "Everything for Autodesk employees",
@@ -57,7 +57,7 @@ export default class App extends Component {
         },
         {
           "id": 3,
-          "name": "Autodesk Outfosys",
+          "name": "Autodesk_Outfosys",
           "votes": 0,
           "link": "http://share.autodesk.com",
           "description": "Everything for Autodesk employees",
@@ -124,11 +124,8 @@ export default class App extends Component {
             <div>
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/course"
-                  render= {() => (
-                    <Courses courses={this.state.courses} />
-                  )} />
-                    <Route path="/path" component={Path} />
+                    <Route path="/course" component={Courses}/>
+                    <Route path="/path" component={Path}/>
                     <Route path="/content" component={Content} />
                     <Route component={NotFound} />
                 </Switch>
@@ -137,6 +134,11 @@ export default class App extends Component {
         </Router>
         <footer>
           <Container>
+            <Row>
+              <p>
+                H A C K A T H O N | AutoLearn © Copyright 2019
+              </p>
+            </Row>
           </Container>
         </footer>
       </div>
