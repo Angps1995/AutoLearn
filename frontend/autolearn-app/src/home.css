@@ -85,6 +85,10 @@ input::-webkit-input-placeholder {
   padding-bottom: 30px;
 }
 
+.col-md-4 {
+  padding-bottom: 30px !important;
+}
+
 .Home-card-title-row h3 {
   font-size: 40px;
 }
@@ -111,6 +115,11 @@ Card {
   background-color: var(--theme-color) !important;
   border-color: var(--theme-color) !important;
 }
+
+.Home-card-row a {
+  color: var(--dark-bg-color) !important;
+}
+
 
 /* <Row className="Home-card-view-all-row">
   <div>
