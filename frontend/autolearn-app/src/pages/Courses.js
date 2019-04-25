@@ -41,7 +41,7 @@ export default class Courses extends Component {
                         <Card>
                             <Card.Body>
                                 <span style={{ display: "inline-flex" }}>
-                                    <Button style={{ maxWidth: "100px", maxHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                    <Button style={{ maxWidth: "100px", maxHeight: "60px", minWidth:"100px", minHeight:"30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                     <span>
                                         <Card.Title>{course.name}</Card.Title>
                                         <Card.Text>{course.description}</Card.Text>
