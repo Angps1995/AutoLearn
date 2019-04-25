@@ -31,9 +31,9 @@ export default class Courses extends Component {
             })
     }
 
-    upvote(numOfVotes, index){
+    upvote(numOfVotes, index, courses){
         numOfVotes += 1
-        var myCopiedData = this.state.courses
+        var myCopiedData = courses
         myCopiedData[index].votes = numOfVotes
         console.log(numOfVotes)
         this.setState({
@@ -64,16 +64,17 @@ export default class Courses extends Component {
                 </Row>
                 {(() => {switch(x) {
                   case 1:
+                    var courses = this.state.courses
                     return(
                       <div>
-                        {this.state.courses
+                        {courses
                             .map((course, index) => {
                             let tagsArr = course.tags.split(",");
                             return (
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button onClick={this.upvote.bind(this, course.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button onClick={this.upvote.bind(this, course.votes, index, courses)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/course-details',
@@ -98,17 +99,18 @@ export default class Courses extends Component {
                       </div>
                     )
                   default:
+                    var courses = this.state.courses.filter(course => course.topic_id === topicId)
                     return (
                       <div>
-                        {this.state.courses
-                            .filter(course => course.topic_id === topicId)
+                        {
+                            courses
                             .map((course, index) => {
                             let tagsArr = course.tags.split(",");
                             return (
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button onClick={this.upvote.bind(this, course.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button onClick={this.upvote.bind(this, course.votes, index, courses)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/course-details',

@@ -23,9 +23,9 @@ export default class Path extends Component {
             })
     }
 
-    upvote(numOfVotes, index){
+    upvote(numOfVotes, index, paths){
         numOfVotes += 1
-        var myCopiedData = this.state.paths
+        var myCopiedData = paths
         myCopiedData[index].votes = numOfVotes
         console.log(numOfVotes)
         this.setState({
@@ -58,15 +58,16 @@ export default class Path extends Component {
                 </Row>
                 {(() => {switch(y) {
                   case 1:
+                  var paths = this.state.paths
                     return(
                       <div>
-                        {this.state.paths
+                        {paths
                             .map((path, index) => {
                             return (
                                 <Card>
                                     <CardBody>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button onClick={this.upvote.bind(this, path.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                            <Button onClick={this.upvote.bind(this, path.votes, index, paths)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
                                             <span>
                                               <CardTitle>{path.name}</CardTitle>
                                               <CardText>{path.description}</CardText>
@@ -79,6 +80,11 @@ export default class Path extends Component {
                       </div>
                     )
                   default:
+                  var paths = this.state.paths.filter(path => {
+                          const name = path.courses_links.split(',');
+                          return name.includes('/courses/' + courseDetails.id);
+                        }
+                    )
                     return (
                         <div>
                             <Card>
@@ -93,19 +99,14 @@ export default class Path extends Component {
                                 </CardBody>
                             </Card>
                             <p className="Path-subtitle" >Suggested Paths</p>
-                            {this.state.paths
-                                .filter(path => {
-                                        const name = path.courses_links.split(',');
-                                        return name.includes('/courses/' + courseDetails.id);
-                                    }
-
-                                )
+                            {
+                              paths
                                 .map((path, index) => {
                                 return (
                                     <Card>
                                         <CardBody>
                                             <span style={{ display: "inline-flex" }}>
-                                                <Button onClick={this.upvote.bind(this, path.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
+                                                <Button onClick={this.upvote.bind(this, path.votes, index, paths)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
                                                 <span>
                                                   <CardTitle>{path.name}</CardTitle>
                                                   <CardText>{path.description}</CardText>
