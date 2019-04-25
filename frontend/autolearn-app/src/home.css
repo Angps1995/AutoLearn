@@ -18,6 +18,11 @@
   color: var(--theme-color);
 }
 
+.Home-hero-container {
+  padding-top: 200px !important;
+  padding-bottom: 0px !important;
+}
+
 .Home-search-bar {
   width: 100%;
 }
@@ -37,7 +42,11 @@
 
 /* ############## CARD ############ */
 .Home-card-div {
- background-color: var(--dark-bg-color);
+ background-color: white;
+}
+
+.Home-card-row {
+ padding-bottom: 30px !important;
 }
 
 Card {

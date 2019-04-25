@@ -10,7 +10,7 @@ export default class Home extends Component {
         return (
           <div>
             <div className="Home-hero-div">
-              <Container>
+              <Container className="Home-hero-container">
                 <Row className="align-center">
                     <div className="Home-search-bar">
                       <InputGroup size="lg">
@@ -25,7 +25,7 @@ export default class Home extends Component {
             </div>
             <div className="Home-card-div">
               <Container>
-                <Row>
+                <Row className="Home-card-row">
                   <Col>
                     <Card>
                       <Card.Img variant="top" src={require("../images/logo.svg")} />
