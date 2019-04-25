@@ -40,7 +40,6 @@ export default class Courses extends Component {
             courses: myCopiedData
         })
         // return numOfVotes
-        console.log(this.state.courses)
     }
     render() {
         const topicId = this.props.location.topic_id;
