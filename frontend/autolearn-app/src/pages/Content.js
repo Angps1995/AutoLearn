@@ -68,7 +68,7 @@ export default class Content extends Component {
                               <Card.Img variant="top" src={course.image_link}/>
                               <Card.Body>
                                 <Card.Title>{course.name}</Card.Title>
-                                <Card.Text>
+                                <Card.Text style={{textAlign:"left"}}>
                                   <p>{course.description}</p>
                                 </Card.Text>
                                 <Link to={{
@@ -96,7 +96,7 @@ export default class Content extends Component {
                                   <Card.Img variant="top" src={course.image_link}/>
                                   <Card.Body>
                                     <Card.Title>{course.name}</Card.Title>
-                                    <Card.Text>
+                                    <Card.Text style={{textAlign:"left"}}>
                                       <p>{course.description}</p>
                                     </Card.Text>
                                     <Link to={{
@@ -124,7 +124,7 @@ export default class Content extends Component {
                                   <Card.Img variant="top" src={course.image_link}/>
                                   <Card.Body>
                                     <Card.Title>{course.name}</Card.Title>
-                                    <Card.Text>
+                                    <Card.Text style={{textAlign:"left"}}>
                                       <p>{course.description}</p>
                                     </Card.Text>
                                     <Link to={{
