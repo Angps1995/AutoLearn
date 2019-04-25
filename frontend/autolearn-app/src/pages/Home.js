@@ -4,6 +4,7 @@ import '../home.css';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { InputGroup, FormControl, Button, Card } from 'react-bootstrap';
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 export default class Home extends Component {
     render() {
@@ -133,7 +134,7 @@ export default class Home extends Component {
                 </Row>
                 <Row className="Home-card-view-all-row">
                   <div>
-                    <Button variant="outline-success" className="Home-card-view-all-btn">V I E W A L L</Button>
+                    <Button variant="outline-success" className="Home-card-view-all-btn"><Link to="/course">V I E W A L L</Link></Button>
                   </div>
                 </Row>
               </Container>
