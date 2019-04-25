@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { InputGroup, FormControl, Button, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import axios from "axios";
+import './courses.css';
 
 export default class Courses extends Component {
     constructor() {
@@ -37,6 +38,7 @@ export default class Courses extends Component {
         }
         return (
             <div>
+              <Container>
                 <Row className="Courses-title-row">
                   <Col>
                     <h3 className="text-align-center">C O U R S E S</h3>
@@ -60,7 +62,7 @@ export default class Courses extends Component {
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/path',
@@ -71,18 +73,17 @@ export default class Courses extends Component {
                                                 <Card.Text>{course.description}</Card.Text>
                                             </span>
                                         </span>
-                                        <Row style={{ paddingLeft: "120px" }}>
+                                        <Row style={{ paddingLeft: "165px"}} className="Courses-tags-row">
                                             {tagsArr.map((tag) => {
                                                 return (
                                                     <Card.Text style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Card.Text>
-                                                );
+                                                )
                                             })}
                                         </Row>
                                     </Card.Body>
                                 </Card>
-
-                            );
-                        })};
+                            )
+                        })}
                       </div>
                     )
                   default:
@@ -96,7 +97,7 @@ export default class Courses extends Component {
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/path',
@@ -107,25 +108,24 @@ export default class Courses extends Component {
                                                 <Card.Text>{course.description}</Card.Text>
                                             </span>
                                         </span>
-                                        <Row style={{ paddingLeft: "120px" }}>
+                                        <Row style={{ paddingLeft: "165px"}} className="Courses-tags-row">
                                             {tagsArr.map((tag) => {
                                                 return (
-                                                    <Card.Text style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Card.Text>
-                                                );
+                                                    <Button className="Courses-tag-btn" style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Button>
+                                                )
                                             })}
                                         </Row>
-
                                     </Card.Body>
                                 </Card>
-
-                            );
+                            )
                         })}
                       </div>
                     )
                   }
                   })()}
+              </Container>
             </div>
-        );
+        )
       }
 
 

@@ -1,0 +1,62 @@
+.Courses-title-row {
+  padding-bottom: 30px !important;
+}
+
+.Courses-title-row h3 {
+  font-size: 40px !important;
+
+}
+
+.card-title  {
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--theme-color) !important;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.Courses-subtitle-row  {
+  padding-bottom: 50px !important;
+}
+
+span span {
+  padding-left: 50px;
+}
+
+.Courses-tags-row {
+  padding-top: 20px !important;
+  color: var(--theme-color);
+  font-weight: 500;
+}
+
+.Courses-tag-btn {
+  margin-right: 10px;
+  background-color: var(--theme-color) !important;
+  border-color: white;
+}
+
+.Courses-tag-btn:hover {
+  margin-right: 10px;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Courses-upvote-btn {
+  font-weight: 500;
+  border-width: 1.5px;
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Courses-upvote-btn:hover {
+  color: white !important;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
