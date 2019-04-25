@@ -34,7 +34,7 @@ export default class Courses extends Component {
                                 <Button>{course.votes}</Button>
                                 <Link to={{
                                     pathname: '/path',
-                                    course_id:course.id
+                                    course:course
                                 }}>Path</Link>
                             </CardBody>
                         </Card>

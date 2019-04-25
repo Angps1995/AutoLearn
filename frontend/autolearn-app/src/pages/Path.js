@@ -19,16 +19,25 @@ export default class Path extends Component {
             })
     }
     render() {
-        const course_id = this.props.location.course_id;
+        const courseDetails = this.props.location.course;
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
+                <Card>
+                    <CardBody>
+                        <CardTitle>{courseDetails.name}</CardTitle>
+                        <CardTitle>{courseDetails.id}</CardTitle>
+                        <CardText>{courseDetails.description}</CardText>
+                        <Button>{courseDetails.votes}</Button>
+                    </CardBody>
+                </Card>
+                <br></br>
                 {this.state.paths
                     .filter(path => {
-                        path.courses_links.find(function(element) {
-                                return element === '/courses/' + course_id;
-                            })
-                        }
+                            path.courses_links.split(',').find(function(element) {
+                            return element === '/courses/' + courseDetails;
+                    });
+                }
                     )
                     .map((path, index) => {
                     return (
@@ -38,7 +47,6 @@ export default class Path extends Component {
                                 <CardTitle>{path.id}</CardTitle>
                                 <CardText>{path.description}</CardText>
                                 <Button>{path.votes}</Button>
-                                <h1>{path.courses_links}</h1>
                             </CardBody>
                         </Card>
                     );
