@@ -109,9 +109,16 @@ export default class CourseDetails extends Component {
                                             <span style={{ display: "inline-flex" }}>
                                                 <Button onClick={this.upvote.bind(this, path.votes, index, paths)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{path.votes}</Button>
                                                 <span>
-                                                  <CardTitle>{path.name}</CardTitle>
+                                                    <Link to={{
+                                                        pathname: '/content',
+                                                        path_id:path.id
+                                                    }}>
+                                                    <CardTitle>{path.name}</CardTitle>
+                                                  </Link>
                                                   <CardText>{path.description}</CardText>
+
                                                 </span>
+
                                             </span>
                                         </CardBody>
                                     </Card>
