@@ -18,7 +18,8 @@ public class Course {
     private String link;
     private String description;
     private String difficulty;
-    private String[] tags;
+    private String tags;
+    private String imageLink;
 
     @ManyToOne
     @JoinColumn(name="topic_id")
