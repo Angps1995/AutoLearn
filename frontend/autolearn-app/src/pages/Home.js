@@ -72,7 +72,7 @@ export default class Home extends Component {
                     return (
                       <Col md={4}>
                         <Card>
-                          <Card.Img style={{maxHeight:"300px",maxWidth:"350px", minHeight:"300px",minWidth:"350px"}} variant="top" src={this.state.topic_image[index]} />
+                          <Card.Img style={{maxHeight:"300px",maxWidth:"350px", minHeight:"300px",minWidth:"350px", padding: "40px"}} variant="top" src={this.state.topic_image[index]} />
                           <Card.Body>
                             <Card.Title className="Home-card-name">
                               <Link to={{
