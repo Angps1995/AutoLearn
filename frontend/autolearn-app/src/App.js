@@ -128,10 +128,7 @@ export default class App extends Component {
                   render= {() => (
                     <Courses courses={this.state.courses}/>
                   )} />
-                    <Route path="/path"
-                           render= {() => (
-                        <Path paths={this.state.path}/>
-                    )} />
+                    <Route path="/path" component={Path}/>
                     <Route path="/content" component={Content} />
                     <Route component={NotFound} />
                 </Switch>
