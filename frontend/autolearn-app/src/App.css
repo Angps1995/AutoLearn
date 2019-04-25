@@ -92,3 +92,69 @@ footer p {
   margin-bottom: 0;
   padding-left: 15px;
 }
+
+/* ############## FORM ############ */
+.form-input {
+  border: 1px solid #ced4da !important;
+  border-radius: .25rem !important;
+}
+
+.Home-form-btn {
+  float: right;
+  color: white;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-form-btn:hover {
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-form-row {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 30px !important;
+}
+
+.Home-form-submit-btn {
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-form-submit-btn:hover {
+  color: white;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+
+/* ############## Modal ############ */
+
+.Home-card-view-all-row {
+  padding-top: 60px !important;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-card-view-all-btn {
+  width: 100%;
+  font-size: 23px;
+  font-weight: 500;
+  border-width: 2px;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-card-view-all-btn:hover {
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+}

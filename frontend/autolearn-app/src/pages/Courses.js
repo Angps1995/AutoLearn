@@ -43,46 +43,81 @@ export default class Courses extends Component {
     }
     render() {
         const topicId = this.props.location.topic_id;
-        return (
-            <div>
-                <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
+        if(topicId == undefined) {
+          return (
+              <div>
+                  {this.state.courses
+                      .map((course, index) => {
+                      let tagsArr = course.tags.split(",");
+                      return (
+                          <Card>
+                              <Card.Body>
+                                  <span style={{ display: "inline-flex" }}>
+                                      <Button style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                      <span>
+                                          <Link to={{
+                                              pathname: '/path',
+                                              course: course
+                                          }}>
+                                              <Card.Title>{course.name}</Card.Title>
+                                          </Link>
+                                          <Card.Text>{course.description}</Card.Text>
+                                      </span>
+                                  </span>
+                                  <Row style={{ paddingLeft: "120px" }}>
+                                      {tagsArr.map((tag) => {
+                                          return (
+                                              <Card.Text style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Card.Text>
+                                          );
+                                      })}
+                                  </Row>
 
+                              </Card.Body>
+                          </Card>
 
-                {this.state.courses
-                    .filter(course => course.topic_id === topicId)
-                    .map((course, index) => {
-                    let tagsArr = course.tags.split(",");
-                    return (
-
-                        <Card>
-                            <Card.Body>
-                                <span style={{ display: "inline-flex" }}>
+                      );
+                  })}
+              </div>
+          );
+        }
+        else {
+          return (
+              <div>
+                  {this.state.courses
+                      .filter(course => course.topic_id === topicId)
+                      .map((course, index) => {
+                      let tagsArr = course.tags.split(",");
+                      return (
+                          <Card>
+                              <Card.Body>
+                                  <span style={{ display: "inline-flex" }}>
                                     <Button onClick={this.upvote.bind(this, course.votes, index)} style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
-                                    <span>
-                                        <Link to={{
-                                            pathname: '/path',
-                                            course: course
-                                        }}>
-                                            <Card.Title>{course.name}</Card.Title>
-                                        </Link>
-                                        <Card.Text>{course.description}</Card.Text>
-                                    </span>
-                                </span>
-                                <Row style={{ paddingLeft: "120px" }}>
-                                    {tagsArr.map((tag) => {
-                                        return (
-                                            <Card.Text style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Card.Text>
-                                        );
-                                    })}
-                                </Row>
+                                      <span>
+                                          <Link to={{
+                                              pathname: '/path',
+                                              course: course
+                                          }}>
+                                              <Card.Title>{course.name}</Card.Title>
+                                          </Link>
+                                          <Card.Text>{course.description}</Card.Text>
+                                      </span>
+                                  </span>
+                                  <Row style={{ paddingLeft: "120px" }}>
+                                      {tagsArr.map((tag) => {
+                                          return (
+                                              <Card.Text style={{ paddingRight: "10px", boxSizing: "border-box" }}>{tag}</Card.Text>
+                                          );
+                                      })}
+                                  </Row>
+                              </Card.Body>
+                          </Card>
 
-                            </Card.Body>
-                        </Card>
+                      );
+                  })}
+              </div>
+          );
+        }
 
-                    );
-                })}
-            </div>
-        );
     }
 }
 
