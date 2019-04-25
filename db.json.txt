@@ -13,7 +13,7 @@
           "link": "http://share.autodesk.com",
           "description": "Everything for Autodesk employees",
           "difficulty": "Beginner",
-          "tags": "[\"Autodesk\",\"Wikipedia\"]",
+          "tags": "Autodesk,Wikipedia",
           "topic": "/topics/1",
           "path_id": 1,
           "topic_id": 1
@@ -25,7 +25,7 @@
           "name": "Introduction to Autodesk Tools",
           "votes": 0,
           "description": "Every tool/site new Autodesk employees need to know",
-          "courses": "[\"/courses/2\"]",
+          "courses_links": "/courses/2",
           "topic": "/topics/1",
           "topic_id": 1
       }
