@@ -1,5 +1,6 @@
 'use strict';
-
+//MOCK SERVER - http://localhost:6789
+//REAL SERVER - http://25927072.ngrok.io
 const fs = require('fs');
 const axios = require('axios');
 
@@ -19,13 +20,13 @@ const mapTopicToString = (data) => {
     })
 
     //Insert paths
-    // let index = 2;
+    let index = 2;
     Object.keys(dataToTopicMapping).forEach((key) => {
         let post_obj = {
-            // "id": index++,
+            "id": index++,
             "name": key
         }
-        axios.post('http://25927072.ngrok.io/topics', post_obj)
+        axios.post('http://localhost:6789/topics', post_obj)
         .then(function (response) {
           
         })
@@ -35,10 +36,11 @@ const mapTopicToString = (data) => {
     })
 
     //Insert courses
-    // index = 2;
+    index = 2;
     for (let course of data) {
-        // course["id"] = index++;
-        axios.post('http://25927072.ngrok.io/courses', course)
+        course["id"] = index++;
+        course ["tags"] = JSON.stringify(course["tags"])
+        axios.post('http://localhost:6789/courses', course)
         .then(function (response) {
         })
         .catch(function (error) {
@@ -49,11 +51,12 @@ const mapTopicToString = (data) => {
     let inserted = 0
     let currTopic = "";
     let path_obj = {}
-    // index = 2;
+    index = 2;
     data.forEach((element, counter) => {
         if (element["topic"] !== currTopic) {
             if (!isEmpty(path_obj)){
-                axios.post('http://25927072.ngrok.io/paths', path_obj)
+                path_obj ["courses"] = JSON.stringify(path_obj["courses"])
+                axios.post('http://localhost:6789/paths', path_obj)
                 .then(function (response) {
                 })
                 .catch(function (error) {
@@ -65,7 +68,7 @@ const mapTopicToString = (data) => {
             inserted = 0
 
             path_obj = {
-                // "id": index++,
+                "id": index++,
                 "name": `Learn ${TopicToDataMapping[element['topic']]}`,
                 "votes": 0,
                 "description": `This is a learning path for ${TopicToDataMapping[element['topic']]} users`,
