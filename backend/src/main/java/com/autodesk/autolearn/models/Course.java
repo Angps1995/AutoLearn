@@ -24,10 +24,6 @@ public class Course {
     @JoinColumn(name="topic_id")
     private Topic topic;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "path_course",
-            joinColumns = @JoinColumn(name = "path_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "course_id",
-                    referencedColumnName = "id"))
+    @ManyToMany(mappedBy = "courses")
     private List<Path> paths;
 }
