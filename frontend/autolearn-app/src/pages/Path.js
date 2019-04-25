@@ -19,7 +19,7 @@ export default class Path extends Component {
             })
     }
     render() {
-        const courseDetails = this.props.location.course;
+        const courseDetails = this.props.location.course_id;
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
@@ -28,16 +28,16 @@ export default class Path extends Component {
                         <CardTitle>{courseDetails.name}</CardTitle>
                         <CardTitle>{courseDetails.id}</CardTitle>
                         <CardText>{courseDetails.description}</CardText>
+                        <CardText>{courseDetails.link}</CardText>
                         <Button>{courseDetails.votes}</Button>
                     </CardBody>
                 </Card>
-                <br></br>
+                <p>Suggested Paths</p>
                 {this.state.paths
                     .filter(path => {
-                            path.courses_links.split(',').find(function(element) {
-                            return element === '/courses/' + courseDetails;
-                    });
-                }
+                        const name = path.courses_links.split(',');
+                        return name.includes('/courses/' + courseDetails.id);
+                    }
                     )
                     .map((path, index) => {
                     return (

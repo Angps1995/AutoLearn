@@ -56,7 +56,7 @@ export default class Courses extends Component {
                                 </Row>
                                 <Link to={{
                                     pathname: '/path',
-                                    course_id: course.id
+                                    course_id: course
                                 }}>Path</Link>
                             </Card.Body>
                         </Card>
