@@ -76,7 +76,7 @@ export default class Courses extends Component {
                                             <Button onClick={this.upvote.bind(this, course.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
-                                                    pathname: '/path',
+                                                    pathname: '/course-details',
                                                     course: course
                                                 }}>
                                                     <Card.Title>{course.name}</Card.Title>
@@ -111,7 +111,7 @@ export default class Courses extends Component {
                                             <Button onClick={this.upvote.bind(this, course.votes, index)} className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
-                                                    pathname: '/path',
+                                                    pathname: '/course-details',
                                                     course: course
                                                 }}>
                                                     <Card.Title>{course.name}</Card.Title>

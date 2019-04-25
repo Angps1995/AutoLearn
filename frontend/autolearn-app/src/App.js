@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Path from './pages/Path';
 import Content from './pages/Content';
+import CourseDetails from './pages/CourseDetails';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
@@ -208,6 +209,7 @@ export default class App extends Component {
                   )} /> */}
                     <Route path="/path" component={Path}/>
                     <Route path="/content" component={Content} />
+                    <Route path="/course-details" component={CourseDetails} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
