@@ -35,24 +35,13 @@ const mapTopicToString = (data) => {
         });  
     })
 
-    //Insert courses
-    index = 2;
-    for (let course of data) {
-        course["id"] = index++;
-        course ["tags"] = JSON.stringify(course["tags"])
-        axios.post('http://localhost:6789/courses', course)
-        .then(function (response) {
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-    }
+
 
     let inserted = 0
     let currTopic = "";
     let path_obj = {}
     index = 2;
-    data.forEach((element, counter) => {
+    data.forEach((element, counter, dataArr) => {
         if (element["topic"] !== currTopic) {
             if (!isEmpty(path_obj)){
                 path_obj ["courses"] = JSON.stringify(path_obj["courses"])
@@ -72,15 +61,34 @@ const mapTopicToString = (data) => {
                 "name": `Learn ${TopicToDataMapping[element['topic']]}`,
                 "votes": 0,
                 "description": `This is a learning path for ${TopicToDataMapping[element['topic']]} users`,
-                "courses": [],
+                "courses_links": [],
                 "topic": `${element['topic']}`
             }
         }
         if (inserted < 5) {
-            path_obj['courses'].push(`/courses/${counter + 2}`)
+            path_obj['courses_links'].push(`/courses/${counter + 2}`)
+            dataArr[counter]['path_id'] = index - 1;
             inserted++
-        }        
+        } else {
+            dataArr[counter]['path_id'] = 45   
+        }
+
     })
+
+    //Insert courses
+    index = 2;
+    for (let course of data) {
+        course["id"] = index++;
+        course ["tags"] = JSON.stringify(course["tags"])
+        course ["topic_id"] = parseInt(course["topic"].substring(8))
+        course ["votes"] = parseInt(course ["votes"])
+        axios.post('http://localhost:6789/courses', course)
+        .then(function (response) {
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    }
 }
 
 function isEmpty(obj) {
