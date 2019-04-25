@@ -74,7 +74,7 @@ export default class Courses extends Component {
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button onclick="{this.upvote.bind(this, course.votes, index)}" className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/path',
@@ -109,7 +109,7 @@ export default class Courses extends Component {
                                 <Card>
                                     <Card.Body>
                                         <span style={{ display: "inline-flex" }}>
-                                            <Button className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
+                                            <Button onclick="{this.upvote.bind(this, course.votes, index)}" className="Courses-upvote-btn" style={{ maxWidth: "100px", maxHeight: "60px", minWidth: "100px", minHeight: "30px", textAlign: "center", margin: "auto" }}>{course.votes}</Button>
                                             <span>
                                                 <Link to={{
                                                     pathname: '/path',
