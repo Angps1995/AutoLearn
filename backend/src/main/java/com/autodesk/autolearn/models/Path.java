@@ -15,12 +15,10 @@ public class Path {
 
     private String name;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "course_path",
-            joinColumns = @JoinColumn(name = "course_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "path_id",
-                    referencedColumnName = "id"))
+    @OneToMany(mappedBy = "path")
     private List<Course> courses;
+
+    private String courses_links;
 
     private String description;
     private int votes;
