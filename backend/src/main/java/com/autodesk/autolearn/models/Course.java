@@ -20,6 +20,9 @@ public class Course {
     private String tags;
     private String imageLink;
 
+    @Column(name="topic")
+    private String topicLink;
+
     @ManyToOne
     @JoinColumn(name="topic_id")
     private Topic topic;

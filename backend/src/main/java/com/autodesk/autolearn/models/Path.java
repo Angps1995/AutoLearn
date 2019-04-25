@@ -23,6 +23,9 @@ public class Path {
     private String description;
     private int votes;
 
+    @Column(name="topic")
+    private String topicLink;
+
     @ManyToOne
     @JoinColumn(name="topic_id")
     private Topic topic;
