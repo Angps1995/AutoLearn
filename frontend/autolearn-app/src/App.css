@@ -84,3 +84,11 @@ footer .container {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
 }
+
+footer p {
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
+}

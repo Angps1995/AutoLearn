@@ -137,6 +137,11 @@ export default class App extends Component {
         </Router>
         <footer>
           <Container>
+            <Row>
+              <p>
+                H A C K A T H O N | AutoLearn © Copyright 2019
+              </p>
+            </Row>
           </Container>
         </footer>
       </div>
