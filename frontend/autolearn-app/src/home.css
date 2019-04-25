@@ -33,6 +33,11 @@
 
 input.form-control {
   border: white;
+
+}
+
+input::-webkit-input-placeholder {
+  color: var(--placeholder-color) !important;
 }
 .Home-search-bar-btn {
   font-size: 25px;
@@ -73,7 +78,6 @@ Card {
 }
 
 /* ############## UTILITIES ############ */
-
 .align-center {
   margin: 0 auto;
   float: none;

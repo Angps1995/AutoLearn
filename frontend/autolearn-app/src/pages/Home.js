@@ -17,7 +17,7 @@ export default class Home extends Component {
                         <InputGroup.Prepend>
                           <Button variant="secondary" className="Home-search-bar-btn">Search</Button>
                         </InputGroup.Prepend>
-                        <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
+                        <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="What do you want to learn today?" />
                       </InputGroup>
                     </div>
                 </Row>
