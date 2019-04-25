@@ -112,10 +112,10 @@ export default class App extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link className="header-subtitle"><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/course">Course</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/path">Path</Link></Nav.Link>
-                <Nav.Link className="header-subtitle"><Link to="/content">Content</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/">H O M E</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/course">C O U R S E S</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/path">P A T H</Link></Nav.Link>
+                <Nav.Link className="header-subtitle"><Link to="/content">C O N T E N T</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

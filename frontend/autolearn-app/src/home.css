@@ -1,6 +1,6 @@
 /* ############## SEARCH BAR ############ */
 .Home-hero-div {
-  min-height: 86vh;
+  min-height: 93vh;
   width: 100%;
   background:url("http://pluspng.com/img-png/learning-png-hd--1201.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -18,26 +18,43 @@
   color: var(--theme-color);
 }
 
+.Home-hero-container {
+  padding-top: 600px !important;
+  padding-bottom: 0px !important;
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .Home-search-bar {
   width: 100%;
 }
 
-.Home-search-bar-btn {
-  font-weight: 700;
-  color: var(--theme-color);
-  background-color: var(--dark-bg-color);
-  border-color: var(--dark-bg-color);
+input.form-control {
+  border: white;
 }
-
-.Home-search-bar-btn:hover {
+.Home-search-bar-btn {
+  font-size: 25px;
+  font-weight: 700;
   color: white;
   background-color: var(--theme-color);
   border-color: var(--theme-color);
 }
 
+.Home-search-bar-btn:hover {
+  color: var(--theme-color);
+  background-color: white;
+  border-color: white;
+}
+
 /* ############## CARD ############ */
 .Home-card-div {
- background-color: var(--dark-bg-color);
+ background-color: white;
+}
+
+.Home-card-row {
+ padding-bottom: 30px !important;
 }
 
 Card {
@@ -63,8 +80,8 @@ Card {
 }
 
 .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .row {
