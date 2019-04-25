@@ -44,7 +44,7 @@ const mapTopicToString = (data) => {
     data.forEach((element, counter, dataArr) => {
         if (element["topic"] !== currTopic) {
             if (!isEmpty(path_obj)){
-                path_obj ["courses"] = JSON.stringify(path_obj["courses"])
+                path_obj ["courses_links"] = JSON.stringify(path_obj["courses_links"])
                 axios.post('http://localhost:6789/paths', path_obj)
                 .then(function (response) {
                 })
@@ -62,7 +62,8 @@ const mapTopicToString = (data) => {
                 "votes": 0,
                 "description": `This is a learning path for ${TopicToDataMapping[element['topic']]} users`,
                 "courses_links": [],
-                "topic": `${element['topic']}`
+                "topic": `${element['topic']}`,
+                "topic_id": parseInt(element['topic'].substring(8))
             }
         }
         if (inserted < 5) {
