@@ -11,7 +11,7 @@ export default class Home extends Component {
     constructor () {
         super()
         this.state = {
-            topics: ''
+            topics: []
         }
         this.componentDidMount = this.componentDidMount.bind(this)
     }
@@ -20,6 +20,7 @@ export default class Home extends Component {
             .then(response => this.setState({topics: response.data}))
     }
     render() {
+      const topic_id = this.props.location.topic_id;
         return (
           <div>
             <div className="Home-hero-div">
@@ -62,87 +63,21 @@ export default class Home extends Component {
                     </p>
                   </Col>
                 </Row>
-                <Row className="Home-card-row">
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>Python</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>HTML 5</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>React</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>Python</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>HTML 5</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                      <Card.Img variant="top" src={require("../images/logo.svg")} />
-                      <Card.Body>
-                        <Card.Title>React</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the bulk of
-                          the card's content.
-                        </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
+                <Row className="Home-card-row text-align-center">
+                  {this.state.topics
+                    .map((topic, index) => {
+                    return (
+                      <Col md={4}>
+                        <Card>
+                          <Card.Img variant="top" src={require("../images/logo.svg")} />
+                          <Card.Body>
+                            <Card.Title className="Home-card-name"><Link to="/topics/{topic.id}">{topic.name}</Link></Card.Title>
+
+                          </Card.Body>
+                        </Card>
+                      </Col>
+                    );
+                  })}
                 </Row>
               </Container>
             </div>
