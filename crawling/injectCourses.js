@@ -6,44 +6,26 @@ const axios = require('axios');
 const rawdata = fs.readFileSync('combined-data.json');  
 const courses = JSON.parse(rawdata);  
 
-let index = 2;
-for (let course of courses) {
-    course["id"] = index++;
-    axios.post('http://localhost:6789/courses', course)
-      .then(function (response) {
-        
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-}
-
-const getCourses = (callback) => {
-    axios.get('http://localhost:6789/courses')
-    .then(function (response) {
-        
-        callback(response.data);
-        // console.log("data count:", response.data.length);
-    })
-    .catch(function (error) {
-        console.log(error);
-    });
-};
-
 const mapTopicToString = (data) => {
     let dataToTopicMapping = {}
+    let TopicToDataMapping = {}
     data.forEach((element) => {
         if (!dataToTopicMapping.hasOwnProperty(element['topic'])) {
-            dataToTopicMapping[element['topic']] = `/topic/${Object.keys(dataToTopicMapping).length + 1}`;
+            dataToTopicMapping[element['topic']] = `/topics/${Object.keys(dataToTopicMapping).length + 2}`;
         }
+        let name = element["topic"]
+        element["topic"] = dataToTopicMapping[element['topic']]
+        TopicToDataMapping[element['topic']] = name
     })
-    let index = 1;
+
+    //Insert paths
+    // let index = 2;
     Object.keys(dataToTopicMapping).forEach((key) => {
         let post_obj = {
-            "id": index++,
+            // "id": index++,
             "name": key
         }
-        axios.post('http://localhost:6789/topics', post_obj)
+        axios.post('http://25927072.ngrok.io/topics', post_obj)
         .then(function (response) {
           
         })
@@ -52,18 +34,58 @@ const mapTopicToString = (data) => {
         });  
     })
 
-    data.forEach((element) => {
-        let id = element["id"];
-        element['topic'] = dataToTopicMapping[element['topic']]
-        console.log(element['topic'])
-        axios.put(`http://localhost:6789/courses/${id}`, element)
+    //Insert courses
+    // index = 2;
+    for (let course of data) {
+        // course["id"] = index++;
+        axios.post('http://25927072.ngrok.io/courses', course)
         .then(function (response) {
-          
         })
         .catch(function (error) {
-          console.log(error);
+            console.log(error);
         });
+    }
+
+    let inserted = 0
+    let currTopic = "";
+    let path_obj = {}
+    // index = 2;
+    data.forEach((element, counter) => {
+        if (element["topic"] !== currTopic) {
+            if (!isEmpty(path_obj)){
+                axios.post('http://25927072.ngrok.io/paths', path_obj)
+                .then(function (response) {
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+            }
+        
+            currTopic = element["topic"]
+            inserted = 0
+
+            path_obj = {
+                // "id": index++,
+                "name": `Learn ${TopicToDataMapping[element['topic']]}`,
+                "votes": 0,
+                "description": `This is a learning path for ${TopicToDataMapping[element['topic']]} users`,
+                "courses": [],
+                "topic": `${element['topic']}`
+            }
+        }
+        if (inserted < 5) {
+            path_obj['courses'].push(`/courses/${counter + 2}`)
+            inserted++
+        }        
     })
 }
 
-getCourses(mapTopicToString)
+function isEmpty(obj) {
+    for(var key in obj) {
+        if(obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+}
+
+mapTopicToString(courses)
