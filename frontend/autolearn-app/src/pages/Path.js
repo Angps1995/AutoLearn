@@ -23,8 +23,6 @@ export default class Path extends Component {
         if(courseDetails == undefined) {
           return (
               <div>
-                  <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
-                  <br></br>
                   {this.state.paths
                       .map((path, index) => {
                       return (
@@ -44,7 +42,6 @@ export default class Path extends Component {
         else {
           return (
               <div>
-                  <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
                   <Card>
                       <CardBody>
                           <CardTitle>{courseDetails.name}</CardTitle>

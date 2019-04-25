@@ -34,15 +34,11 @@ export default class Courses extends Component {
         const topicId = this.props.location.topic_id;
         return (
             <div>
-                <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
-
-
                 {this.state.courses
                     .filter(course => course.topic_id === topicId)
                     .map((course, index) => {
                     let tagsArr = course.tags.split(",");
                     return (
-
                         <Card>
                             <Card.Body>
                                 <span style={{ display: "inline-flex" }}>
