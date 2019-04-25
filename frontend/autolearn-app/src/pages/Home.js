@@ -40,7 +40,7 @@ export default class Home extends Component {
               <Container>
                 <Row className="Home-card-title-row">
                   <Col>
-                    <h3 className="text-align-center">C O U R S E S</h3>
+                    <h3 className="text-align-center">T O P I C S</h3>
                   </Col>
                 </Row>
                 <Row className="Home-card-subtitle-row">
@@ -60,7 +60,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -73,7 +73,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -86,7 +86,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -101,7 +101,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -114,7 +114,7 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -127,15 +127,10 @@ export default class Home extends Component {
                           Some quick example text to build on the card title and make up the bulk of
                           the card's content.
                         </Card.Text>
-                        <Button variant="outline-success" className="Home-go-btn">R E A D</Button>
+                        <Button variant="outline-success" className="Home-go-btn" href="/course">R E A D</Button>
                       </Card.Body>
                     </Card>
                   </Col>
-                </Row>
-                <Row className="Home-card-view-all-row">
-                  <div>
-                    <Button variant="outline-success" className="Home-card-view-all-btn"><Link to="/course">V I E W A L L</Link></Button>
-                  </div>
                 </Row>
               </Container>
             </div>

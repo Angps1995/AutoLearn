@@ -112,7 +112,13 @@ Card {
   border-color: var(--theme-color) !important;
 }
 
-.Home-card-view-all-row {
+/* <Row className="Home-card-view-all-row">
+  <div>
+    <Button variant="outline-success" className="Home-card-view-all-btn" href="/course">V I E W A L L</Button>
+  </div>
+</Row> */
+
+/* .Home-card-view-all-row {
   padding-top: 60px !important;
   padding-bottom: 50px;
   display: flex;
@@ -136,7 +142,7 @@ Card {
   color: var(--theme-color) !important;
   background-color: white !important;
   border-color: var(--theme-color) !important;
-}
+} */
 
 /* ############## UTILITIES ############ */
 .text-align-center {
