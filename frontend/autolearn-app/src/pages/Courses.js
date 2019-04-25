@@ -31,8 +31,6 @@ export default class Courses extends Component {
 
 
     render() {
-        // const { courses } = this.state;
-
         return (
             <div>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />

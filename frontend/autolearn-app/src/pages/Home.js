@@ -20,7 +20,6 @@ export default class Home extends Component {
             .then(response => this.setState({topics: response.data}))
     }
     render() {
-      const topic_id = this.props.location.topic_id;
         return (
           <div>
             <div className="Home-hero-div">
@@ -71,8 +70,12 @@ export default class Home extends Component {
                         <Card>
                           <Card.Img variant="top" src={require("../images/logo.svg")} />
                           <Card.Body>
-                            <Card.Title className="Home-card-name"><Link to="/topics/{topic.id}">{topic.name}</Link></Card.Title>
-
+                            <Card.Title className="Home-card-name">
+                              <Link to={{
+                                  pathname: '/course',
+                                  topic_id:topic.id
+                              }}>{topic.name}</Link>
+                            </Card.Title>
                           </Card.Body>
                         </Card>
                       </Col>
