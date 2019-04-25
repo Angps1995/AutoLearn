@@ -1,0 +1,178 @@
+[
+    {
+      "id": 1,
+      "name": "Autodesk Administration"
+    },
+    {
+      "id": 2,
+      "name": "Python"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Android Development"
+    },
+    {
+      "id": 5,
+      "name": "React"
+    },
+    {
+      "id": 6,
+      "name": "C++"
+    },
+    {
+      "id": 7,
+      "name": "Java"
+    },
+    {
+      "id": 8,
+      "name": "Data Structures and Algorithms"
+    },
+    {
+      "id": 9,
+      "name": "Angular"
+    },
+    {
+      "id": 10,
+      "name": "HTML 5"
+    },
+    {
+      "id": 11,
+      "name": "C"
+    },
+    {
+      "id": 12,
+      "name": "CSS"
+    },
+    {
+      "id": 13,
+      "name": "Node.js"
+    },
+    {
+      "id": 14,
+      "name": "Git"
+    },
+    {
+      "id": 15,
+      "name": "C#"
+    },
+    {
+      "id": 16,
+      "name": "Bootstrap"
+    },
+    {
+      "id": 17,
+      "name": "PHP"
+    },
+    {
+      "id": 18,
+      "name": "MySQL"
+    },
+    {
+      "id": 19,
+      "name": "Information Security & Ethical Hacking"
+    },
+    {
+      "id": 20,
+      "name": "Arduino"
+    },
+    {
+      "id": 21,
+      "name": "Blockchain Programming"
+    },
+    {
+      "id": 22,
+      "name": "Django"
+    },
+    {
+      "id": 23,
+      "name": "Unity"
+    },
+    {
+      "id": 24,
+      "name": "SQL"
+    },
+    {
+      "id": 25,
+      "name": "Intro to Programming"
+    },
+    {
+      "id": 26,
+      "name": "MongoDB"
+    },
+    {
+      "id": 27,
+      "name": "React Native"
+    },
+    {
+      "id": 28,
+      "name": "Design Patterns"
+    },
+    {
+      "id": 29,
+      "name": "Vue.js"
+    },
+    {
+      "id": 30,
+      "name": "ASP.NET"
+    },
+    {
+      "id": 31,
+      "name": "jQuery"
+    },
+    {
+      "id": 32,
+      "name": "Raspberry Pi"
+    },
+    {
+      "id": 33,
+      "name": "Go"
+    },
+    {
+      "id": 34,
+      "name": "Bitcoin"
+    },
+    {
+      "id": 35,
+      "name": "Firebase"
+    },
+    {
+      "id": 36,
+      "name": "Java Spring Framework"
+    },
+    {
+      "id": 37,
+      "name": "Kotlin"
+    },
+    {
+      "id": 38,
+      "name": "iOS Swift"
+    },
+    {
+      "id": 39,
+      "name": "Assembly Language"
+    },
+    {
+      "id": 40,
+      "name": "Laravel"
+    },
+    {
+      "id": 41,
+      "name": "Operating Systems"
+    },
+    {
+      "id": 42,
+      "name": "ECMAScript"
+    },
+    {
+      "id": 43,
+      "name": "Mathematics For Computer Science"
+    },
+    {
+      "id": 44,
+      "name": "Web Development"
+    }
+  ]

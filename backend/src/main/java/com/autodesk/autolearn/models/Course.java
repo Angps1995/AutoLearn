@@ -5,7 +5,6 @@ import lombok.Data;
 import javax.persistence.Id;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Data
 @Entity
@@ -25,6 +24,7 @@ public class Course {
     @JoinColumn(name="topic_id")
     private Topic topic;
 
-    @ManyToMany(mappedBy = "courses")
-    private List<Path> paths;
+    @ManyToOne
+    @JoinColumn(name="path_id")
+    private Path path;
 }
