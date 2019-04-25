@@ -8,6 +8,7 @@ import Content from './pages/Content';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { InputGroup, FormControl, Button, Card, Modal, Form, Table } from 'react-bootstrap';
 import NotFound from "./pages/NotFound";
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 
@@ -16,6 +17,7 @@ export default class App extends Component {
   constructor() {
     super();
     this.state = {
+      show: false,
       topics: [{
         "id": 1,
         "name": "Autodesk"
@@ -102,8 +104,17 @@ export default class App extends Component {
           "topic": "/topics/3"
         }]
     };
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   };
 
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
   render() {
     return (
       <div className="App">
@@ -118,6 +129,7 @@ export default class App extends Component {
                   <Nav.Link className="header-subtitle"><Link to="/course">C O U R S E S</Link></Nav.Link>
                   <Nav.Link className="header-subtitle"><Link to="/path">P A T H</Link></Nav.Link>
                   <Nav.Link className="header-subtitle"><Link to="/content">C O N T E N T</Link></Nav.Link>
+                  <Button variant="outline-success" className="Home-card-view-all-btn" onClick={this.handleShow}>C R E A T E</Button>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
@@ -147,6 +159,104 @@ export default class App extends Component {
             </Row>
           </Container>
         </footer>
+        <Modal show={this.state.show} onHide={this.handleClose} size="lg">
+            <Modal.Header closeButton>
+            <Modal.Title>C R E A T E Course</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+
+              <Form id= "createCourse">
+                <Form.Group controlId="exampleForm.ControlInput1">
+                  <Form.Label>Name of Course</Form.Label>
+                  <Form.Control type="text" className="form-input" placeholder="Course name" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                  <Form.Label>Description</Form.Label>
+                  <Form.Control as="textarea" rows="3" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlInput1">
+                  <Form.Label>Link to Course</Form.Label>
+                  <Form.Control type="text" className="form-input" placeholder="https://www.example.com" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlSelect1">
+                  <Form.Label>Difficulty</Form.Label>
+                  <Form.Control as="select">
+                    <option>Beginner</option>
+                    <option>Advanced</option>
+                    <option>Intermediate</option>
+                  </Form.Control>
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                  <Form.Label>Tags</Form.Label>
+                  <Form.Control as="textarea" rows="3" />
+                </Form.Group>
+              </Form>
+
+              <Form id= "createPath">
+                <Form.Group controlId="exampleForm.ControlInput1">
+                  <Form.Label>Name of Learning Path</Form.Label>
+                  <Form.Control type="text" className="form-input" placeholder="Path name" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                  <Form.Label>Description</Form.Label>
+                  <Form.Control as="textarea" rows="3" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlSelect1">
+                  <Form.Label>Topic</Form.Label>
+                  <Form.Control as="select">
+                    <option>Beginner</option>
+                    <option>Advanced</option>
+                    <option>Intermediate</option>
+                  </Form.Control>
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                  <Form.Label>Courses</Form.Label>
+                  <InputGroup className="mb-3">
+                    <FormControl
+                      placeholder="Recipient's username"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                      className="form-input"
+                    />
+                    <InputGroup.Append>
+                      <Button variant="outline-secondary" className="Home-go-btn">Add</Button>
+                    </InputGroup.Append>
+                  </InputGroup>
+                </Form.Group>
+                <Table responsive>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Courses Selected</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Table cell</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Table cell</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Table cell</td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </Form>
+
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={this.handleClose}>
+                Close
+              </Button>
+              <Button variant="primary" className="Home-form-submit-btn" onClick={this.handleClose}>
+                Submit
+              </Button>
+            </Modal.Footer>
+        </Modal>
       </div>
     );
   }
