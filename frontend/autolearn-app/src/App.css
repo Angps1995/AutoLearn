@@ -44,14 +44,6 @@ header {
   background-color: var(--dark-bg-color) !important;
 }
 
-header:hover {
-  background-color: var(--theme-color) !important;
-}
-
-header:hover .header-title {
-  color: white !important;
-}
-
 .header-nav {
   padding-left: 100px;
   padding-right: 100px;
@@ -146,8 +138,6 @@ footer p {
   font-size: 23px;
   font-weight: 500;
   border-width: 2px;
-  padding-left: 110px;
-  padding-right: 110px;
   color: white;
   background-color: var(--theme-color) !important;
   border-color: var(--theme-color) !important;
