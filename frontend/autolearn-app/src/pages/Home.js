@@ -131,6 +131,11 @@ export default class Home extends Component {
                     </Card>
                   </Col>
                 </Row>
+                <Row className="Home-card-view-all-row">
+                  <div>
+                    <Button variant="outline-success" className="Home-card-view-all-btn">V I E W A L L</Button>
+                  </div>
+                </Row>
               </Container>
             </div>
           </div>
