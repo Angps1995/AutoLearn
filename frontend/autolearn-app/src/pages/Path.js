@@ -17,13 +17,15 @@ export default class Path extends Component {
             .then(response => this.setState({paths: response.data}))
     }
     render() {
-        const coursesLink = this.props.location.topics;
+        const course_id = this.props.location.course_id;
         return (
             <div>
-                <p>{coursesLink}</p>
                 <input type="text" className="input" onChange={this.handleChange} placeholder="Search..." />
                 {this.state.paths
-                    .filter(path => path.topics === coursesLink)
+                    .filter(path => path.courses.find(function(element) {
+                        return element === '/courses/' + course_id;
+                    })
+                    )
                     .map((path, index) => {
                     return (
                         <Card>
