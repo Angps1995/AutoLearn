@@ -2,6 +2,7 @@
   --theme-color: #05aa6c;
   --dark-bg-color: #171b1b;
   --grey-bg-color: #232728;
+  --placeholder-color: #a9adb3de;
 }
 
 .App {
@@ -82,4 +83,12 @@ footer {
 footer .container {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
+}
+
+footer p {
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
 }

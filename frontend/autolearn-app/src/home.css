@@ -1,6 +1,6 @@
 /* ############## SEARCH BAR ############ */
 .Home-hero-div {
-  min-height: 93vh;
+  min-height: 100vh;
   width: 100%;
   background:url("http://pluspng.com/img-png/learning-png-hd--1201.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -19,12 +19,31 @@
 }
 
 .Home-hero-container {
-  padding-top: 600px !important;
+  padding-top: 440px !important;
   padding-bottom: 0px !important;
   margin-right: 300px;
   margin-left: 300px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.Home-title-row {
+  padding-bottom: 20px;
+}
+
+.Home-title-row h3 {
+  color: var(--light-bg-color);
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.Home-subtitle-row {
+  padding-bottom: 20px;
+}
+
+.Home-subtitle-row p {
+  color: var(--dark-bg-color);
+  font-size: 20px;
 }
 
 .Home-search-bar {
@@ -33,6 +52,11 @@
 
 input.form-control {
   border: white;
+
+}
+
+input::-webkit-input-placeholder {
+  color: var(--placeholder-color) !important;
 }
 .Home-search-bar-btn {
   font-size: 25px;
@@ -57,6 +81,22 @@ input.form-control {
  padding-bottom: 30px !important;
 }
 
+.Home-card-title-row {
+  padding-bottom: 30px;
+}
+
+.Home-card-title-row h3 {
+  font-size: 40px;
+}
+
+.Home-card-subtitle-row {
+  padding-bottom: 50px;
+}
+
+.Home-card-subtitle-row p {
+  font-size: 20px;
+}
+
 Card {
   width: 100%;
 }
@@ -72,7 +112,42 @@ Card {
   border-color: var(--theme-color) !important;
 }
 
+/* <Row className="Home-card-view-all-row">
+  <div>
+    <Button variant="outline-success" className="Home-card-view-all-btn" href="/course">V I E W A L L</Button>
+  </div>
+</Row> */
+
+/* .Home-card-view-all-row {
+  padding-top: 60px !important;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-card-view-all-btn {
+  width: 100%;
+  font-size: 23px;
+  font-weight: 500;
+  border-width: 2px;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
+
+.Home-card-view-all-btn:hover {
+  color: var(--theme-color) !important;
+  background-color: white !important;
+  border-color: var(--theme-color) !important;
+} */
+
 /* ############## UTILITIES ############ */
+.text-align-center {
+  text-align: center;
+}
 
 .align-center {
   margin: 0 auto;
