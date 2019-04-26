@@ -1,0 +1,10 @@
+server:
+  port: 7070
+spring:
+  datasource:
+    data: "classpath:/topic_data_h2.sql,classpath:/path_data_h2.sql,classpath:/course_data_h2.sql"
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
