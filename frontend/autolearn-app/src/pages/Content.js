@@ -18,8 +18,8 @@ export default class Content extends Component {
     componentDidMount() {
         const path_id = this.props.location.path_id;
         // const path_id = "45"
-        var path_link = "http://f090ce53.ngrok.io/paths/" + path_id // ngrok
-        var course_link = "http://f090ce53.ngrok.io/courses" // ngrok
+        var path_link = "http://fe26f005.ngrok.io/paths/" + path_id // ngrok
+        var course_link = "http://fe26f005.ngrok.io/courses" // ngrok
         axios.get(path_link) // change this url to whichever end point to use
           .then(response => this.setState({path: response.data}))
         axios.get(course_link) // change this url to whichever end point to use

@@ -16,7 +16,7 @@ export default class Courses extends Component {
         this.upvote = this.upvote.bind(this)
     }
     componentDidMount() {
-        axios.get('http://f090ce53.ngrok.io/courses') // change this url to whichever end point to use
+        axios.get('http://fe26f005.ngrok.io/courses') // change this url to whichever end point to use
             .then(response => {
                 const myData = [].concat(response.data['_embedded']['courses'])
                 myData.forEach(function(element, i) {

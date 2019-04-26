@@ -17,7 +17,7 @@ export default class CourseDetails extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://f090ce53.ngrok.io/paths') // change this url to whichever end point to use
+        axios.get('http://fe26f005.ngrok.io/paths') // change this url to whichever end point to use
             .then(response => {
                 let pathsData = response.data['_embedded']['paths']
                 pathsData.forEach(function(element, i) {

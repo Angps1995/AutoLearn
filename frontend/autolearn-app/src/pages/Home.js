@@ -20,7 +20,7 @@ export default class Home extends Component {
         this.componentDidMount = this.componentDidMount.bind(this)
     }
     componentDidMount() {
-        axios.get('http://f090ce53.ngrok.io/topics') // change this url to whichever end point to use
+        axios.get('http://fe26f005.ngrok.io/topics') // change this url to whichever end point to use
             .then(response => this.setState({topics: response.data['_embedded']['topics']}))
     }
     render() {
