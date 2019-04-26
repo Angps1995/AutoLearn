@@ -15,6 +15,8 @@ public class Course {
     private String name;
     private int votes;
     private String link;
+
+    @Column(length = 511)
     private String description;
     private String difficulty;
     private String tags;
